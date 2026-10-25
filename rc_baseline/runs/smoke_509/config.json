@@ -1,0 +1,58 @@
+{
+  "index": 509,
+  "setting": "S2S",
+  "seed": 100,
+  "sps": 4,
+  "splits": {
+    "train": [
+      0,
+      3000
+    ],
+    "validation": [
+      3000,
+      4000
+    ],
+    "development_check": [
+      4000,
+      5000
+    ]
+  },
+  "guard_symbols": 128,
+  "alignment_train_samples": 10000,
+  "alignment_max_lag": 64,
+  "frontend_train_samples": 10000,
+  "frontend": {
+    "rx1": [
+      33,
+      0.022,
+      17,
+      8e-05
+    ],
+    "rx2": [
+      43,
+      0.013,
+      13,
+      5e-05
+    ]
+  },
+  "cap": {
+    "rolloff": 0.105,
+    "span": 10,
+    "phase": 0
+  },
+  "rc": {
+    "window_symbols": 25,
+    "nodes": 80,
+    "leak": 0.7,
+    "spectral_radius": 0.9,
+    "ridge": 1e-05,
+    "washout": 13
+  },
+  "symbol_lms": {
+    "taps": 115,
+    "rx1_step": 0.0021,
+    "rx2_step": 0.0011
+  },
+  "xy_combination": "fixed_equal_weights",
+  "selection": "none: one source-derived configuration, test evaluated only after freezing"
+}

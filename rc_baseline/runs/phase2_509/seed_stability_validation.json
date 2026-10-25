@@ -1,0 +1,274 @@
+[
+  {
+    "channel": "rx1",
+    "candidate": "original",
+    "seed": 101,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 1907,
+      "invalid_pam4_decisions": 97,
+      "bit_errors_lower": 1907,
+      "bit_errors_upper": 2101,
+      "ber_lower": 0.04892754515599343,
+      "ber_upper": 0.053904967159277506,
+      "ber_exact": null,
+      "pam4_ser": 0.08246100164203612,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 1130,
+          "bits": 29232,
+          "ber": 0.038656267104542966
+        },
+        {
+          "width": 3,
+          "errors": 1066,
+          "bits": 29232,
+          "ber": 0.03646688560481664
+        }
+      ],
+      "matlab_compatible_ber": 0.0375615763546798,
+      "symbol_mse": 0.5709775617835826,
+      "invalid_rate": 0.004977422003284072
+    }
+  },
+  {
+    "channel": "rx1",
+    "candidate": "original",
+    "seed": 102,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 1876,
+      "invalid_pam4_decisions": 96,
+      "bit_errors_lower": 1876,
+      "bit_errors_upper": 2068,
+      "ber_lower": 0.048132183908045974,
+      "ber_upper": 0.05305829228243021,
+      "ber_exact": null,
+      "pam4_ser": 0.08143472906403941,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 1100,
+          "bits": 29232,
+          "ber": 0.03762999452654625
+        },
+        {
+          "width": 3,
+          "errors": 1062,
+          "bits": 29232,
+          "ber": 0.03633004926108374
+        }
+      ],
+      "matlab_compatible_ber": 0.036980021893814996,
+      "symbol_mse": 0.5685205762941105,
+      "invalid_rate": 0.0049261083743842365
+    }
+  },
+  {
+    "channel": "rx1",
+    "candidate": "window115",
+    "seed": 101,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 958,
+      "invalid_pam4_decisions": 57,
+      "bit_errors_lower": 958,
+      "bit_errors_upper": 1072,
+      "ber_lower": 0.024579228243021348,
+      "ber_upper": 0.027504105090311988,
+      "ber_exact": null,
+      "pam4_ser": 0.04217980295566502,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 570,
+          "bits": 29232,
+          "ber": 0.019499178981937603
+        },
+        {
+          "width": 3,
+          "errors": 558,
+          "bits": 29232,
+          "ber": 0.019088669950738917
+        }
+      ],
+      "matlab_compatible_ber": 0.01929392446633826,
+      "symbol_mse": 0.42779443450620336,
+      "invalid_rate": 0.0029248768472906403
+    }
+  },
+  {
+    "channel": "rx1",
+    "candidate": "window115",
+    "seed": 102,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 954,
+      "invalid_pam4_decisions": 58,
+      "bit_errors_lower": 954,
+      "bit_errors_upper": 1070,
+      "ber_lower": 0.024476600985221676,
+      "ber_upper": 0.027452791461412152,
+      "ber_exact": null,
+      "pam4_ser": 0.04233374384236453,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 587,
+          "bits": 29232,
+          "ber": 0.02008073344280241
+        },
+        {
+          "width": 3,
+          "errors": 540,
+          "bits": 29232,
+          "ber": 0.01847290640394089
+        }
+      ],
+      "matlab_compatible_ber": 0.01927681992337165,
+      "symbol_mse": 0.4272337801451287,
+      "invalid_rate": 0.002976190476190476
+    }
+  },
+  {
+    "channel": "rx2",
+    "candidate": "original",
+    "seed": 101,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 4619,
+      "invalid_pam4_decisions": 255,
+      "bit_errors_lower": 4619,
+      "bit_errors_upper": 5129,
+      "ber_lower": 0.11850882594417077,
+      "ber_upper": 0.1315938013136289,
+      "ber_exact": null,
+      "pam4_ser": 0.19745484400656815,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 2671,
+          "bits": 29232,
+          "ber": 0.09137246852764094
+        },
+        {
+          "width": 3,
+          "errors": 2713,
+          "bits": 29232,
+          "ber": 0.09280925013683634
+        }
+      ],
+      "matlab_compatible_ber": 0.09209085933223865,
+      "symbol_mse": 0.9958200023775883,
+      "invalid_rate": 0.013084975369458128
+    }
+  },
+  {
+    "channel": "rx2",
+    "candidate": "original",
+    "seed": 102,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 4606,
+      "invalid_pam4_decisions": 239,
+      "bit_errors_lower": 4606,
+      "bit_errors_upper": 5084,
+      "ber_lower": 0.11817528735632184,
+      "ber_upper": 0.13043924466338258,
+      "ber_exact": null,
+      "pam4_ser": 0.19442733990147784,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 2606,
+          "bits": 29232,
+          "ber": 0.0891488779419814
+        },
+        {
+          "width": 3,
+          "errors": 2717,
+          "bits": 29232,
+          "ber": 0.09294608648056923
+        }
+      ],
+      "matlab_compatible_ber": 0.09104748221127532,
+      "symbol_mse": 0.9923067836437166,
+      "invalid_rate": 0.012263957307060756
+    }
+  },
+  {
+    "channel": "rx2",
+    "candidate": "window115",
+    "seed": 101,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 1143,
+      "invalid_pam4_decisions": 67,
+      "bit_errors_lower": 1143,
+      "bit_errors_upper": 1277,
+      "ber_lower": 0.029325738916256158,
+      "ber_upper": 0.032763752052545156,
+      "ber_exact": null,
+      "pam4_ser": 0.050338669950738914,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 715,
+          "bits": 29232,
+          "ber": 0.024459496442255063
+        },
+        {
+          "width": 3,
+          "errors": 629,
+          "bits": 29232,
+          "ber": 0.02151751505199781
+        }
+      ],
+      "matlab_compatible_ber": 0.022988505747126436,
+      "symbol_mse": 0.46184326145882215,
+      "invalid_rate": 0.0034380131362889985
+    }
+  },
+  {
+    "channel": "rx2",
+    "candidate": "window115",
+    "seed": 102,
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 1167,
+      "invalid_pam4_decisions": 69,
+      "bit_errors_lower": 1167,
+      "bit_errors_upper": 1305,
+      "ber_lower": 0.029941502463054187,
+      "ber_upper": 0.033482142857142856,
+      "ber_exact": null,
+      "pam4_ser": 0.051057060755336614,
+      "matlab_auto_width": [
+        {
+          "width": 3,
+          "errors": 735,
+          "bits": 29232,
+          "ber": 0.02514367816091954
+        },
+        {
+          "width": 3,
+          "errors": 639,
+          "bits": 29232,
+          "ber": 0.02185960591133005
+        }
+      ],
+      "matlab_compatible_ber": 0.023501642036124794,
+      "symbol_mse": 0.46166235689471175,
+      "invalid_rate": 0.00354064039408867
+    }
+  }
+]

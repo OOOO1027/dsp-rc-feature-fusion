@@ -1,0 +1,23 @@
+{
+  "old_files_unchanged": true,
+  "preserved_file_count": 63,
+  "phase2_validation_exact": {
+    "rx1": true,
+    "rx2": true
+  },
+  "phase2_test_predictions_exact": true,
+  "same_test_mask": true,
+  "all_model_hashes_unchanged": true,
+  "one_final_evaluation": true,
+  "unit_tests_passed": 18,
+  "original_matlab_files_verified": 20,
+  "all_selected_input_hashes_verified": true,
+  "timestamp_freeze_order_verified": true,
+  "all_saved_predictions_finite": true,
+  "visually_checked": [
+    "architecture.png",
+    "ber_bounds.png",
+    "index382/constellation_xy.png"
+  ],
+  "figure_count": 12
+}

@@ -1,0 +1,45 @@
+{
+  "utc": "2026-10-17T05:35:57.607617+00:00",
+  "methods": {
+    "res_linear80_low_raw_eta0.25": {
+      "pass_gate": false,
+      "relative_mean_mse_gain": -7.999832809409855e-05,
+      "seed_mean_deltas": [
+        [
+          2.9090943234626965e-05,
+          0.000256568144499179
+        ],
+        [
+          3.381476709746578e-05,
+          7.69704433497537e-05
+        ],
+        [
+          3.15756967779827e-05,
+          0.00011117952928297753
+        ]
+      ]
+    },
+    "joint_std_group": {
+      "pass_gate": false,
+      "relative_mean_mse_gain": -0.006892761901163766,
+      "seed_mean_deltas": [
+        [
+          0.002551634506315956,
+          0.00036774767378215656
+        ],
+        [
+          0.0029507608455631657,
+          0.0003249863163656266
+        ],
+        [
+          0.002638247819196259,
+          0.00044471811713190984
+        ]
+      ]
+    }
+  },
+  "continue_to_new_payload_preparation": false,
+  "test_evaluated": false,
+  "further_search_performed": false,
+  "inference_limit": "Post-selection exploratory block intervals on reused validation; not independent confidence after model selection."
+}

@@ -1,0 +1,62 @@
+{
+  "cap": {
+    "passed": null,
+    "reason": "Undefined function 'rcosdesign' for input arguments of type 'double'."
+  },
+  "states": {
+    "max_abs_difference": 1.0824674490095276e-15,
+    "passed": true
+  },
+  "features": {
+    "max_abs_difference": 1.0824674490095276e-15,
+    "passed": true
+  },
+  "readout": {
+    "max_abs_difference": 5.1736392947532295e-14,
+    "passed": true
+  },
+  "pred": {
+    "max_abs_difference": 3.907985046680551e-14,
+    "passed": true
+  },
+  "window": {
+    "max_abs_difference": 0.0,
+    "passed": true
+  },
+  "q": {
+    "max_abs_difference": 0.0,
+    "passed": true
+  },
+  "decoded": {
+    "max_abs_difference": 0.0,
+    "passed": true
+  },
+  "lms_weights": {
+    "max_abs_difference": 5.551115123125783e-17,
+    "passed": true
+  },
+  "lms_output": {
+    "max_abs_difference": 9.155133597044475e-16,
+    "passed": true
+  },
+  "volterra_weights": {
+    "max_abs_difference": 5.551115123125783e-17,
+    "passed": true
+  },
+  "volterra_quadratic": {
+    "max_abs_difference": 1.8973538018496328e-19,
+    "passed": true
+  },
+  "volterra_output": {
+    "max_abs_difference": 1.3322676295501878e-15,
+    "passed": true
+  },
+  "biterr_auto_width": {
+    "passed": null,
+    "reason": "Undefined function 'biterr' for input arguments of type 'double'."
+  },
+  "same_seed_different_rng": {
+    "A_max_abs_difference": 0.3220713357590219,
+    "Win_max_abs_difference": 1.9542034283826275
+  }
+}

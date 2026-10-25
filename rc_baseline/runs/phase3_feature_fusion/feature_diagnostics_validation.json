@@ -1,0 +1,68 @@
+{
+  "dual40_low": {
+    "rx1": {
+      "linear_variance_unexplained_by_current_window": 0.0010142055453613006,
+      "nonlinear_variance_unexplained_by_current_window": 0.1942172408741932,
+      "nonlinear_variance_unexplained_by_window_and_linear": 0.1937358680506765,
+      "feature_dim": 311,
+      "numerical_rank_rtol_1e_10": 293,
+      "singular_max": 540.8859704567407,
+      "singular_min": 8.064284892093829e-14,
+      "gram_condition_regularized": 29255763304.693012
+    },
+    "rx2": {
+      "linear_variance_unexplained_by_current_window": 0.0011006574304427644,
+      "nonlinear_variance_unexplained_by_current_window": 0.18498445316463646,
+      "nonlinear_variance_unexplained_by_window_and_linear": 0.18425040001632575,
+      "feature_dim": 311,
+      "numerical_rank_rtol_1e_10": 293,
+      "singular_max": 495.4155612132046,
+      "singular_min": 5.925713273169696e-14,
+      "gram_condition_regularized": 24543657830.219444
+    }
+  },
+  "dual80_low": {
+    "rx1": {
+      "linear_variance_unexplained_by_current_window": 0.0010514404307965808,
+      "nonlinear_variance_unexplained_by_current_window": 0.19353001089040361,
+      "nonlinear_variance_unexplained_by_window_and_linear": 0.1930857768833108,
+      "feature_dim": 391,
+      "numerical_rank_rtol_1e_10": 336,
+      "singular_max": 655.1990598186961,
+      "singular_min": 5.914800625043078e-14,
+      "gram_condition_regularized": 42928580799.73033
+    },
+    "rx2": {
+      "linear_variance_unexplained_by_current_window": 0.0011443803550735844,
+      "nonlinear_variance_unexplained_by_current_window": 0.18354847355084086,
+      "nonlinear_variance_unexplained_by_window_and_linear": 0.18297395975475,
+      "feature_dim": 391,
+      "numerical_rank_rtol_1e_10": 336,
+      "singular_max": 627.8553166828173,
+      "singular_min": 5.101001709192244e-14,
+      "gram_condition_regularized": 39420229869.68807
+    }
+  },
+  "dual40_reg": {
+    "rx1": {
+      "linear_variance_unexplained_by_current_window": 0.0010142055453613006,
+      "nonlinear_variance_unexplained_by_current_window": 0.1942172408741932,
+      "nonlinear_variance_unexplained_by_window_and_linear": 0.1937358680506765,
+      "feature_dim": 311,
+      "numerical_rank_rtol_1e_10": 293,
+      "singular_max": 540.8859704567407,
+      "singular_min": 8.064284892093829e-14,
+      "gram_condition_regularized": 29255764.30369301
+    },
+    "rx2": {
+      "linear_variance_unexplained_by_current_window": 0.0011006574304427644,
+      "nonlinear_variance_unexplained_by_current_window": 0.18498445316463646,
+      "nonlinear_variance_unexplained_by_window_and_linear": 0.18425040001632575,
+      "feature_dim": 311,
+      "numerical_rank_rtol_1e_10": 293,
+      "singular_max": 495.4155612132046,
+      "singular_min": 5.925713273169696e-14,
+      "gram_condition_regularized": 24543658.82921945
+    }
+  }
+}

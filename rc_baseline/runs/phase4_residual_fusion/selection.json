@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-17T05:35:44.929467+00:00",
+  "protocol_sha256": "cd781d9efa5c25b59bbb6daf2f84fa8ad44375c6ea1156f510d0dbcc5491e1a2",
+  "residual_family_winners_including_eta0": {
+    "ridge_low_raw": "ridge_low",
+    "ridge_low_orth": "ridge_low",
+    "linear80_low_raw": "linear80_low",
+    "linear80_low_orth": "linear80_low"
+  },
+  "shortlisted_positive_residual": {
+    "name": "res_linear80_low_raw_eta0.25",
+    "kind": "residual",
+    "base": "linear80_low",
+    "orth": false,
+    "eta": 0.25,
+    "penalty": 0.01
+  },
+  "shortlisted_joint": {
+    "name": "joint_std_group",
+    "kind": "joint",
+    "orth": false,
+    "penalty_mode": "group",
+    "eta": null
+  },
+  "strongest_linear_mse": "linear80_low",
+  "strongest_linear_upper": "linear80_low",
+  "coordinate_equivalence_max_error": {
+    "joint_std_equivalent": {
+      "rx1": 1.1766569159601574e-11,
+      "rx2": 5.876357204403751e-12
+    },
+    "joint_orth_equivalent": {
+      "rx1": 1.177508038156949e-11,
+      "rx2": 5.875910526791067e-12
+    }
+  },
+  "test_evaluated": false,
+  "selection_is_validation_exploratory": true
+}

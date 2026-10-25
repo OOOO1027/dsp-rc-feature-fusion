@@ -1,0 +1,12 @@
+{rcosdesign requires Signal Processing Toolbox.
+
+Error in CAPdemodulation (line 17)
+    filter_cos=rcosdesign(roll_off,filterlength,filtersps); %根升余弦滚降滤波器，‘sqrt’均方根升余弦；‘normal’升余弦
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in phase2_parity (line 21)
+cap=CAPdemodulation(wave.',4,length(wave)/4);
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in run (line 112)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

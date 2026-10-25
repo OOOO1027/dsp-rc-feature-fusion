@@ -1,0 +1,6 @@
+{
+  "test_predictions_computed": false,
+  "candidate_count_per_channel": 10,
+  "no_seed_selection": true,
+  "original_baseline_reproduced_on_validation": true
+}

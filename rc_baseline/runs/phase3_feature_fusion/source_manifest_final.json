@@ -1,0 +1,7 @@
+{
+  "rc_baseline/src/dsp_rc/fusion.py": "02a19ea99f836821c8e5b198f4920296ea138ef50371fe108f548bbdebd5f46f",
+  "rc_baseline/src/dsp_rc/phase3.py": "73ef4c0e1ebf5866a1b10db48a6f935d1ad1cfff4c5984f602d9e959e95eca5e",
+  "rc_baseline/src/dsp_rc/phase3_numerics.py": "15f330cda6231d615a0ca9a23764d9593cf48a5d42a310e785b1bcca8cda03ae",
+  "rc_baseline/src/dsp_rc/phase3_report.py": "d9ce1c2e770dc8f6437d05c4d7ac5ecca17f16e7df29b702ec3792f4ac87fdab",
+  "rc_baseline/tests/test_phase3.py": "80d31516aea3d2533eecb49e1eb9d0e5c103d29b791b463f6c32b26420f66b18"
+}

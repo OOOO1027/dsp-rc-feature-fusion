@@ -1,0 +1,18 @@
+{
+  "old_files_unchanged": 348,
+  "saved_metric_records_exactly_recomputed": 72,
+  "source_hashes": {
+    "rc_baseline/volterra_ablation/test_ablation.py": "666678f4c01c21c11be92ba04c3dad7a0754196c505a0fb93d337e95139a6208",
+    "rc_baseline/volterra_ablation/experiment.py": "c6942324892efc778efdbf3f491b567937189fa8b6a24c49bad62c2564fbb8d0",
+    "rc_baseline/volterra_ablation/report.py": "86537c465313d192c64c380c1ecb750d06b1fe94ca48d316d548b56a0d1b56d6"
+  },
+  "new_unit_tests_passed": 4,
+  "figures": 3,
+  "no_test_predictions": true,
+  "all_report_image_links_exist": true,
+  "figures_visually_checked": [
+    "factorial_validation.png",
+    "paired_interaction.png",
+    "constellations_validation.png"
+  ]
+}

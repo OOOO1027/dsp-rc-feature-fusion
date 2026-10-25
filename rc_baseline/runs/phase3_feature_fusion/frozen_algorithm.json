@@ -1,0 +1,201 @@
+{
+  "utc": "2026-10-17T02:54:54.900020+00:00",
+  "protocol_sha256": "d448ac60f050faf6ccb140db16adf95066c77d7cb99465f7c7febf3f8fae95fd",
+  "family_winners": {
+    "A": "ridge_low",
+    "B": "tanh80_low",
+    "C": "linear80_low",
+    "D": "dual40_reg"
+  },
+  "evaluated_names": [
+    "ridge_low",
+    "tanh80_low",
+    "linear80_low",
+    "dual40_reg",
+    "tanh160_low",
+    "linear160_low",
+    "dual40_low",
+    "dual80_low",
+    "dual80_states_only"
+  ],
+  "selected_configs": {
+    "ridge_low": {
+      "taps": 115,
+      "linear_nodes": 0,
+      "nonlinear_nodes": 0,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "ridge_low",
+      "family": "A"
+    },
+    "tanh80_low": {
+      "taps": 115,
+      "linear_nodes": 0,
+      "nonlinear_nodes": 80,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "tanh80_low",
+      "family": "B"
+    },
+    "linear80_low": {
+      "taps": 115,
+      "linear_nodes": 80,
+      "nonlinear_nodes": 0,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "linear80_low",
+      "family": "C"
+    },
+    "dual40_reg": {
+      "taps": 115,
+      "linear_nodes": 40,
+      "nonlinear_nodes": 40,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 0.01,
+      "name": "dual40_reg",
+      "family": "D"
+    },
+    "tanh160_low": {
+      "taps": 115,
+      "linear_nodes": 0,
+      "nonlinear_nodes": 160,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "tanh160_low",
+      "family": "B"
+    },
+    "linear160_low": {
+      "taps": 115,
+      "linear_nodes": 160,
+      "nonlinear_nodes": 0,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "linear160_low",
+      "family": "C"
+    },
+    "dual40_low": {
+      "taps": 115,
+      "linear_nodes": 40,
+      "nonlinear_nodes": 40,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "dual40_low",
+      "family": "D"
+    },
+    "dual80_low": {
+      "taps": 115,
+      "linear_nodes": 80,
+      "nonlinear_nodes": 80,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "dual80_low",
+      "family": "D"
+    },
+    "dual80_states_only": {
+      "taps": 115,
+      "linear_nodes": 80,
+      "nonlinear_nodes": 80,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": false,
+      "ridge": 1e-05,
+      "name": "dual80_states_only",
+      "family": "D"
+    }
+  },
+  "phase2_validation_exact": {
+    "rx1": true,
+    "rx2": true
+  },
+  "test_predictions_computed": false,
+  "models509": {
+    "ridge_low": {
+      "rx1": "6875cdd4ab7148aa44af634d9463009c6b8be11139dc5bc6f951c129ee7170e9",
+      "rx2": "9be8c00ea420a53a5399c385a459f88333f1516350756113920772c1b110fadc"
+    },
+    "tanh80_low": {
+      "rx1": "52ea7c1fd83ea1e6bcbe10b712f4876a0171237ddd6c2ff1ebc911e0b2f0e94f",
+      "rx2": "92e833f9225071b4d7bdad45fde71ad384580f619fe15a08e083ffde2e2b0bc5"
+    },
+    "linear80_low": {
+      "rx1": "e188170ef00eeaa91698e2b8e57d2b503b75f1c31a00393b3b7d7b9806eb3bc5",
+      "rx2": "90388b6c8bc0e6c77faf4d6d8ea777da61049b3f42e0185ab041312340638383"
+    },
+    "dual40_reg": {
+      "rx1": "832128f36c138b40f1a0d1e2f881d2b2b1638cafe4b3c5f4c39c396cd5f316f0",
+      "rx2": "e9947b8635a44d9e225b7842b3971b30f9bcdbf26fb1c708281a11e4e06a31bb"
+    },
+    "tanh160_low": {
+      "rx1": "d46b85fa1480a784ad83034fed9f6fb66877aa66a09fb890cbd80b66ec372f24",
+      "rx2": "150db887f0ec33c40efd2a2693c3baeab22583d37fd954ca2deb3a3a456671a2"
+    },
+    "linear160_low": {
+      "rx1": "bb5db4677d0b826d992e87ebc3fc4a59582fa8735deaefa9a559ad26fac5959c",
+      "rx2": "d67c6ec8e80e6b45a71e4778277d6acde842a47ed6796f4f0e11c476fd6b60ec"
+    },
+    "dual40_low": {
+      "rx1": "c159875ed5d537d77f7e47f784fe612c93024827f6ae991d6ed6e000ba79d82d",
+      "rx2": "70e7146b4cbac4d00bc58350ac1d934696a1af2782dbb3c3efdefe364f5eb838"
+    },
+    "dual80_low": {
+      "rx1": "b5a5fd0a46766e207c5ab5a36b51ad9758dcd04782ef1a2e9e61dc25a9d108fe",
+      "rx2": "34ef5dbd3e140ba096af72652499fb017337a1c0f4700e4a2a34ec8ba6454c1a"
+    },
+    "dual80_states_only": {
+      "rx1": "b534825d74ac65214dd4e818b2a78ee97597cc0aa7b8f3934a00e153c0607d65",
+      "rx2": "1d2f3458a51a002d413c1deec41f0a81586a430f590c90a8bf6bb30fe1c79c52"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP509.txt",
+    "method": "full linear cross-correlation after demeaning; norm uses full-sequence energies; diagnostic only, no model fit",
+    "peak_lag_samples": 0,
+    "peak_coefficient": 0.725239348471515
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP509.txt",
+    "method": "full linear cross-correlation after demeaning; norm uses full-sequence energies; diagnostic only, no model fit",
+    "peak_lag_samples": 0,
+    "peak_coefficient": -0.7810157601869403
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP390.txt",
+    "method": "full linear cross-correlation after demeaning; norm uses full-sequence energies; diagnostic only, no model fit",
+    "peak_lag_samples": 0,
+    "peak_coefficient": 0.68757055205508
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP390.txt",
+    "method": "full linear cross-correlation after demeaning; norm uses full-sequence energies; diagnostic only, no model fit",
+    "peak_lag_samples": 0,
+    "peak_coefficient": 0.8019349659328869
+  }
+]

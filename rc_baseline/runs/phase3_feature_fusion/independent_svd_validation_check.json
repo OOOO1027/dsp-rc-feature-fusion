@@ -1,0 +1,96 @@
+{
+  "rx1": {
+    "ridge_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 3.0494296346635194e-13,
+      "scored_validation_max_difference_vs_SVD": 3.0494296346635194e-13,
+      "relative_normal_equation_residual": 1.4689643849748745e-15
+    },
+    "tanh80_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 4.1227455596483254e-13,
+      "scored_validation_max_difference_vs_SVD": 4.1227455596483254e-13,
+      "relative_normal_equation_residual": 1.0163366686270569e-15
+    },
+    "linear80_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.1896414275328773e-05,
+      "scored_validation_max_difference_vs_SVD": 6.420378200104409e-09,
+      "relative_normal_equation_residual": 1.9442438335505506e-14
+    },
+    "dual40_reg": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 3.4294556150085006e-10,
+      "scored_validation_max_difference_vs_SVD": 3.5886215640541845e-12,
+      "relative_normal_equation_residual": 1.443681291887435e-15
+    },
+    "tanh160_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 4.4976059331248016e-13,
+      "scored_validation_max_difference_vs_SVD": 4.4976059331248016e-13,
+      "relative_normal_equation_residual": 7.454912213431862e-16
+    },
+    "linear160_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 4.348913074762517e-05,
+      "scored_validation_max_difference_vs_SVD": 4.328308219608422e-09,
+      "relative_normal_equation_residual": 3.139005640701818e-14
+    },
+    "dual40_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 7.155987753313421e-06,
+      "scored_validation_max_difference_vs_SVD": 2.96434412150185e-09,
+      "relative_normal_equation_residual": 2.1321363627803234e-14
+    },
+    "dual80_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.2802134325348449e-05,
+      "scored_validation_max_difference_vs_SVD": 5.756865804634425e-09,
+      "relative_normal_equation_residual": 2.0781639118804992e-14
+    },
+    "dual80_states_only": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.900870254721974e-13,
+      "scored_validation_max_difference_vs_SVD": 1.900870254721974e-13,
+      "relative_normal_equation_residual": 8.498271540291645e-16
+    }
+  },
+  "rx2": {
+    "ridge_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.0529287683167625e-13,
+      "scored_validation_max_difference_vs_SVD": 1.0529287683167625e-13,
+      "relative_normal_equation_residual": 6.3054562476005845e-16
+    },
+    "tanh80_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.6612016030212429e-13,
+      "scored_validation_max_difference_vs_SVD": 1.6612016030212429e-13,
+      "relative_normal_equation_residual": 6.511554680201658e-16
+    },
+    "linear80_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 3.4758056699283704e-05,
+      "scored_validation_max_difference_vs_SVD": 3.462067526676391e-09,
+      "relative_normal_equation_residual": 2.5403289207656566e-14
+    },
+    "dual40_reg": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 4.2719873851729416e-10,
+      "scored_validation_max_difference_vs_SVD": 3.562038565988704e-12,
+      "relative_normal_equation_residual": 1.4315359752094261e-15
+    },
+    "tanh160_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 2.078577560272309e-13,
+      "scored_validation_max_difference_vs_SVD": 2.078577560272309e-13,
+      "relative_normal_equation_residual": 6.994962484330859e-16
+    },
+    "linear160_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 6.453998292335191e-05,
+      "scored_validation_max_difference_vs_SVD": 7.484231951196407e-09,
+      "relative_normal_equation_residual": 2.9191945888222325e-14
+    },
+    "dual40_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.8773179347602644e-06,
+      "scored_validation_max_difference_vs_SVD": 2.5690230060424737e-09,
+      "relative_normal_equation_residual": 2.690248849648063e-14
+    },
+    "dual80_low": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 3.371219261211195e-05,
+      "scored_validation_max_difference_vs_SVD": 3.768962799400612e-09,
+      "relative_normal_equation_residual": 2.621454329804506e-14
+    },
+    "dual80_states_only": {
+      "validation_max_real_component_prediction_difference_vs_SVD": 1.901756892925238e-13,
+      "scored_validation_max_difference_vs_SVD": 1.901756892925238e-13,
+      "relative_normal_equation_residual": 1.061939175165481e-15
+    }
+  }
+}

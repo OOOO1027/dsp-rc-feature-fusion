@@ -1,0 +1,405 @@
+[
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/CCSDS64APSK.txt",
+    "rows": 64,
+    "cols": [
+      2
+    ],
+    "values": 128,
+    "min": -6.270324,
+    "max": 6.270324,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 3.554149862650583
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/Rxdata_NN.txt",
+    "rows": 51200,
+    "cols": [
+      100
+    ],
+    "values": 5120000,
+    "min": -3.169673,
+    "max": 3.1704668,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999371216019783
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/Rxdataw2s_afterNN42.txt",
+    "rows": 51200,
+    "cols": [
+      2
+    ],
+    "values": 102400,
+    "min": -7.0661731,
+    "max": 6.9863853,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 3.5532724647096887
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/Rxdataw2w_afterNN42.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -0.9573229,
+    "max": 0.96048701,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.3341526325816047
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/Txdata_NN.txt",
+    "rows": 51200,
+    "cols": [
+      2
+    ],
+    "values": 102400,
+    "min": -6.270324,
+    "max": 6.270324,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 3.56077625340049
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/afterLMS41.txt",
+    "rows": 1,
+    "cols": [
+      204800
+    ],
+    "values": 204800,
+    "min": -3.1512475,
+    "max": 3.0938985,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999999616865
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/afterLMS42.txt",
+    "rows": 1,
+    "cols": [
+      204800
+    ],
+    "values": 204800,
+    "min": -3.169673,
+    "max": 3.1704668,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000153073
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/afterLMS48.txt",
+    "rows": 1,
+    "cols": [
+      204800
+    ],
+    "values": 204800,
+    "min": -3.2038677,
+    "max": 2.6426848,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000776421
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/constellationcolor.txt",
+    "rows": 64,
+    "cols": [
+      3
+    ],
+    "values": 192,
+    "min": 0.0,
+    "max": 1.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.6511302023133186
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/data64APSK.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -2.8035013,
+    "max": 2.9477256,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999999828656
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/decimal_64_APSK.txt",
+    "rows": 51200,
+    "cols": [
+      1
+    ],
+    "values": 51200,
+    "min": 0.0,
+    "max": 63.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 36.48641683258648
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/epoch.txt",
+    "rows": 100,
+    "cols": [
+      1
+    ],
+    "values": 100,
+    "min": 0.0,
+    "max": 99.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 57.301832431432764
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/seedOSC_oldcap64APSK41.txt",
+    "rows": 1,
+    "cols": [
+      204800
+    ],
+    "values": 204800,
+    "min": 0.31645694,
+    "max": 1.4219438,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.911916142978742
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/train_loss.txt",
+    "rows": 100,
+    "cols": [
+      1
+    ],
+    "values": 100,
+    "min": 0.0032319573,
+    "max": 0.07244201,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.008262896801173678
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/Data/val_loss.txt",
+    "rows": 100,
+    "cols": [
+      1
+    ],
+    "values": 100,
+    "min": 0.0031948269,
+    "max": 0.024078961,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.004600954409913193
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/berall.txt",
+    "rows": 19,
+    "cols": [
+      3
+    ],
+    "values": 57,
+    "min": 0.00044142748,
+    "max": 0.015763866,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.007887343338321189
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+    "rows": 1,
+    "cols": [
+      51200
+    ],
+    "values": 51200,
+    "min": 0.0,
+    "max": 3.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.8687761285798787
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+    "rows": 1,
+    "cols": [
+      51200
+    ],
+    "values": 51200,
+    "min": 0.0,
+    "max": 3.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.8726860721968324
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_1.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -4.0534625,
+    "max": 4.2268961,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000248648
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP390.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.3984893,
+    "max": 3.3105441,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000559466
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP509.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.6895114,
+    "max": 3.7956762,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999999419037
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_1.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.6424537,
+    "max": 3.7737422,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000709086
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP390.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.4045597,
+    "max": 3.4523461,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999998750118
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP509.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.1099157,
+    "max": 3.1908286,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000183578
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/RF0.105_data36QAM.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.1354201,
+    "max": 3.0640998,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999999885666
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data36QAM.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.0895667,
+    "max": 3.1285839,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999999278705
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data36qamQAM.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -3.030535,
+    "max": 3.2242142,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 1.0000000000191418
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data49QAM.txt",
+    "rows": 204800,
+    "cols": [
+      1
+    ],
+    "values": 204800,
+    "min": -2.872617,
+    "max": 2.9313739,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.9999999999905042
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/pre_SNRest_36QAM.txt",
+    "rows": 1,
+    "cols": [
+      204800
+    ],
+    "values": 204800,
+    "min": -2.3779564,
+    "max": 2.4430138,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 0.7422370810579502
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+    "rows": 1,
+    "cols": [
+      51200
+    ],
+    "values": 51200,
+    "min": -5.0,
+    "max": 5.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 2.652504712531158
+  },
+  {
+    "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+    "rows": 1,
+    "cols": [
+      51200
+    ],
+    "values": 51200,
+    "min": -5.0,
+    "max": 5.0,
+    "nonfinite": 0,
+    "bad_chunks": 0,
+    "rms": 2.6385957439516954
+  }
+]

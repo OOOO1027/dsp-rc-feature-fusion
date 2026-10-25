@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-17T07:46:47.696470+00:00",
+  "promising_for_new_payload": false,
+  "search_expanded": false,
+  "test_evaluated": false,
+  "interaction_mean": [
+    0.0004828912435097356,
+    0.00048177796022623584
+  ],
+  "stop_current_experiment": true,
+  "interpretation": "Finite experiment complete; no automatic follow-on training. Gate is exploratory on reused validation."
+}

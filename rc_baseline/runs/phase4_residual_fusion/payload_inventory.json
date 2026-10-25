@@ -1,0 +1,132 @@
+{
+  "tx_files": [
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/RF0.105_data36QAM.txt",
+      "bytes": 3686400,
+      "sha256": "c154d3c45f1de9dc9821341210df76bae8bec949dac52f5c49f56324decbedc1",
+      "kind": ".txt",
+      "shape": [
+        204800
+      ],
+      "identical_to_RF0105": true,
+      "train_prefix_correlation_RF0105": 1.0
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/RF0.105_data36QAM.wfm",
+      "bytes": 1024036,
+      "sha256": "040c5340ea91540acd255ccdae9ca048663afbf2abee55a3a72943b7486aed22",
+      "kind": ".wfm"
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data36QAM.txt",
+      "bytes": 3686400,
+      "sha256": "1d3e48ccbcea594fa8a217ab80ec4cb016609af428f2cb5065e8a1ae45c3307a",
+      "kind": ".txt",
+      "shape": [
+        204800
+      ],
+      "identical_to_RF0105": false,
+      "train_prefix_correlation_RF0105": -0.006784975460359548
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data36QAM.wfm",
+      "bytes": 1024036,
+      "sha256": "fd0ef86d2b7f1b120578277f5569387afc9a9649c60e39d15e69c97b762ae704",
+      "kind": ".wfm"
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data36qamQAM.txt",
+      "bytes": 3686400,
+      "sha256": "31da66355a2ed00cbc864ee2d9e742e0f720334a46633c70312c3ef3b7013117",
+      "kind": ".txt",
+      "shape": [
+        204800
+      ],
+      "identical_to_RF0105": false,
+      "train_prefix_correlation_RF0105": 0.8457605440748109
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data36qamQAM.wfm",
+      "bytes": 1024036,
+      "sha256": "b07855829692ee8b30560ca9b97bedbb6dacf86de634a7ccd6cb680f5b5c9249",
+      "kind": ".wfm"
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data49QAM.txt",
+      "bytes": 3686400,
+      "sha256": "f9e122bbf4475182fd1435511cfb24f071c958ab4cb91e65c61d51de2ab35c4e",
+      "kind": ".txt",
+      "shape": [
+        204800
+      ],
+      "identical_to_RF0105": false,
+      "train_prefix_correlation_RF0105": 0.000629480548226585
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/data49QAM.wfm",
+      "bytes": 1024036,
+      "sha256": "907b41f3f9609ccbdb479bcaaa1a4dce8eae859263636cd8bb8e1d67f74dca6e",
+      "kind": ".wfm"
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/pre_SNRest_36QAM.txt",
+      "bytes": 3276802,
+      "sha256": "410294a56cd7165300cd8e125b16a84e7c6f26723ae742ebe4922838125ac416",
+      "kind": ".txt",
+      "shape": [
+        204800
+      ],
+      "identical_to_RF0105": false,
+      "train_prefix_correlation_RF0105": 0.9377389924284031
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/pre_SNRest_36QAM.wfm",
+      "bytes": 1024036,
+      "sha256": "c80eeb95d4b0e70de4f6330c97f87675f515d4be78dcf053e70471685169f1bd",
+      "kind": ".wfm"
+    },
+    {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/txdata/pre_SNRest_36QAM20.wfm",
+      "bytes": 1024036,
+      "sha256": "7c0974f28b6c5fd763fc706ad71efd9deb2f8ce68d70e6972f5f69e13595cf1e",
+      "kind": ".wfm"
+    }
+  ],
+  "metadata_Tx_rows": [
+    {
+      "sheet": "Sheet1",
+      "row": 2,
+      "cells": {
+        "1": "数据：\"D:\\FZ\\Code\\LD_NLTCP250224\\txdata\\data36QAM.txt\""
+      }
+    },
+    {
+      "sheet": "Sheet2",
+      "row": 2,
+      "cells": {
+        "1": "数据：\"D:\\FZ\\Code\\LD_NLTCP250224\\txdata\\data36QAM.txt\""
+      }
+    },
+    {
+      "sheet": "Sheet3",
+      "row": 2,
+      "cells": {
+        "1": "数据：\"D:\\FZ\\Code\\LD_NLTCP250224\\txdata\\RF0.105_data36QAM.txt\""
+      }
+    },
+    {
+      "sheet": "等高线图",
+      "row": 2,
+      "cells": {
+        "1": "数据：\"D:\\FZ\\Code\\LD_NLTCP250224\\txdata\\RF0.105_data36QAM.txt\""
+      }
+    }
+  ],
+  "label_symbol_files": [
+    "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+    "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+    "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+    "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt"
+  ],
+  "conclusion": "Several different waveform files exist; no separately identified NLTCP payload with complete symbols/PAM4 labels and matching RX metadata verified. Other waveform names alone do not establish modulation, payload identity or compatible NLTCP labels. Do not infer fresh payload from differing waveform hashes."
+}

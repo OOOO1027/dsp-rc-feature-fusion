@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "scope": "Repository packaging, synthetic unit tests and frozen validation replay only",
+  "synthetic_tests_passed": 27,
+  "original_imported_files_unchanged_in_workspace": 443,
+  "audited_raw_files_verified": 44,
+  "validation_replay": {
+    "rx1_max_abs_error": 0.0,
+    "rx2_max_abs_error": 0.0
+  },
+  "real_data_training": false,
+  "test_evaluation": false,
+  "secret_pattern_scan_findings": 0,
+  "platform": "macOS original project Python environment",
+  "other_platforms_verified": false
+}

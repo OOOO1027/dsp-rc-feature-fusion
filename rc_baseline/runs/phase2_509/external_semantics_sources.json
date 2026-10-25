@@ -1,0 +1,7 @@
+{
+  "biterr": {
+    "url": "https://www.mathworks.com/help/comm/ref/biterr.html",
+    "finding": "Default k is bit width of maximum element in x/y; explicit k rejects values requiring more bits.",
+    "runtime_verification_available": false
+  }
+}

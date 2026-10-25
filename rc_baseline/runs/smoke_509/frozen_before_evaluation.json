@@ -1,0 +1,14 @@
+{
+  "config_sha256": "eec2da1cfee6b7a77118dcaae4815f8bea192431ee5922a4c4c9692590bd8155",
+  "model_hashes": {
+    "rx1": "372c26918c751edd8a0c8bec6ea12d16366394d77ad81ccaaabc55fb088f0b79",
+    "rx2": "0c51500f629c510d30713ace0b66c2c92019e7476c3f14cfd2f0a5e0cb154d83"
+  },
+  "xy_weights": [
+    0.5,
+    0.5
+  ],
+  "parameters_selected_on": "none; source defaults",
+  "test_prediction_started": false,
+  "utc": "2026-10-17T02:19:13.214121+00:00"
+}

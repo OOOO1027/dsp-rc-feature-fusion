@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/oliver/Desktop/DSP/rc_baseline/src/dsp_rc/phase3_numerics.py", line 28, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--out',type=Path,default=Path('runs/phase3_feature_fusion'));a=p.parse_args();run(Path(__file__).resolve().parents[3],a.out.resolve())
+                                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oliver/Desktop/DSP/rc_baseline/src/dsp_rc/phase3_numerics.py", line 22, in run
+    assert diff<1e-5,(name,ch,diff)
+           ^^^^^^^^^
+AssertionError: ('linear80_low', 'rx1', 1.1896414275328773e-05)

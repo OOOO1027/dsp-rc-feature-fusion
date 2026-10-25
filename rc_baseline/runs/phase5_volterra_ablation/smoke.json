@@ -1,0 +1,25 @@
+{
+  "results": {
+    "on_rx1": {
+      "finite": true,
+      "symbols": 1000,
+      "scored": 744
+    },
+    "off_rx1": {
+      "finite": true,
+      "symbols": 1000,
+      "scored": 744
+    },
+    "on_rx2": {
+      "finite": true,
+      "symbols": 1000,
+      "scored": 744
+    },
+    "off_rx2": {
+      "finite": true,
+      "symbols": 1000,
+      "scored": 744
+    }
+  },
+  "scope": "3000/1000 entirely in original train; interface only; no candidate selection"
+}

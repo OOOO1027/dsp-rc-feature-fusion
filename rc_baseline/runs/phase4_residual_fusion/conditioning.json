@@ -1,0 +1,86 @@
+{
+  "rx1": {
+    "joint_std_uniform": {
+      "augmented_design_condition_2": 3204.891051690307,
+      "normal_matrix_condition_2": 10271326.653204601,
+      "projected_state_variance_fraction": 1.0,
+      "normalized_CtE": 0.10796180804714108
+    },
+    "joint_std_group": {
+      "augmented_design_condition_2": 530.301742644494,
+      "normal_matrix_condition_2": 281219.9382517871,
+      "projected_state_variance_fraction": 1.0,
+      "normalized_CtE": 0.10796180804714108
+    },
+    "joint_std_equivalent": {
+      "augmented_design_condition_2": 3232.110160675636,
+      "normal_matrix_condition_2": 10446536.090742687,
+      "projected_state_variance_fraction": 1.0,
+      "normalized_CtE": 0.10796180804714108
+    },
+    "joint_orth_uniform": {
+      "augmented_design_condition_2": 2901.782377232727,
+      "normal_matrix_condition_2": 8420340.964818416,
+      "projected_state_variance_fraction": 0.1845599216813795,
+      "normalized_CtE": 4.126565755956769e-07
+    },
+    "joint_orth_group": {
+      "augmented_design_condition_2": 480.1349729919246,
+      "normal_matrix_condition_2": 230529.59228995617,
+      "projected_state_variance_fraction": 0.1845599216813795,
+      "normalized_CtE": 4.126565755956769e-07
+    },
+    "joint_orth_equivalent": {
+      "augmented_design_condition_2": 2925.91141434382,
+      "normal_matrix_condition_2": 8560957.604587454,
+      "projected_state_variance_fraction": 0.1845599216813795,
+      "normalized_CtE": 4.126565755956769e-07
+    },
+    "raw_dual80_reg": {
+      "augmented_design_condition_2": 6551.990674500294,
+      "normal_matrix_condition_2": 42928581.798738815
+    }
+  },
+  "rx2": {
+    "joint_std_uniform": {
+      "augmented_design_condition_2": 3357.5819332751767,
+      "normal_matrix_condition_2": 11273356.438655872,
+      "projected_state_variance_fraction": 1.0,
+      "normalized_CtE": 0.11444051765829795
+    },
+    "joint_std_group": {
+      "augmented_design_condition_2": 564.9966648634045,
+      "normal_matrix_condition_2": 319221.2313067702,
+      "projected_state_variance_fraction": 1.0,
+      "normalized_CtE": 0.11444051765829795
+    },
+    "joint_std_equivalent": {
+      "augmented_design_condition_2": 2926.3467182926292,
+      "normal_matrix_condition_2": 8563505.11566204,
+      "projected_state_variance_fraction": 1.0,
+      "normalized_CtE": 0.11444051765829795
+    },
+    "joint_orth_uniform": {
+      "augmented_design_condition_2": 3028.3095510702574,
+      "normal_matrix_condition_2": 9170658.737103343,
+      "projected_state_variance_fraction": 0.17440825411996355,
+      "normalized_CtE": 4.7058015749628614e-07
+    },
+    "joint_orth_group": {
+      "augmented_design_condition_2": 509.5756509283706,
+      "normal_matrix_condition_2": 259667.3440190726,
+      "projected_state_variance_fraction": 0.17440825411996355,
+      "normalized_CtE": 4.7058015749628614e-07
+    },
+    "joint_orth_equivalent": {
+      "augmented_design_condition_2": 2638.9450169215806,
+      "normal_matrix_condition_2": 6964030.802335242,
+      "projected_state_variance_fraction": 0.17440825411996355,
+      "normalized_CtE": 4.7058015749628614e-07
+    },
+    "raw_dual80_reg": {
+      "augmented_design_condition_2": 6278.553246464959,
+      "normal_matrix_condition_2": 39420230.86869567
+    }
+  }
+}

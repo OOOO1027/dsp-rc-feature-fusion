@@ -1,0 +1,223 @@
+{
+  "utc": "2026-10-17T07:46:19.022149+00:00",
+  "index": 509,
+  "used_symbol_ranges_0based": [
+    [
+      0,
+      10000
+    ],
+    [
+      10000,
+      20000
+    ]
+  ],
+  "guard": 128,
+  "source_config": {
+    "index": 509,
+    "setting": "S2S",
+    "seed": 100,
+    "sps": 4,
+    "splits": {
+      "train": [
+        0,
+        10000
+      ],
+      "validation": [
+        10000,
+        20000
+      ],
+      "test": [
+        20000,
+        51200
+      ]
+    },
+    "guard_symbols": 128,
+    "alignment_train_samples": 10000,
+    "alignment_max_lag": 64,
+    "frontend_train_samples": 10000,
+    "frontend": {
+      "rx1": [
+        33,
+        0.022,
+        17,
+        8e-05
+      ],
+      "rx2": [
+        43,
+        0.013,
+        13,
+        5e-05
+      ]
+    },
+    "cap": {
+      "rolloff": 0.105,
+      "span": 10,
+      "phase": 0
+    },
+    "rc": {
+      "window_symbols": 25,
+      "nodes": 80,
+      "leak": 0.7,
+      "spectral_radius": 0.9,
+      "ridge": 1e-05,
+      "washout": 13
+    },
+    "symbol_lms": {
+      "taps": 115,
+      "rx1_step": 0.0021,
+      "rx2_step": 0.0011
+    },
+    "xy_combination": "fixed_equal_weights",
+    "selection": "none: one source-derived configuration, test evaluated only after freezing"
+  },
+  "frontends": [
+    "on",
+    "off"
+  ],
+  "backend_configs": [
+    {
+      "taps": 115,
+      "linear_nodes": 80,
+      "nonlinear_nodes": 0,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 0.01,
+      "name": "linear80_reg",
+      "family": "C"
+    },
+    {
+      "taps": 115,
+      "linear_nodes": 0,
+      "nonlinear_nodes": 0,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "ridge_low",
+      "family": "A"
+    },
+    {
+      "taps": 115,
+      "linear_nodes": 80,
+      "nonlinear_nodes": 0,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 1e-05,
+      "name": "linear80_low",
+      "family": "C"
+    },
+    {
+      "taps": 115,
+      "linear_nodes": 40,
+      "nonlinear_nodes": 40,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 100,
+      "passthrough": true,
+      "ridge": 0.01,
+      "name": "dual40_reg",
+      "family": "D"
+    },
+    {
+      "taps": 115,
+      "linear_nodes": 40,
+      "nonlinear_nodes": 40,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 101,
+      "passthrough": true,
+      "ridge": 0.01,
+      "name": "dual40_reg",
+      "family": "D"
+    },
+    {
+      "taps": 115,
+      "linear_nodes": 40,
+      "nonlinear_nodes": 40,
+      "linear_norm": 0.6,
+      "linear_leak": 0.7,
+      "nonlinear_radius": 0.9,
+      "nonlinear_leak": 0.7,
+      "linear_seed": 200,
+      "nonlinear_seed": 102,
+      "passthrough": true,
+      "ridge": 0.01,
+      "name": "dual40_reg",
+      "family": "D"
+    }
+  ],
+  "primary": "2x2: on/off quadratic waveform terms x linear80_reg/dual40_reg; both 311 readout dimensions, ridge .01",
+  "anchors": [
+    "ridge_low",
+    "linear80_low"
+  ],
+  "nonlinear_seeds": [
+    100,
+    101,
+    102
+  ],
+  "linear_seed": 200,
+  "off": "Refit W from zeros on same training prefix with quadratic term exactly absent; no reuse of co-trained W.",
+  "shared": "alignment/raw/Tx RMS training-only shared across on/off; branch-specific wave/CAP/backend scales fitted on same training mask; fixed CAP phase0; same matrices across frontend conditions",
+  "alignment_gate": "Training CAP correlation peak over lags -8..8 must be zero for every front/channel; otherwise stop before validation prediction. No tuning delay/phase.",
+  "search": "No hyperparameter selection; exactly 12 frontend/backend/seed combinations, 24 channel models. Anchors fitted once per frontend/channel, not counted as independent seed replicates.",
+  "smoke": "Synthetic unit checks then 3000 train/1000 validation symbols contained within original training; refit front on smoke training only; no selection.",
+  "bootstrap": {
+    "blocks": [
+      256,
+      512
+    ],
+    "replicates": 2000,
+    "seed": 404,
+    "method": "paired moving blocks of predecoded validation losses; same positions across channels/seeds/four cells; average seed losses then bootstrap"
+  },
+  "metrics": [
+    "complex MSE",
+    "fixed 2bit BER lower/upper",
+    "invalid count/rate",
+    "auto BER with I/Q widths"
+  ],
+  "effect": "interaction=(dual_off-linear_off)-(dual_on-linear_on); negative favors increased incremental dual benefit off",
+  "promise_gate": "Off dual must beat BOTH off anchors in mean MSE and not worsen mean BER upper in ALL three seeds; seed-mean paired 95% upper CI below0 for MSE and BER upper at BOTH block sizes against BOTH anchors; interaction MSE upper CI below0 at BOTH sizes. Else stop. No post-hoc expansion regardless of outcome.",
+  "inference_limit": "Exploratory reused validation and fixed linear seed; not independent new-payload testing; no unique physical BER until illegal PAM4 contract fixed.",
+  "test_policy": "Never parse numeric samples beyond80000 or symbols beyond20000; whole-file SHA256 only is allowed for integrity. No old test prediction artifacts opened.",
+  "source_hashes": {
+    "rc_baseline/src/dsp_rc/phase4.py": "c0cf90f57b11d13041494ea8234d0ff6894686cba88bf72c00770ac4f1a12285",
+    "rc_baseline/src/dsp_rc/phase3_report.py": "d9ce1c2e770dc8f6437d05c4d7ac5ecca17f16e7df29b702ec3792f4ac87fdab",
+    "rc_baseline/src/dsp_rc/parity.py": "550db7178abfba559682aa9c2cb773033776249f2160001db6c6fe4ecef1720b",
+    "rc_baseline/src/dsp_rc/phase4_report.py": "f4c0fbdf63981f0d38937a63b0d02efde3b57986e9fa1f50451ecf866c300492",
+    "rc_baseline/src/dsp_rc/__init__.py": "02479a19e2b75509807990c6a543c89c138c607a250386d3f51307981e1b62d4",
+    "rc_baseline/src/dsp_rc/phase3_numerics.py": "15f330cda6231d615a0ca9a23764d9593cf48a5d42a310e785b1bcca8cda03ae",
+    "rc_baseline/src/dsp_rc/core.py": "8df92282d36addd6c2886a285ab6879d78aaa5218fd5c9dd329c97967d4cfaa9",
+    "rc_baseline/src/dsp_rc/summarize.py": "e63782fc7212ce87c0fbefff1c51471217281755b2de055780916cbbcb94d0b2",
+    "rc_baseline/src/dsp_rc/phase2_report.py": "babcaef1e34ba890446e8c14217499a8d24073c3e032be70f81b494b50a5071c",
+    "rc_baseline/src/dsp_rc/phase4_verify.py": "8aa14703912968efb28696e874d1e0c9af522f4c7733c00a13e3113bdc1fb058",
+    "rc_baseline/src/dsp_rc/experiment.py": "2b85576421155416673963c28d79203ae808240a615d5dea41df0056f9e0b78e",
+    "rc_baseline/src/dsp_rc/fusion.py": "02a19ea99f836821c8e5b198f4920296ea138ef50371fe108f548bbdebd5f46f",
+    "rc_baseline/src/dsp_rc/phase4_diagnostics.py": "9e573ffc4b419ae4f7a4e0e1c5c3e00c99c8b072c5e47c46fe24589e36d4daa1",
+    "rc_baseline/src/dsp_rc/phase2.py": "ab32dcb52b756b4184d86f1703769575cb9fe664a505e4b7d224a3653e9f757e",
+    "rc_baseline/src/dsp_rc/phase3.py": "73ef4c0e1ebf5866a1b10db48a6f935d1ad1cfff4c5984f602d9e959e95eca5e",
+    "rc_baseline/src/dsp_rc/residual_fusion.py": "285bf9f2c88933d40d916ca548d422a3a1369e8349152ccec8423141f3593ffd",
+    "rc_baseline/volterra_ablation/experiment.py": "c6942324892efc778efdbf3f491b567937189fa8b6a24c49bad62c2564fbb8d0"
+  }
+}

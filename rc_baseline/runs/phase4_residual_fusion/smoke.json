@@ -1,0 +1,7 @@
+{
+  "passed": {
+    "rx1": true,
+    "rx2": true
+  },
+  "scope": "interface only on original train0:4000; front frozen on original full train, not an independent small holdout"
+}

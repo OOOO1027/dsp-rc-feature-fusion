@@ -1,0 +1,614 @@
+{
+  "513": {
+    "ridge_low": {
+      "rx1": {
+        "feature_dim": 231,
+        "trained_parameters": 462,
+        "fixed_parameters": 0,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.018268624997290317,
+        "state_max_abs": {},
+        "linear_stability": null
+      },
+      "rx2": {
+        "feature_dim": 231,
+        "trained_parameters": 462,
+        "fixed_parameters": 0,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.007346792001044378,
+        "state_max_abs": {},
+        "linear_stability": null
+      }
+    },
+    "tanh80_low": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.04971079200186068,
+        "state_max_abs": {
+          "nonlinear": 0.9999998542672383
+        },
+        "linear_stability": null
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.04439062500023283,
+        "state_max_abs": {
+          "nonlinear": 0.9999996633132899
+        },
+        "linear_stability": null
+      }
+    },
+    "linear80_low": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.0413938749989029,
+        "state_max_abs": {
+          "linear": 14.405164703017661
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.04241712499788264,
+        "state_max_abs": {
+          "linear": 12.346699175303215
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual40_reg": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.06802954099839553,
+        "state_max_abs": {
+          "linear": 13.832649784107744,
+          "nonlinear": 0.9999992994066456
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.0675139580052928,
+        "state_max_abs": {
+          "linear": 11.383176785539636,
+          "nonlinear": 0.9999974574237098
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "tanh160_low": {
+      "rx1": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.06734633300220594,
+        "state_max_abs": {
+          "nonlinear": 0.9999998090971887
+        },
+        "linear_stability": null
+      },
+      "rx2": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.05981291599891847,
+        "state_max_abs": {
+          "nonlinear": 0.9999995031325974
+        },
+        "linear_stability": null
+      }
+    },
+    "linear160_low": {
+      "rx1": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.05972279200068442,
+        "state_max_abs": {
+          "linear": 14.545123899713179
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3306478540154915,
+          "A_operator_norm": 0.6000000000000002,
+          "effective_spectral_radius": 0.5314534978108467,
+          "effective_operator_norm": 0.6256130322968195,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.05899058400245849,
+        "state_max_abs": {
+          "linear": 12.071563052386526
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3306478540154915,
+          "A_operator_norm": 0.6000000000000002,
+          "effective_spectral_radius": 0.5314534978108467,
+          "effective_operator_norm": 0.6256130322968195,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual40_low": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.06906070800323505,
+        "state_max_abs": {
+          "linear": 13.832649784107744,
+          "nonlinear": 0.9999992994066456
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.06664391699450789,
+        "state_max_abs": {
+          "linear": 11.383176785539636,
+          "nonlinear": 0.9999974574237098
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual80_low": {
+      "rx1": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 49760,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.07821270899876254,
+        "state_max_abs": {
+          "linear": 14.405164703017661,
+          "nonlinear": 0.9999998542672383
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 49760,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.07885829100268893,
+        "state_max_abs": {
+          "linear": 12.346699175303215,
+          "nonlinear": 0.9999996633132899
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual80_states_only": {
+      "rx1": {
+        "feature_dim": 161,
+        "trained_parameters": 322,
+        "fixed_parameters": 49760,
+        "input_scale": 2.0464198678976273,
+        "fit_seconds": 0.07451833300001454,
+        "state_max_abs": {
+          "linear": 14.405164703017661,
+          "nonlinear": 0.9999998542672383
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 161,
+        "trained_parameters": 322,
+        "fixed_parameters": 49760,
+        "input_scale": 2.4749333450701685,
+        "fit_seconds": 0.07119012500334065,
+        "state_max_abs": {
+          "linear": 12.346699175303215,
+          "nonlinear": 0.9999996633132899
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    }
+  },
+  "382": {
+    "ridge_low": {
+      "rx1": {
+        "feature_dim": 231,
+        "trained_parameters": 462,
+        "fixed_parameters": 0,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.006806332996347919,
+        "state_max_abs": {},
+        "linear_stability": null
+      },
+      "rx2": {
+        "feature_dim": 231,
+        "trained_parameters": 462,
+        "fixed_parameters": 0,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.0068545410031219944,
+        "state_max_abs": {},
+        "linear_stability": null
+      }
+    },
+    "tanh80_low": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.04375787499884609,
+        "state_max_abs": {
+          "nonlinear": 0.9999997066646985
+        },
+        "linear_stability": null
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.04497599999740487,
+        "state_max_abs": {
+          "nonlinear": 0.9999999634972665
+        },
+        "linear_stability": null
+      }
+    },
+    "linear80_low": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.04196341699571349,
+        "state_max_abs": {
+          "linear": 14.056074571621785
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 24880,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.04176433300017379,
+        "state_max_abs": {
+          "linear": 13.941545978686719
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual40_reg": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.06835941600002116,
+        "state_max_abs": {
+          "linear": 12.61693509442031,
+          "nonlinear": 0.9999984158256305
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.06670883299375419,
+        "state_max_abs": {
+          "linear": 12.887708880749342,
+          "nonlinear": 0.9999994846020428
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "tanh160_low": {
+      "rx1": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.05943545899935998,
+        "state_max_abs": {
+          "nonlinear": 0.9999997284666089
+        },
+        "linear_stability": null
+      },
+      "rx2": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.05896270900120726,
+        "state_max_abs": {
+          "nonlinear": 0.9999998978679091
+        },
+        "linear_stability": null
+      }
+    },
+    "linear160_low": {
+      "rx1": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.06060804199660197,
+        "state_max_abs": {
+          "linear": 15.032073691639416
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3306478540154915,
+          "A_operator_norm": 0.6000000000000002,
+          "effective_spectral_radius": 0.5314534978108467,
+          "effective_operator_norm": 0.6256130322968195,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 62560,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.06125308300397592,
+        "state_max_abs": {
+          "linear": 14.710039016962961
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3306478540154915,
+          "A_operator_norm": 0.6000000000000002,
+          "effective_spectral_radius": 0.5314534978108467,
+          "effective_operator_norm": 0.6256130322968195,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual40_low": {
+      "rx1": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.06697037500271108,
+        "state_max_abs": {
+          "linear": 12.61693509442031,
+          "nonlinear": 0.9999984158256305
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.06694395900558447,
+        "state_max_abs": {
+          "linear": 12.887708880749342,
+          "nonlinear": 0.9999994846020428
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual80_low": {
+      "rx1": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 49760,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.07973800000036135,
+        "state_max_abs": {
+          "linear": 14.056074571621785,
+          "nonlinear": 0.9999997066646985
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 391,
+        "trained_parameters": 782,
+        "fixed_parameters": 49760,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.07960683300188975,
+        "state_max_abs": {
+          "linear": 13.941545978686719,
+          "nonlinear": 0.9999999634972665
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "dual80_states_only": {
+      "rx1": {
+        "feature_dim": 161,
+        "trained_parameters": 322,
+        "fixed_parameters": 49760,
+        "input_scale": 1.933523457990314,
+        "fit_seconds": 0.07262370800162898,
+        "state_max_abs": {
+          "linear": 14.056074571621785,
+          "nonlinear": 0.9999997066646985
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      },
+      "rx2": {
+        "feature_dim": 161,
+        "trained_parameters": 322,
+        "fixed_parameters": 49760,
+        "input_scale": 2.085990653872225,
+        "fit_seconds": 0.0732081250025658,
+        "state_max_abs": {
+          "linear": 13.941545978686719,
+          "nonlinear": 0.9999999634972665
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3336863407941652,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5220887457023802,
+          "effective_operator_norm": 0.627482579535572,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    }
+  }
+}

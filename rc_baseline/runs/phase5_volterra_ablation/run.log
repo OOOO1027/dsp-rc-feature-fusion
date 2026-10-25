@@ -1,0 +1,13 @@
+on_linear80_reg_s100 validation MSE 0.3936391935241697
+on_ridge_low_s100 validation MSE 0.3938782363680578
+on_linear80_low_s100 validation MSE 0.39368075709007777
+on_dual40_reg_s100 validation MSE 0.3952616303416738
+on_dual40_reg_s101 validation MSE 0.3952234257789044
+on_dual40_reg_s102 validation MSE 0.39550319401272965
+off_linear80_reg_s100 validation MSE 0.5430980193015872
+off_ridge_low_s100 validation MSE 0.5432134687778231
+off_linear80_low_s100 validation MSE 0.5433235611860746
+off_dual40_reg_s100 validation MSE 0.5450924217573103
+off_dual40_reg_s101 validation MSE 0.5454204629656673
+off_dual40_reg_s102 validation MSE 0.5453005164731118
+Finite run complete. Promise gate: False

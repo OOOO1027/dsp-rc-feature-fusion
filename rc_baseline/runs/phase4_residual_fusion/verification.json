@@ -1,0 +1,36 @@
+{
+  "prior_files_unchanged": true,
+  "prior_file_count": 194,
+  "experiment_sources_unchanged_since_protocol": true,
+  "all6_phase3_reference_validation_predictions_exact": true,
+  "same_validation_mask": true,
+  "unit_tests_passed": 23,
+  "main_candidates": 24,
+  "extra_nonlinear_seeds": [
+    101,
+    102
+  ],
+  "test_predictions_or_metrics_computed": false,
+  "post_selection_expansion": false,
+  "no_new_dependency_installed": true,
+  "coordinate_equivalence_max_error": {
+    "joint_std_equivalent": {
+      "rx1": 1.1766569159601574e-11,
+      "rx2": 5.876357204403751e-12
+    },
+    "joint_orth_equivalent": {
+      "rx1": 1.177508038156949e-11,
+      "rx2": 5.875910526791067e-12
+    }
+  },
+  "figure_count": 7,
+  "original_matlab_files_unchanged": 20,
+  "report_image_links_verified": true,
+  "visually_checked": [
+    "residual_linear80_low.png",
+    "regions_ridge_low.png",
+    "eta_ablation.png",
+    "paired_blocks.png"
+  ],
+  "final_decision": "stop; eta=0; no test evaluation"
+}

@@ -1,0 +1,116 @@
+{
+  "training_symbols": [
+    0,
+    3000
+  ],
+  "check_symbols": [
+    3000,
+    4000
+  ],
+  "results": {
+    "rx1": {
+      "metrics": {
+        "symbols": 744,
+        "reference_bits": 2976,
+        "legal_bit_errors": 82,
+        "invalid_pam4_decisions": 6,
+        "bit_errors_lower": 82,
+        "bit_errors_upper": 94,
+        "ber_lower": 0.027553763440860215,
+        "ber_upper": 0.031586021505376344,
+        "ber_exact": null,
+        "pam4_ser": 0.049059139784946235,
+        "matlab_auto_width": [
+          {
+            "width": 3,
+            "errors": 40,
+            "bits": 2232,
+            "ber": 0.017921146953405017
+          },
+          {
+            "width": 3,
+            "errors": 58,
+            "bits": 2232,
+            "ber": 0.025985663082437275
+          }
+        ],
+        "matlab_compatible_ber": 0.021953405017921146,
+        "symbol_mse": 0.45261691748498223,
+        "invalid_rate": 0.004032258064516129
+      },
+      "finite": true,
+      "save_load_exact": true,
+      "stats": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 1.9524898416409346,
+        "fit_seconds": 0.026933083005133085,
+        "state_max_abs": {
+          "linear": 13.038911065094107,
+          "nonlinear": 0.9999992678833027
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    },
+    "rx2": {
+      "metrics": {
+        "symbols": 744,
+        "reference_bits": 2976,
+        "legal_bit_errors": 105,
+        "invalid_pam4_decisions": 3,
+        "bit_errors_lower": 105,
+        "bit_errors_upper": 111,
+        "ber_lower": 0.03528225806451613,
+        "ber_upper": 0.037298387096774195,
+        "ber_exact": null,
+        "pam4_ser": 0.05779569892473118,
+        "matlab_auto_width": [
+          {
+            "width": 2,
+            "errors": 54,
+            "bits": 1488,
+            "ber": 0.036290322580645164
+          },
+          {
+            "width": 3,
+            "errors": 60,
+            "bits": 2232,
+            "ber": 0.026881720430107527
+          }
+        ],
+        "matlab_compatible_ber": 0.031586021505376344,
+        "symbol_mse": 0.5012961149801506,
+        "invalid_rate": 0.0020161290322580645
+      },
+      "finite": true,
+      "save_load_exact": true,
+      "stats": {
+        "feature_dim": 311,
+        "trained_parameters": 622,
+        "fixed_parameters": 21680,
+        "input_scale": 2.1613092150925484,
+        "fit_seconds": 0.02267595799639821,
+        "state_max_abs": {
+          "linear": 11.437101120683876,
+          "nonlinear": 0.9999991338944898
+        },
+        "linear_stability": {
+          "A_spectral_radius": 0.3068852418982119,
+          "A_operator_norm": 0.5999999999999999,
+          "effective_spectral_radius": 0.5000851397548991,
+          "effective_operator_norm": 0.6268217866265879,
+          "contraction_bound": 0.72,
+          "initial_state_residual_bound_128": 5.477211901915438e-19
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+All models fitted on training only: 513
+All models fitted on training only: 382
+All condition weights frozen BEFORE any test prediction.

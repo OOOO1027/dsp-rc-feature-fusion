@@ -1,0 +1,19 @@
+ridge_low validation mean upper 0.023159551176792557
+tanh80_low validation mean upper 0.023356253420908593
+linear80_low validation mean upper 0.02315099890530925
+tanh160_low validation mean upper 0.023972016967706622
+linear160_low validation mean upper 0.023287835249042144
+dual40_low validation mean upper 0.023647030651340994
+dual80_low validation mean upper 0.023741105637657366
+ridge_reg validation mean upper 0.023185207991242476
+tanh80_reg validation mean upper 0.023356253420908593
+linear80_reg validation mean upper 0.023202312534209086
+tanh160_reg validation mean upper 0.02396346469622332
+linear160_reg validation mean upper 0.023270730706075535
+dual40_reg validation mean upper 0.023629926108374385
+dual80_reg validation mean upper 0.02363847837985769
+dual80_norm03 validation mean upper 0.02376676245210728
+dual80_norm09 validation mean upper 0.0237924192665572
+dual80_leak1 validation mean upper 0.023843732895457034
+dual80_states_only validation mean upper 0.3804135878489327
+Frozen family winners: {'A': 'ridge_low', 'B': 'tanh80_low', 'C': 'linear80_low', 'D': 'dual40_reg'} Final models: ['ridge_low', 'tanh80_low', 'linear80_low', 'dual40_reg', 'tanh160_low', 'linear160_low', 'dual40_low', 'dual80_low', 'dual80_states_only']

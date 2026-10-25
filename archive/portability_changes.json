@@ -1,0 +1,42 @@
+{
+  "GROUP2_HANDOFF.md": {
+    "original_sha256": "97571ce161e18b4b84f31f962d7311eaadc3609eed8542336e54d7fc929092ea",
+    "delivered_sha256": "5fe2186288f4b3386f30b859f998559ca4b097ce3ae10e812aaa7c9ac47c7b94",
+    "reason": "GitHub-relative documentation links only"
+  },
+  "NEXT_EXPERIMENT_FEASIBILITY.md": {
+    "original_sha256": "968414fc7966983763bb712b08d9e89dba2be5d25ee4a9157e92bcd99528b481",
+    "delivered_sha256": "98a86b865e829be74a1107f02521ec066f1d2f6355990bc995f8c0e0923323a5",
+    "reason": "GitHub-relative documentation links only"
+  },
+  "PROJECT_RESEARCH_SUMMARY.md": {
+    "original_sha256": "de1b12853eea1475abbe939731d6c250067917496de862c6d6604b79d4644ccb",
+    "delivered_sha256": "b024e4f36a5530bda6692cd64639778731b490539d8250919eda0967e3c6c6ea",
+    "reason": "GitHub-relative documentation links only"
+  },
+  "TA_QUESTIONS.md": {
+    "original_sha256": "a472ea884364d1ed67cf5f8ed613a8a140629aebd960367d7902ab9e4765d66f",
+    "delivered_sha256": "f8b21a58edbb3f77dbcec167d8ba70244d9a15686fcdc52cfa1b54b2f258e517",
+    "reason": "GitHub-relative documentation links only"
+  },
+  "presentations/DSP_Group2_逐页口头汇报稿与问答.md": {
+    "original_sha256": "e7ce1ea44d2a810983bbe22d4540c267076c4c9eaa3cf3279477d06acd21548a",
+    "delivered_sha256": "50840e6eab00b0e9f080ede3caf0bd20a337b148d21d295ddf5dcb15b75d0bd7",
+    "reason": "GitHub-relative documentation links only"
+  },
+  "rc_baseline/src/dsp_rc/experiment.py": {
+    "original_sha256": "2b85576421155416673963c28d79203ae808240a615d5dea41df0056f9e0b78e",
+    "delivered_sha256": "58b47d9a5c6d87f7fb2014ab0a753164e0ac2d5d85de34ed38afd6de8eb1cce4",
+    "reason": "audit-root relocation only"
+  },
+  "rc_baseline/src/dsp_rc/phase4_diagnostics.py": {
+    "original_sha256": "9e573ffc4b419ae4f7a4e0e1c5c3e00c99c8b072c5e47c46fe24589e36d4daa1",
+    "delivered_sha256": "bc9a6c3f0d2c3a95ce666e1ba1542f3009e0d68113e035e13f32a256d145ab60",
+    "reason": "audit-root relocation only"
+  },
+  "rc_baseline/volterra_ablation/experiment.py": {
+    "original_sha256": "c6942324892efc778efdbf3f491b567937189fa8b6a24c49bad62c2564fbb8d0",
+    "delivered_sha256": "bc74a917f4af78b2a7a8047a432f2783afd99797c81a4e282a08b80502a8acd3",
+    "reason": "audit-root relocation only"
+  }
+}

@@ -1,0 +1,9 @@
+test_linear_update_independent_recursion (test_ablation.AblationTests.test_linear_update_independent_recursion) ... ok
+test_no_quadratic_and_immutable_predict (test_ablation.AblationTests.test_no_quadratic_and_immutable_predict) ... ok
+test_scales_frozen_and_reload (test_ablation.AblationTests.test_scales_frozen_and_reload) ... ok
+test_segment_boundary_no_wrap (test_ablation.AblationTests.test_segment_boundary_no_wrap) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.089s
+
+OK

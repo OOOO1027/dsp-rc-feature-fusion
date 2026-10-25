@@ -1,0 +1,21 @@
+{
+  "unit_tests_passed": 10,
+  "unit_tests_failed": 0,
+  "smoke_uses_only_full_train_region": [
+    0,
+    5000
+  ],
+  "smoke_completed_before_full_run": true,
+  "frozen_model_hashes_unchanged_during_all_splits": true,
+  "serialized_validation_predictions_exact": true,
+  "full_test_runs": 1,
+  "hyperparameter_search": false,
+  "matlab_runtime_comparison": false,
+  "figures_visually_inspected": [
+    "constellation_rx1.png",
+    "constellation_rx2.png",
+    "constellation_xy.png",
+    "ber_fixed_bit_bounds.png"
+  ],
+  "original_data_hashes_rechecked": true
+}

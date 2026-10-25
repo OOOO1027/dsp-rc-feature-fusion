@@ -1,0 +1,201 @@
+{
+  "mismatch_positions_1based_per_component": [
+    [
+      1,
+      51200
+    ],
+    [
+      1,
+      51200
+    ]
+  ],
+  "forbidden_transitions": [
+    {
+      "previous": 0,
+      "current": 4,
+      "decoded": 4
+    },
+    {
+      "previous": 0,
+      "current": 5,
+      "decoded": 5
+    },
+    {
+      "previous": 1,
+      "current": 4,
+      "decoded": 4
+    },
+    {
+      "previous": 1,
+      "current": 5,
+      "decoded": 5
+    },
+    {
+      "previous": 2,
+      "current": 5,
+      "decoded": 4
+    },
+    {
+      "previous": 3,
+      "current": 5,
+      "decoded": 4
+    }
+  ],
+  "ideal_transition_counts": [
+    [
+      1651,
+      1648,
+      1538,
+      1624,
+      0,
+      0
+    ],
+    [
+      4809,
+      4727,
+      4822,
+      4848,
+      0,
+      0
+    ],
+    [
+      1,
+      6365,
+      6418,
+      6504,
+      6325,
+      0
+    ],
+    [
+      0,
+      6466,
+      6399,
+      6359,
+      6484,
+      0
+    ],
+    [
+      0,
+      0,
+      4818,
+      4718,
+      4678,
+      4805
+    ],
+    [
+      0,
+      0,
+      1618,
+      1655,
+      1532,
+      1586
+    ]
+  ],
+  "ideal_split_scores": {
+    "train": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 0,
+      "invalid_pam4_decisions": 0,
+      "bit_errors_lower": 0,
+      "bit_errors_upper": 0,
+      "ber_lower": 0.0,
+      "ber_upper": 0.0,
+      "ber_exact": 0.0,
+      "pam4_ser": 0.0,
+      "matlab_auto_width": [
+        {
+          "width": 2,
+          "errors": 0,
+          "bits": 19488,
+          "ber": 0.0
+        },
+        {
+          "width": 2,
+          "errors": 0,
+          "bits": 19488,
+          "ber": 0.0
+        }
+      ],
+      "matlab_compatible_ber": 0.0,
+      "symbol_mse": 0.0,
+      "invalid_rate": 0.0
+    },
+    "validation": {
+      "symbols": 9744,
+      "reference_bits": 38976,
+      "legal_bit_errors": 0,
+      "invalid_pam4_decisions": 0,
+      "bit_errors_lower": 0,
+      "bit_errors_upper": 0,
+      "ber_lower": 0.0,
+      "ber_upper": 0.0,
+      "ber_exact": 0.0,
+      "pam4_ser": 0.0,
+      "matlab_auto_width": [
+        {
+          "width": 2,
+          "errors": 0,
+          "bits": 19488,
+          "ber": 0.0
+        },
+        {
+          "width": 2,
+          "errors": 0,
+          "bits": 19488,
+          "ber": 0.0
+        }
+      ],
+      "matlab_compatible_ber": 0.0,
+      "symbol_mse": 0.0,
+      "invalid_rate": 0.0
+    },
+    "test": {
+      "symbols": 30944,
+      "reference_bits": 123776,
+      "legal_bit_errors": 0,
+      "invalid_pam4_decisions": 0,
+      "bit_errors_lower": 0,
+      "bit_errors_upper": 0,
+      "ber_lower": 0.0,
+      "ber_upper": 0.0,
+      "ber_exact": 0.0,
+      "pam4_ser": 0.0,
+      "matlab_auto_width": [
+        {
+          "width": 2,
+          "errors": 0,
+          "bits": 61888,
+          "ber": 0.0
+        },
+        {
+          "width": 2,
+          "errors": 0,
+          "bits": 61888,
+          "ber": 0.0
+        }
+      ],
+      "matlab_compatible_ber": 0.0,
+      "symbol_mse": 0.0,
+      "invalid_rate": 0.0
+    }
+  },
+  "bounds_formula": "Elegal/(4N) <= BER_2bit <= (Elegal+2*U)/(4N); U counts component decisions, not complex symbols",
+  "invalid_rate_formula": "U/(2N)",
+  "boundary_first_decoder_default": [
+    0,
+    0
+  ],
+  "first_labels": [
+    2,
+    3
+  ],
+  "last_decoded": [
+    1,
+    0
+  ],
+  "last_labels": [
+    2,
+    1
+  ]
+}

@@ -1,0 +1,9 @@
+[0.009s] Setting=S2S; configuration fixed; guard=128 >= 98
+[0.196s] rx1 fitted; alignment={'lag': 0, 'polarity': 1, 'training_correlation': np.float64(0.722688929258268)}; RC real-component train MSE=0.280354; ridge residual=4.7e-16
+[0.196s] rx1 train symbol-correlation best lag=0
+[0.322s] rx2 fitted; alignment={'lag': 0, 'polarity': -1, 'training_correlation': np.float64(-0.7808129175485995)}; RC real-component train MSE=0.497058; ridge residual=3.9e-16
+[0.322s] rx2 train symbol-correlation best lag=0
+[0.403s] train: rx1 RC BER_auto=0.0355774, fixed-2bit bounds=[0.0465928,0.0511084]; rx2 RC BER_auto=0.0894568, fixed-2bit bounds=[0.116995,0.128489]; xy RC BER_auto=0.0365353, fixed-2bit bounds=[0.0490558,0.0529044]
+[0.555s] validation: rx1 RC BER_auto=0.0380405, fixed-2bit bounds=[0.0499795,0.0547516]; rx2 RC BER_auto=0.0913212, fixed-2bit bounds=[0.118124,0.130696]; xy RC BER_auto=0.0375787, fixed-2bit bounds=[0.0501334,0.0542898]
+[0.824s] test: rx1 RC BER_auto=0.0359951, fixed-2bit bounds=[0.0477637,0.0519487]; rx2 RC BER_auto=0.0926566, fixed-2bit bounds=[0.119676,0.132554]; xy RC BER_auto=0.0378156, fixed-2bit bounds=[0.0500016,0.0544936]
+[5.136s] Complete. Frozen model hashes unchanged; no test-driven parameter changes.

@@ -1,0 +1,18 @@
+test_alignment_polarity_uses_training_only (test_core.ScientificChecks.test_alignment_polarity_uses_training_only) ... ok
+test_boundary_guard_and_disjoint_split_support (test_core.ScientificChecks.test_boundary_guard_and_disjoint_split_support) ... ok
+test_complex_lms_matlab_index_and_conjugation (test_core.ScientificChecks.test_complex_lms_matlab_index_and_conjugation) ... ok
+test_nltcp_exact_mapping_and_fixed_bit_count (test_core.ScientificChecks.test_nltcp_exact_mapping_and_fixed_bit_count) ... ok
+test_phase_and_root_raised_cosine (test_core.ScientificChecks.test_phase_and_root_raised_cosine) ... ok
+test_reservoir_chunk_continuity_and_reset (test_core.ScientificChecks.test_reservoir_chunk_continuity_and_reset) ... ok
+test_reservoir_equation_against_scalar_reference (test_core.ScientificChecks.test_reservoir_equation_against_scalar_reference) ... ok
+test_ridge_closed_form_and_no_prediction_refit (test_core.ScientificChecks.test_ridge_closed_form_and_no_prediction_refit) ... ok
+test_symbol_window_order (test_core.ScientificChecks.test_symbol_window_order) ... ok
+test_volterra_triu_basis (test_core.ScientificChecks.test_volterra_triu_basis) ... ok
+test_candidate_fit_isolated_and_frozen (test_phase2.Phase2Checks.test_candidate_fit_isolated_and_frozen) ... ok
+test_fixed_bit_bounds_exhaustive_unknown_mapping (test_phase2.Phase2Checks.test_fixed_bit_bounds_exhaustive_unknown_mapping) ... ok
+test_forbidden_transitions_exhaustive (test_phase2.Phase2Checks.test_forbidden_transitions_exhaustive) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.017s
+
+OK

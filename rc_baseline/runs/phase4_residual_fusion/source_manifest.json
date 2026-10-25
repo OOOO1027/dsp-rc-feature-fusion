@@ -1,0 +1,8 @@
+{
+  "rc_baseline/src/dsp_rc/residual_fusion.py": "285bf9f2c88933d40d916ca548d422a3a1369e8349152ccec8423141f3593ffd",
+  "rc_baseline/src/dsp_rc/phase4.py": "c0cf90f57b11d13041494ea8234d0ff6894686cba88bf72c00770ac4f1a12285",
+  "rc_baseline/src/dsp_rc/phase4_diagnostics.py": "9e573ffc4b419ae4f7a4e0e1c5c3e00c99c8b072c5e47c46fe24589e36d4daa1",
+  "rc_baseline/src/dsp_rc/phase4_report.py": "f4c0fbdf63981f0d38937a63b0d02efde3b57986e9fa1f50451ecf866c300492",
+  "rc_baseline/tests/test_phase4.py": "1fef53192d6ed3ea01ef755d077b64aadea492b91211a1b86603c8cd43af2da3",
+  "rc_baseline/src/dsp_rc/phase4_verify.py": "8aa14703912968efb28696e874d1e0c9af522f4c7733c00a13e3113bdc1fb058"
+}

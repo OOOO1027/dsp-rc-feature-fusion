@@ -1,0 +1,134 @@
+{
+  "utc": "2026-10-17T02:31:22.219749+00:00",
+  "candidates": [
+    {
+      "taps": 25,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "original"
+    },
+    {
+      "taps": 57,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "window57"
+    },
+    {
+      "taps": 115,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "window115"
+    },
+    {
+      "taps": 25,
+      "nodes": 160,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "nodes160"
+    },
+    {
+      "taps": 25,
+      "nodes": 80,
+      "radius": 0.3,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "radius03"
+    },
+    {
+      "taps": 25,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.3,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "leak03"
+    },
+    {
+      "taps": 25,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 0.01,
+      "normalization": "max",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "ridge001"
+    },
+    {
+      "taps": 25,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "rms",
+      "gain": 1.0,
+      "seed": 100,
+      "name": "rms_input"
+    },
+    {
+      "taps": 25,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 0.25,
+      "seed": 100,
+      "name": "input025"
+    },
+    {
+      "taps": 115,
+      "nodes": 80,
+      "radius": 0.9,
+      "leak": 0.7,
+      "ridge": 1e-05,
+      "normalization": "max",
+      "gain": 0.25,
+      "seed": 100,
+      "name": "window115_input025"
+    }
+  ],
+  "selection": "per channel min validation fixed-2bit BER upper; ties by MSE, then readout dimension, then name",
+  "seed_policy": "100 is selection/final seed; 101,102 are validation-only stability checks for original and winner, never selected",
+  "diagnostics_not_candidates": [
+    "linear ridge taps25/57/115",
+    "training-only output gain",
+    "refit RX2 frontend without polarity correction"
+  ],
+  "test_policy": "one later confirm command; evaluate original, selected and existing LMS only; no test-based changes",
+  "xy_weights": [
+    0.5,
+    0.5
+  ],
+  "source_hashes": {
+    "src/dsp_rc/__init__.py": "02479a19e2b75509807990c6a543c89c138c607a250386d3f51307981e1b62d4",
+    "src/dsp_rc/core.py": "8df92282d36addd6c2886a285ab6879d78aaa5218fd5c9dd329c97967d4cfaa9",
+    "src/dsp_rc/summarize.py": "e63782fc7212ce87c0fbefff1c51471217281755b2de055780916cbbcb94d0b2",
+    "src/dsp_rc/experiment.py": "2b85576421155416673963c28d79203ae808240a615d5dea41df0056f9e0b78e",
+    "src/dsp_rc/phase2.py": "ab32dcb52b756b4184d86f1703769575cb9fe664a505e4b7d224a3653e9f757e"
+  }
+}

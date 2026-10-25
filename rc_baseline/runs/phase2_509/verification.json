@@ -1,0 +1,15 @@
+{
+  "phase1_all_manifested_sources_unchanged": true,
+  "phase1_rc_and_lms_test_predictions_exactly_reproduced": true,
+  "same_test_mask_as_phase1": true,
+  "unit_tests_passed": 13,
+  "test_confirmation_runs": 1,
+  "fresh_blind_test": false,
+  "dual_branch_implemented": false,
+  "visually_checked": [
+    "window_diagnosis.png",
+    "constellation_rx2.png",
+    "confirmation_bounds.png"
+  ],
+  "matlab_batch_processes_exited": true
+}
