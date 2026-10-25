@@ -1,4 +1,5 @@
 {
+  ".gitattributes": "fd4bbd54eec82081802df00b3880b4793c7f53d217ee6096bf0818e026c9fb42",
   ".gitignore": "c5efbeed73dcba316a8aad0b7e16222b195588e6fd090d2f5b9320fb7db2509d",
   "Data/GS_CCSDSdemodulation_cons.m": "f1caabd3a6ece3d67f9f3d32e84386904c24415cfaf5587dd2813874becf009f",
   "Data/GS_CCSDSmodulation_cons.m": "51586101d35e50dd3f6d43e303b35aa12902e0277ba09e4907afbd8bdecaa840",
@@ -11,7 +12,7 @@
   "Data/afterNN_w2s.m": "c2223d648aa7c676647cfbbda7475a1e90f5e36121f8122ca9f7ca79eaa117f3",
   "Data/fig_plot.m": "c0d21aebbd8f96be15c9b3722a1e3ed6220392cae240fc9bae65fd4452ef6708",
   "Data/preNN_w2s.m": "4e3bd32634954d3da063ff310c507500bc27e135e405c705b8cb1d5958251029",
-  "GROUP2_HANDOFF.md": "5fe2186288f4b3386f30b859f998559ca4b097ce3ae10e812aaa7c9ac47c7b94",
+  "GROUP2_HANDOFF.md": "a46ba7d1026d0b3793d03f52a82ee7ccef756f07f827557a1125faa1b0ff57da",
   "NEXT_EXPERIMENT_FEASIBILITY.md": "98a86b865e829be74a1107f02521ec066f1d2f6355990bc995f8c0e0923323a5",
   "NN数据20250320/NN数据20250320/CAPdemodulation.m": "5ee5f4fb0b5cf9e673483cd503725d6cdb30a5eba695d658220d77c14037aa0e",
   "NN数据20250320/NN数据20250320/LMS_1DownS_Testnan.m": "ea72f936c86e1e67504de763366a75cc95e956839fd77fe51fcdcfe3715c4c75",
@@ -51,7 +52,7 @@
   "TA_QUESTIONS.md": "f8b21a58edbb3f77dbcec167d8ba70244d9a15686fcdc52cfa1b54b2f258e517",
   "archive/import_manifest.json": "bdbf27da1648ae9c05ca09de1ffc907ebff21c807e53637eb255deea3d8a394d",
   "archive/original_sources_and_docs.zip": "63bf9703c17f4a09572680264b3187ccedfe964a79a70057d95f3ddfb542fe9e",
-  "archive/portability_changes.json": "e20f1171465a45879730e0af6aa5d917b947ef81ff7a1e48d0897efbc121c51e",
+  "archive/portability_changes.json": "1bca5e5c33e69a3ec9cf6c2ebb27bdbbfe897b60abb6a60d7d3e6991469587ea",
   "audit_outputs/2026-10-16/DSP数据审计报告.md": "596d246f59b3bf46a441abc35fa16f1530368705064f0bbed8f58e9d5d5e21ca",
   "audit_outputs/2026-10-16/alignment_checks.json": "e562a49d509cad92c09c3f8ae06ab2b3ca2ce6fb66511089ffe8a502ec5b0e28",
   "audit_outputs/2026-10-16/asset_patterns.md": "676743b065a4c51ed255460f9887cd84105c1fc6b809d6208a5eb729986cfa6f",

@@ -1,3 +1,5 @@
+> **GitHub 交付版补充（2026-10-25）：** 下文保留历史研究交接内容。跨目录加载现已增加审计路径映射，并通过冻结验证预测重放；安装、迁移与运行命令以 [仓库 README](README.md) 和 [复现指南](docs/REPRODUCIBILITY.md) 为准。文中旧的“尚无跨机器迁移工具”描述属于当时状态。原版全文已保存在 `archive/original_sources_and_docs.zip`。
+
 # 第二组交接：线性 RC＋非线性 RC 特征融合
 
 交接编号：DSP-G2-20261017-FINAL。更新日期：2026-10-17；替代DSP-G2-20261016-01，旧版见[归档](document_history/2026-10-17_before_phase5_consolidation/GROUP2_HANDOFF.md)。状态：材料已核对，供团队接手；未创建新任务、未对外发送。项目根目录 `/Users/oliver/Desktop/DSP`，本目录不是Git仓库。交接范围为现有代码、结果、复现入口和待确认问题；不授权覆盖历史结果或继续参数搜索。

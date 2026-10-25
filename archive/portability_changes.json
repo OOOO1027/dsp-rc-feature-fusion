@@ -1,8 +1,8 @@
 {
   "GROUP2_HANDOFF.md": {
     "original_sha256": "97571ce161e18b4b84f31f962d7311eaadc3609eed8542336e54d7fc929092ea",
-    "delivered_sha256": "5fe2186288f4b3386f30b859f998559ca4b097ce3ae10e812aaa7c9ac47c7b94",
-    "reason": "GitHub-relative documentation links only"
+    "delivered_sha256": "a46ba7d1026d0b3793d03f52a82ee7ccef756f07f827557a1125faa1b0ff57da",
+    "reason": "GitHub-relative links and explicit portability status addendum; original archived"
   },
   "NEXT_EXPERIMENT_FEASIBILITY.md": {
     "original_sha256": "968414fc7966983763bb712b08d9e89dba2be5d25ee4a9157e92bcd99528b481",
