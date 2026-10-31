@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "illegal preserved",
+    "decoder switching distinction",
+    "four cells",
+    "zero bootstrap"
+  ],
+  "scored_symbols": 9744,
+  "scored_global_ids_zero_based": [
+    10128,
+    19871
+  ],
+  "reproduced_existing_metrics": 27,
+  "ideal_validation_decodes_exactly": true,
+  "test_prediction_files_read": false,
+  "test_metrics_computed": false,
+  "model_fits": 0,
+  "initial_reader_incident": "Failed preliminary line-based reference reader read the shared single-line PAM4_1 label container including its test suffix as text, but parsed no labels and computed no test metric. Replaced by unbuffered token streaming stopping at symbol 20000. See REPORT boundary disclosure.",
+  "oracle_is_not_deployable": true,
+  "seed_replication_available": false,
+  "source_sha256": {
+    "rc_baseline/runs/validation_complementarity_20261030/protocol.json": "7cf060d47bc1d21838dc1e2bba6e4ab23bfa80daffd7dda4634b484ac7b45518",
+    "rc_baseline/runs/validation_complementarity_20261030/analyze.py": "60a67157fb82c872f1e16496aa89f5bfbde408b8ececa1f215a5d261da22d2f9",
+    "rc_baseline/runs/validation_complementarity_20261030/write_report.py": "74f9fa2ff7660215c1d174b0d09d9b7ba6d578ee7ad94b623f75cebb9e944042",
+    "rc_baseline/src/dsp_rc/core.py": "8df92282d36addd6c2886a285ab6879d78aaa5218fd5c9dd329c97967d4cfaa9"
+  }
+}

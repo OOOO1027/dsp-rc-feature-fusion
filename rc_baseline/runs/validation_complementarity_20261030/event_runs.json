@@ -1,0 +1,74 @@
+[
+  {
+    "channel": "rx1",
+    "event": "nonlinear_rescue",
+    "events": 38,
+    "max_length": 2,
+    "median_length": 1.0,
+    "singleton_events": 28
+  },
+  {
+    "channel": "rx1",
+    "event": "linear_rescue",
+    "events": 47,
+    "max_length": 3,
+    "median_length": 1.0,
+    "singleton_events": 29
+  },
+  {
+    "channel": "rx1",
+    "event": "both_wrong",
+    "events": 416,
+    "max_length": 7,
+    "median_length": 2.0,
+    "singleton_events": 195
+  },
+  {
+    "channel": "rx2",
+    "event": "nonlinear_rescue",
+    "events": 63,
+    "max_length": 2,
+    "median_length": 1.0,
+    "singleton_events": 38
+  },
+  {
+    "channel": "rx2",
+    "event": "linear_rescue",
+    "events": 69,
+    "max_length": 2,
+    "median_length": 1.0,
+    "singleton_events": 39
+  },
+  {
+    "channel": "rx2",
+    "event": "both_wrong",
+    "events": 488,
+    "max_length": 5,
+    "median_length": 2.0,
+    "singleton_events": 234
+  },
+  {
+    "channel": "xy",
+    "event": "nonlinear_rescue",
+    "events": 23,
+    "max_length": 2,
+    "median_length": 1.0,
+    "singleton_events": 12
+  },
+  {
+    "channel": "xy",
+    "event": "linear_rescue",
+    "events": 22,
+    "max_length": 2,
+    "median_length": 1.0,
+    "singleton_events": 14
+  },
+  {
+    "channel": "xy",
+    "event": "both_wrong",
+    "events": 165,
+    "max_length": 4,
+    "median_length": 2.0,
+    "singleton_events": 73
+  }
+]

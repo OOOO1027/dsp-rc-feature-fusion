@@ -1,0 +1,128 @@
+[
+  {
+    "channel": "rx1",
+    "feature": "received_amplitude",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 114,
+    "auc_higher_feature_predicts_rescue": 0.5091540404040404,
+    "bin_edges": [
+      0.49188131983939254,
+      0.7642416011572833,
+      0.986303537758605,
+      1.2833026160371526
+    ]
+  },
+  {
+    "channel": "rx1",
+    "feature": "received_first_difference",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 114,
+    "auc_higher_feature_predicts_rescue": 0.5467171717171717,
+    "bin_edges": [
+      0.4376941387506109,
+      0.6433832161186089,
+      0.8419119586452123,
+      1.0782541803817505
+    ]
+  },
+  {
+    "channel": "rx1",
+    "feature": "linear_margin_current_and_previous",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 114,
+    "auc_higher_feature_predicts_rescue": 0.4996843434343434,
+    "bin_edges": [
+      0.3511863210280633,
+      0.6610520526344481,
+      0.9273949211416855,
+      1.206870896674099
+    ]
+  },
+  {
+    "channel": "rx2",
+    "feature": "received_amplitude",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 187,
+    "auc_higher_feature_predicts_rescue": 0.49609733700642794,
+    "bin_edges": [
+      0.4990805158420546,
+      0.7496791030520645,
+      0.9879358013770089,
+      1.2841516651477964
+    ]
+  },
+  {
+    "channel": "rx2",
+    "feature": "received_first_difference",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 187,
+    "auc_higher_feature_predicts_rescue": 0.5222681359044995,
+    "bin_edges": [
+      0.5102322945102498,
+      0.7473912182402375,
+      0.9591287231711786,
+      1.2161429817386293
+    ]
+  },
+  {
+    "channel": "rx2",
+    "feature": "linear_margin_current_and_previous",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 187,
+    "auc_higher_feature_predicts_rescue": 0.47107438016528924,
+    "bin_edges": [
+      0.3164987924154552,
+      0.5917877646878003,
+      0.8711626523840117,
+      1.1498674944857683
+    ]
+  },
+  {
+    "channel": "xy",
+    "feature": "received_amplitude",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 64,
+    "auc_higher_feature_predicts_rescue": 0.4980392156862745,
+    "bin_edges": [
+      0.48960139883268916,
+      0.7441698506580638,
+      0.9635102011662364,
+      1.2614688544943033
+    ]
+  },
+  {
+    "channel": "xy",
+    "feature": "received_first_difference",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 64,
+    "auc_higher_feature_predicts_rescue": 0.41862745098039217,
+    "bin_edges": [
+      0.470186067814715,
+      0.6705802767736154,
+      0.8670090529049885,
+      1.0925989017695672
+    ]
+  },
+  {
+    "channel": "xy",
+    "feature": "linear_margin_current_and_previous",
+    "positive": "nonlinear_rescues_linear",
+    "population": "exactly_one_branch_correct",
+    "n": 64,
+    "auc_higher_feature_predicts_rescue": 0.4137254901960784,
+    "bin_edges": [
+      0.5682847807998019,
+      0.8641911333822844,
+      1.0935024925876409,
+      1.332186954617851
+    ]
+  }
+]
