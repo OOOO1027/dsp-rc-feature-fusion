@@ -1,0 +1,282 @@
+[
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear80_low_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "33499c931a802cdfacdaad39e388377edb26abb34cb69f53e848b3c5e1c5afbc"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear80_low_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "3b04c6c9176625da6a558a2ba5820aae3a189da65c2bdb7e1c6c138c3e3a1a18"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear80_low_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "dc6c8ffbd0265c99de061c18b86c6836b01d3f49f2c4995e3c90962ef4ba21bc"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh80_low_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "f117d025c8276ff90d4504f1014c394387ddf086b43e6eaef0cad7263a0dc928"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh80_low_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "b60703184c8445b775d512d6acfb1464df3097d90b81fbf4ba3fa86c20f93b4a"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh80_low_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "962e2b863f463015118d40b2e82eb1328341433bb44c3f305954fa1362b5c8f7"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear160_low_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "2599000cd3d43c23883b57378cc14dfae5c8c0b6ec45e68c7e14b6b6a73f60ab"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear160_low_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "ab6ef8bbca15f3b56fa771771cbffd98b51feefb5a4c53e23789b40d1066e0e4"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear160_low_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "a8efd6d7f0fb5b307fe7469d8820571790fbbebc6d9899d9795773fccfd76cd2"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh160_low_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "cd864f203624753f5d50cd8bc01fe673819da93b8bc1e6741aeff259393daf9d"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh160_low_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "259afc2e6e9c0eb29f59e14f3942fecea6aee75a50966277dd3cca2015065784"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh160_low_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "63c35f04ccd1488c44657ac0e873042e88232dd20a2ace142d8fa65c8ef083de"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear80_reg_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "836cfea678c056e6f1ae55907688cf87a62f49f15a7ae1d2fd73934b2bd14700"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear80_reg_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "c3461a1a22a3462bb4451558d52a31c7323e6b2741e5625930a9c86d640e614a"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "linear80_reg_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "90255af41cf03df1bcf779229c92a94a31d80a6a9fb6a86474bbe42076740345"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh80_reg_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "4f22d2b04278b2cffc1c8e474633c5f6b71bec62e03204e3dd0e1820adf3d775"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh80_reg_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "a8e0d7fb94eecadd61c444dc6390c766a838ab25bba22b83fddb56b50f5e9d08"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "tanh80_reg_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "5a0a1dfa1420259f0de3824f2c51d52fccf8e66fcd1777d04bbf3f1f3a3da168"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "ridge_low_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "51c680a179d7132b079a0cd36cda1a9c7e615967d570ef09795f7e4c3bc3e436"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "ridge_low_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "e6435822260c7670ab51b0bd7987edf4baf431a6949b252f9e90ec6b02c4ba90"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "ridge_low_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "23fb8879474080cccc777c6685bfd3955ce5da56b040c52c9d2d60ec06aa706e"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "dual40_low_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "b064f4b9d43c97bc48fa7eb58bc442415eca8c4aa993af28fff203cee65b69ec"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "dual40_low_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "a312bb5a4ec5d256aefc35febd6a5470761e4e07f5587076c37ffb190ed7b9c5"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "dual40_low_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "e5695f81efb47f4ac37f70ff7ad2db1a758c8876286fb2c05b6349c45f4c12f1"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "dual40_reg_rx1",
+    "shape": [
+      10000
+    ],
+    "sha256": "b0b4b1ac0f3b828ef2f804561de2d4fa27a8e593aa3c9f89b66c7254bc053656"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "dual40_reg_rx2",
+    "shape": [
+      10000
+    ],
+    "sha256": "3d17236fe73288fff1803ce36cabf4bca7422339d09d39287ff453604f5f5e16"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "dual40_reg_xy",
+    "shape": [
+      10000
+    ],
+    "sha256": "677e103742f1a912606100d8c2c1c6cdbb5393bae3a5e03a0957a04366398742"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "mask",
+    "shape": [
+      10000
+    ],
+    "sha256": "dde9086ad2dd3264a7a681943a2367f477b21f0f8da03c209722b2636cf07c95"
+  },
+  {
+    "path": "rc_baseline/runs/phase3_feature_fusion/validation_predictions.npz",
+    "member": "symbol_ids",
+    "shape": [
+      10000
+    ],
+    "sha256": "b522ea272aa44a6bc624dcd8f46ad90ca491ad241caead8303e7c5bef48d420d"
+  },
+  {
+    "path": "rc_baseline/runs/phase4_residual_fusion/residual_diagnostics_arrays.npz",
+    "member": "ideal_validation",
+    "shape": [
+      10000
+    ],
+    "sha256": "d7e581cf340abba3f65e79bf5e34e64b5d5c7a5a1d514f99cc5ebd5bd558c9ca"
+  },
+  {
+    "path": "rc_baseline/runs/phase4_residual_fusion/residual_diagnostics_arrays.npz",
+    "member": "rx1_validation_input",
+    "shape": [
+      10000
+    ],
+    "sha256": "1637c709582ccf5221ce41e322d44acebdc6963cdd091406e8fdc4a0c36e315d"
+  },
+  {
+    "path": "rc_baseline/runs/phase4_residual_fusion/residual_diagnostics_arrays.npz",
+    "member": "rx2_validation_input",
+    "shape": [
+      10000
+    ],
+    "sha256": "3c16771c321ffc41b31bbc8488f39f9071265628a095ca258118132ef4e9400b"
+  },
+  {
+    "path": "rc_baseline/runs/phase4_residual_fusion/residual_diagnostics_arrays.npz",
+    "member": "mask",
+    "shape": [
+      10000
+    ],
+    "sha256": "dde9086ad2dd3264a7a681943a2367f477b21f0f8da03c209722b2636cf07c95"
+  },
+  {
+    "path": "NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+    "rows_zero_based": [
+      10000,
+      20000
+    ],
+    "sha256": "12be8a4fa903126ff680272d79d954b6eeef6a67d13b0c6d678472e853a8ce96"
+  },
+  {
+    "path": "NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+    "rows_zero_based": [
+      10000,
+      20000
+    ],
+    "sha256": "d0c18f208804a743318bfce6847bfa027877183e41a56807fd9d8c8c626322a4"
+  }
+]

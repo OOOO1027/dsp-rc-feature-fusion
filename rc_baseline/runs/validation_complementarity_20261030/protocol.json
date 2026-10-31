@@ -1,0 +1,18 @@
+{
+  "scope": "Read saved validation predictions only; no fitting, tuning, test reads, or raw RX preprocessing",
+  "index": 509,
+  "validation_global_ids_zero_based": [10000, 20000],
+  "guard_each_side": 128,
+  "primary_pair": ["linear80_low", "tanh80_low"],
+  "fixed_sensitivity_pairs": [["linear160_low", "tanh160_low"], ["linear80_reg", "tanh80_reg"]],
+  "context_predictions": ["ridge_low", "dual40_low", "dual40_reg"],
+  "channels": ["rx1", "rx2", "xy"],
+  "primary_endpoint": "post-NLTCP full PAM4 pair correctness; invalid decisions always wrong; also predecoder complex PAM6 symbol correctness",
+  "metrics": ["four-cell table", "error overlap", "decoded PAM4 component errors", "BER lower/upper/auto and illegal rate", "output residual correlation", "256/512-symbol paired moving-block bootstrap", "run lengths", "fixed descriptive strata"],
+  "bootstrap": {"seed": 20261030, "draws": 2000, "blocks": [256, 512]},
+  "strata": ["validation-time quartiles", "received amplitude quintiles", "received first-difference magnitude quintiles", "linear-output decision-margin quintiles", "ideal constellation points"],
+  "strata_policy": "Validation quantiles are descriptive only, never used to train/select a gate or threshold. All bins reported. Ideal regions are label-based explanations, not deployment inputs.",
+  "oracle": "Pointwise choice between already independently decoded branch outputs is truth-assisted diagnostic only. No switching/redecoding or reported deployed oracle BER; NLTCP previous-state dependence prevents equating it to predecoder switching.",
+  "decision": "Assess nonzero mutual rescue, prevalence relative to errors and persistence across blocks/channels. Such potential alone does not justify a new architecture. Recommend new training only if observable descriptive patterns give a specific credible hypothesis; do not select models or gates from these reused validation data.",
+  "limitations": ["Historical repeatedly used validation set", "single acquisition/payload", "one seed for each branch per matched pair", "same current 115-symbol window and leak; cannot directly measure a new long-memory/short-nonlinearity architecture"]
+}
