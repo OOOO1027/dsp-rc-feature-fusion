@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-19T01:06:31.270009+00:00",
+  "selected": {
+    "name": "dftap_K16_crossfit_past_future",
+    "family": "DF-tap",
+    "K": 16,
+    "train_feedback": "crossfit",
+    "span": "past+future",
+    "feedback_from": "per_channel",
+    "ridge": 1e-05
+  },
+  "code_sha256": {
+    "rc_baseline/decision_feedback/dfe.py": "710fab933a90e6d271638c4d6229f1bf671a94709b149ea6171843f184df90a7",
+    "rc_baseline/decision_feedback/experiment.py": "82c5184ac5f78209f53ccf72940b4bef0d2be665621a47b17084cfebb113789c",
+    "rc_baseline/decision_feedback/test_dfe.py": "65308bcd7d20e164b0d0f03f817dbe8915e82c7d64f7007ae380c202920a7874",
+    "rc_baseline/src/dsp_rc/__init__.py": "02479a19e2b75509807990c6a543c89c138c607a250386d3f51307981e1b62d4",
+    "rc_baseline/src/dsp_rc/core.py": "8df92282d36addd6c2886a285ab6879d78aaa5218fd5c9dd329c97967d4cfaa9",
+    "rc_baseline/src/dsp_rc/experiment.py": "2b85576421155416673963c28d79203ae808240a615d5dea41df0056f9e0b78e",
+    "rc_baseline/src/dsp_rc/fusion.py": "02a19ea99f836821c8e5b198f4920296ea138ef50371fe108f548bbdebd5f46f",
+    "rc_baseline/src/dsp_rc/parity.py": "550db7178abfba559682aa9c2cb773033776249f2160001db6c6fe4ecef1720b",
+    "rc_baseline/src/dsp_rc/phase2.py": "ab32dcb52b756b4184d86f1703769575cb9fe664a505e4b7d224a3653e9f757e",
+    "rc_baseline/src/dsp_rc/phase2_report.py": "babcaef1e34ba890446e8c14217499a8d24073c3e032be70f81b494b50a5071c",
+    "rc_baseline/src/dsp_rc/phase3.py": "73ef4c0e1ebf5866a1b10db48a6f935d1ad1cfff4c5984f602d9e959e95eca5e",
+    "rc_baseline/src/dsp_rc/phase3_numerics.py": "15f330cda6231d615a0ca9a23764d9593cf48a5d42a310e785b1bcca8cda03ae",
+    "rc_baseline/src/dsp_rc/phase3_report.py": "d9ce1c2e770dc8f6437d05c4d7ac5ecca17f16e7df29b702ec3792f4ac87fdab",
+    "rc_baseline/src/dsp_rc/phase4.py": "c0cf90f57b11d13041494ea8234d0ff6894686cba88bf72c00770ac4f1a12285",
+    "rc_baseline/src/dsp_rc/phase4_diagnostics.py": "9e573ffc4b419ae4f7a4e0e1c5c3e00c99c8b072c5e47c46fe24589e36d4daa1",
+    "rc_baseline/src/dsp_rc/phase4_report.py": "f4c0fbdf63981f0d38937a63b0d02efde3b57986e9fa1f50451ecf866c300492",
+    "rc_baseline/src/dsp_rc/phase4_verify.py": "8aa14703912968efb28696e874d1e0c9af522f4c7733c00a13e3113bdc1fb058",
+    "rc_baseline/src/dsp_rc/residual_fusion.py": "285bf9f2c88933d40d916ca548d422a3a1369e8349152ccec8423141f3593ffd",
+    "rc_baseline/src/dsp_rc/summarize.py": "e63782fc7212ce87c0fbefff1c51471217281755b2de055780916cbbcb94d0b2"
+  },
+  "protocol_freeze": {
+    "utc": "2026-11-19T01:03:07.345363+00:00",
+    "PROTOCOL.md": "c3e50729651acad09aedd93fd04a318735324d70cb36234a69240eb49c636316",
+    "protocol.json": "4acee1eab447c1fb04d06d2f1ff5c861347550a8383fcc4d6f93b3f5b2a41b45",
+    "approved_by": "Oliver in chat (2026-11-18: 冻结并实现)"
+  },
+  "input_manifest_sha256": "2b29639c63c739424decdf584f11cdcb0a103ce2cf9f039ee6ea42c615c7c7bd",
+  "validation_results_sha256": "8cc50f2ee806b567b5efd92d93dece36fb911c1dc7cca8dc7f5ac18006fba5eb",
+  "test_indices": [
+    509,
+    513,
+    517,
+    519,
+    523,
+    528,
+    529,
+    533,
+    535,
+    382
+  ]
+}

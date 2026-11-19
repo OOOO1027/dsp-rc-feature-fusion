@@ -1,0 +1,11 @@
+test_crossfit_block_ignores_own_labels (test_dfe.TestFeatures.test_crossfit_block_ignores_own_labels) ... ok
+test_reservoir_feedback_is_causal (test_dfe.TestFeatures.test_reservoir_feedback_is_causal) ... ok
+test_shift_directions (test_dfe.TestFeatures.test_shift_directions) ... ok
+test_first_tokens_matches_prefix (test_dfe.TestLabelReader.test_first_tokens_matches_prefix) ... ok
+test_never_illegal_and_not_worse_than_symbolwise (test_dfe.TestViterbi.test_never_illegal_and_not_worse_than_symbolwise) ... ok
+test_noiseless_is_error_free (test_dfe.TestViterbi.test_noiseless_is_error_free) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.107s
+
+OK

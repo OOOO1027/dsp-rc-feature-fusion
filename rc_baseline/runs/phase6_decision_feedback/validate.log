@@ -1,0 +1,2 @@
+selected dftap_K16_crossfit_past_future gate True {'a_xy_relative_reduction': 0.4039087947882737, 'a_pass': True, 'b_pass': True, 'c_pass': True}
+H3 {'reference_tap': 'dftap_K8_crossfit_past', 'dfrc40_identity_crossfit': False, 'dfrc40_tanh_crossfit': False, 'supported_any': False}
