@@ -1,0 +1,19 @@
+509 done 15s   
+513 done 14s   
+517 done 15s   
+519 done 15s   
+523 done 14s   
+528 done 14s   
+529 done 14s   
+533 done 14s   
+535 done 7s   
+382 done 7s  guard fired: ['rx1']
+F40g_posterior_mean_nopoly   median  -46.8%  wins 10/10  fresh  -52.8%  worst   -17.6%
+F40g_hard_nopoly             median  -42.0%  wins 10/10  fresh  -47.6%  worst   -17.1%
+F40g_posterior_mean_poly     median  -39.4%  wins 10/10  fresh  -52.8%  worst   -19.4%
+F40g_hard_poly               median  -35.5%  wins 10/10  fresh  -45.3%  worst   -18.6%
+F10k_posterior_mean_nopoly   median   -7.1%  wins 8/10  fresh   -7.6%  worst    +1.8%
+F10k_posterior_mean_poly     median   -6.3%  wins 10/10  fresh   -7.8%  worst    -1.6%
+F10k_hard_poly               median   -2.2%  wins 8/10  fresh   -2.0%  worst    +5.7%
+F10k_hard_nopoly             median   +0.0%  wins 0/10  fresh   +0.0%  worst    +0.0%
+selected F40g_posterior_mean_nopoly gate {'a_median_rel_change': -0.4680169750971058, 'a_pass': True, 'b_wins': 10, 'b_pass': True, 'c_fresh_median_rel_change': -0.5283018867924528, 'c_pass': True, 'd_worst_rel_change': -0.17606497088568807, 'd_pass': True, 'pass': True}

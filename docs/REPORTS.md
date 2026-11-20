@@ -23,3 +23,10 @@
 - [报告：结果、测试表、结论边界](../rc_baseline/runs/phase6_decision_feedback/REPORT.md)
 - [冻结协议](../rc_baseline/runs/phase6_decision_feedback/PROTOCOL.md)、[偏离记录](../rc_baseline/runs/phase6_decision_feedback/deviations.md)
 - [代码与运行说明](../rc_baseline/decision_feedback/README.md)
+
+## Phase 7 / 7b：前端全量训练 × 软反馈 × 局部非线性分支（2026-11-20）
+
+- [Phase 7b 报告：27 个从未评分过的新工况上的确认结果](../rc_baseline/runs/phase7b_guarded_frontend/REPORT.md)
+- [Phase 7b 冻结协议](../rc_baseline/runs/phase7b_guarded_frontend/PROTOCOL.md)
+- [Phase 7 停止记录](../rc_baseline/runs/phase7_frontend_softfeedback/STATUS.md)、[382 前端发散诊断](../rc_baseline/runs/phase7_frontend_softfeedback/ANOMALY_382.md)
+- [代码与运行说明](../rc_baseline/phase7b/README.md)

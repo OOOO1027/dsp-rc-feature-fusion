@@ -1,0 +1,964 @@
+{
+  "509": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP509.txt",
+      "sha256": "e0474b4d48bb25aaf69de058ee06745d2c7210b43af39fa914dfb2d639361a1b"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP509.txt",
+      "sha256": "14802f61fd12c4cf3f9eceaf9421b08bf650b9da30ae64ef9dc9041288326b8b"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "513": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP513.txt",
+      "sha256": "3ebd5ebf60af8585948c9a363cb133f8332ab39c0ac9d8b145977c8ae82c8644"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP513.txt",
+      "sha256": "ab3a7f1c4888939284e96c371c9e6eaa3e2f71b65d5585ca953e5405e29dfa1c"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "517": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP517.txt",
+      "sha256": "88689fed6259bb9b9ab3d319c7f9ba3341598f5f6a56c992f50d9c945d0d34c8"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP517.txt",
+      "sha256": "172bf1e9e1111c2b1607b517284c47765291ec91752f6d6d6ec02a9578e24a74"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "519": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP519.txt",
+      "sha256": "9c729c747eddbd2446d506aceece03bcacf8d4d685dc138b8da27409dd47a14d"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP519.txt",
+      "sha256": "87da5035d2b55e195feb3472fb6e6c83bf497f35ad26f5f09959fb966279204b"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "523": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP523.txt",
+      "sha256": "7a0d647f9a60834b737d46dbb80769b99f2c802ab20e27e97a2dba13acba8cea"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP523.txt",
+      "sha256": "fc69aa3e4f09818f6e31ae1c81835bce9f749104a15f868cf6452970a5c3eab9"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "528": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP528.txt",
+      "sha256": "a5d55b5072495030a381b093c94c59f6d65ae8886afb146a85a499ca15bab9dc"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP528.txt",
+      "sha256": "131d075ec7ca6da90f26d04324293fb502117d6e66c3b693721293e9f3ee16ff"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "529": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP529.txt",
+      "sha256": "0daa29d58a607ad83ce6f9bc7e0fce426d2e3b18a348b9abe0d6dbcbaf90710e"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP529.txt",
+      "sha256": "ebc9db3d3c438c49b1d8cd34468b92e4325c9d678871ee60b2499a4441bbec3c"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "533": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP533.txt",
+      "sha256": "cf1647a501b7a698f0fab56d6ef011b895396bbd1a07a5a0c1f097bd856e743b"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP533.txt",
+      "sha256": "8fe1fd360b26f41b52000889a0453af78a6fb586884a55483c2140ad22eadbab"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "535": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP535.txt",
+      "sha256": "ea013214f0f9fede9cf99b974494fa67c81311aa2719518f767f217aae4bad62"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP535.txt",
+      "sha256": "1c95d599c3dfcc91166c8eafb8ad506764a3510971dc033025635826107e6afc"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "382": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP382.txt",
+      "sha256": "957bc91d24834a99028d8c8c5f517d5e05abf3d83b2b6df924baec733480a295"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP382.txt",
+      "sha256": "5477053c2fbceefdbdcd292aeae10208108682240b228df4e4de9a74b7969d25"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "464": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP464.txt",
+      "sha256": "b5261057b85f1fef503c828d580b1f2e8376c06801d94005a8bdb6d268aee38d"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP464.txt",
+      "sha256": "e0528d6667ebcc4a45bba744903db87007841f221e91dea7bd49eadca4487524"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "465": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP465.txt",
+      "sha256": "b17893a353fd2dda7d603f7b0c676846c16dbed2e3f7caf0233ad72e23753661"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP465.txt",
+      "sha256": "8b98730eaac1d5c728dba143fad8528a590555a4530b0f2aecbbe038df89ac82"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "468": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP468.txt",
+      "sha256": "7302676cab84a918c9511c2f5cb02977be41ae94ccb560ef29c2a8f3d995b3e0"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP468.txt",
+      "sha256": "6c27a6235acb30b2f0de4bc4256796c859cec533d93ab7ea64fc2dbd7cb1b173"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "471": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP471.txt",
+      "sha256": "4108c4feabca182a0b3ffe9790edd9b7d2a293cc30f8a206e05960ed58dc522d"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP471.txt",
+      "sha256": "021dc913ef5dcca251a954bf75f81a07ec4a1193a88cf88fc2ae33816521d529"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "473": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP473.txt",
+      "sha256": "3d3179d5c28a70f06c6a33dbdc617eae3d75cc2dd1f860017550c339e56674b0"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP473.txt",
+      "sha256": "5e2110ce1ec833e7d1652697bd6b089a64b9fb7bb01230e453bf34d54512c8cb"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "477": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP477.txt",
+      "sha256": "2e4df6da396a4bb157554c1ea5c5dbe2412f0fc03a82490bef47ae062c3e075b"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP477.txt",
+      "sha256": "47868f13b80952f018fcbda9eba43f0f32052ebb2bc20c3addc9af2a174e7354"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "478": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP478.txt",
+      "sha256": "68bbbb20a10dbd77ff57fdfb7034d9f42c05d5d7bb88cfb66eba5393083cad4a"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP478.txt",
+      "sha256": "7711581d2386fa0ce55844f2bed69eb6db11793d9e4e4b8cdc4039db786a615c"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "482": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP482.txt",
+      "sha256": "f614fe264fb288fd45e70a363735b28e09ca5dfca95b738cb6ba0ecd4df1319a"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP482.txt",
+      "sha256": "b9c94182ffd2f4ff734645cfc5ecf775522e548fdb999cf6edf2aae0cd09af1e"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "487": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP487.txt",
+      "sha256": "822541b7c90bcb9adbd943a269fc6e5fd2953e1840fa13b38097861efb138f8d"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP487.txt",
+      "sha256": "d5c02022c2b36ef5859ae16bd77b5579e5f87c3e104f33adc14bb0f4286ff242"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "422": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP422.txt",
+      "sha256": "151faf45c86155a985ee3007808eab86e4448ba58b5665dbe897b6754e6e7ae3"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP422.txt",
+      "sha256": "d488f55e48c3c53d65e0697383da920a26d6c96380c9eb4c5af4b2679161dc82"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "424": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP424.txt",
+      "sha256": "2f42250d228b92c84e185bde281afec36c0ce05a46dcb00c5643da7a81458740"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP424.txt",
+      "sha256": "7e241c8427c9c9d337d87508956e93d76e9ab75e33b933e07a09231aab3aa5ff"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "433": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP433.txt",
+      "sha256": "f791e57fc4b760f9c5bf66e534b0d8c1cdc0ffaad8769e81822bc29286e3eb77"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP433.txt",
+      "sha256": "b1e2dc05248d8937459ceb589733eb1122f6e68454c3525a8ed7f73ef2ef0f15"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "435": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP435.txt",
+      "sha256": "2ac37cbff360d15f8a234bab30ff9f75d6d8482e4539156a8e6ec40481e80d23"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP435.txt",
+      "sha256": "7c2820cf852811a5053f2837dfc1686293113005583eda95d4ba1204962ff69d"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "439": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP439.txt",
+      "sha256": "4989e4b4c9ac8f88a900244c1242806bf1e4696e32a493de5d8d3066ffca9a5d"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP439.txt",
+      "sha256": "32c33c97da48f266c31f91d6a56b1f015432fda923c02f98e4e6b7df8069882e"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "445": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP445.txt",
+      "sha256": "dca0997d1125877010a9010b6d24c30afd105273573a0e3bad4a8690045fe176"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP445.txt",
+      "sha256": "fd0ac8158f5099cf4c91aa44584a15063ab693bcb66f203a011df99ca7de5822"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "447": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP447.txt",
+      "sha256": "fcc8415c3441d57d78422d090095610e36542ca4183f10f4336794ac7e482acf"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP447.txt",
+      "sha256": "7a37a8266c7bf3c3e1e1302d857e1a9d5f6ee790ba36a809b9eb8f354d909b5c"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "451": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP451.txt",
+      "sha256": "66052871410276ea186daf6afa15962c9111f84059fb53e5ad0f6d59e0336ccc"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP451.txt",
+      "sha256": "42d5890c540d423c4b61c84b7fc423dad6875ac24356702abab366ff22855141"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "453": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP453.txt",
+      "sha256": "1696d420fb53646b6bd2ff434469e2a1edf26176d784ed4dfc82df3a7da8cd5d"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP453.txt",
+      "sha256": "53ac5751a7bbd3670c777dff66cc7c9b85454b1980819a52fe6acef2a1a3440e"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "542": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP542.txt",
+      "sha256": "34487ef7901e179ad2808d8434e9562b109904aaebdf37ccf121b4e6a6f322de"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP542.txt",
+      "sha256": "64d87d964330e6d52ff6eab527b3aae5872d29081870c8a0388377eef3433ab9"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "545": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP545.txt",
+      "sha256": "7d373b28c97f21327c564d8743ba146ca40a01b06b8e4f037557836484fcfe73"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP545.txt",
+      "sha256": "bfcfd916e30716781dea746b3fec9bf830b49db73c562df095eb362ec1d6807f"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "547": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP547.txt",
+      "sha256": "ba32287547e4fe4fd363cb65ee1ec91c71d8b80879ada941bca79503ed688023"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP547.txt",
+      "sha256": "113e1e65fbf885baacdbd19be87b666db6a3fa7190f7fe8d3c8a170cb7b07688"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "551": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP551.txt",
+      "sha256": "aa2ae064c18f822a58cf6192835d22ff5b1bab18d84abec32de5fb6c9b6f4a97"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP551.txt",
+      "sha256": "d62afb18e4a1611e6baf502f83acb3ffafeff3de9fe54c541edbd016b55fae2f"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "555": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP555.txt",
+      "sha256": "a88d3decc7a1d8bb93288c00b6160e1b243d3cd721cd0cf5343035d82afb9993"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP555.txt",
+      "sha256": "b37dc606ca70a872926d569e83bbf5722f336735c4b13fa8f3c6021331bac10d"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "560": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP560.txt",
+      "sha256": "60d3748bc93008ba2552681c1af7b29ed91d0a4e33c22a340da1a73330553e74"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP560.txt",
+      "sha256": "094a486d038a9ccb1f114bc67597bb8790882844a127581a66b229f4362ba2a7"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "563": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP563.txt",
+      "sha256": "a423a0d21ba601ed2609d350575db3c9eaf632dfbb197fbb3068177a4c7d21ef"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP563.txt",
+      "sha256": "0e99fee7d25586168a8ac2d38f3c51a13b84ade6faf8732e247f499babe96ac8"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "565": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP565.txt",
+      "sha256": "1c2c5e097d04317a41ba9786ddae54ecdb1118e1eadf374ea082f5e00a64a0de"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP565.txt",
+      "sha256": "8332c8cffdc63e531e9f9752af3d052024297f02b0cefaa870720eafe28c32c0"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  },
+  "569": {
+    "rx1": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP569.txt",
+      "sha256": "0a7fc114e343e99a7b2eb7d1db875fd8451be99d9f0313782ab8419eac18799a"
+    },
+    "rx2": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP569.txt",
+      "sha256": "dd2474b86ee909969748129208626f8e76e4b35b61f21367efc1f27781651555"
+    },
+    "i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+      "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+    },
+    "q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+      "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+    },
+    "pam_i": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+      "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+    },
+    "pam_q": {
+      "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+      "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+    }
+  }
+}

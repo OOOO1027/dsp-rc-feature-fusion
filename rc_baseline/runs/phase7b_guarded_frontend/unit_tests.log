@@ -1,0 +1,12 @@
+test_confirm_cannot_open_reserve (test_p7b.TestAccess.test_confirm_cannot_open_reserve) ... ok
+test_develop_cannot_open_confirmation_or_reserve (test_p7b.TestAccess.test_develop_cannot_open_confirmation_or_reserve) ... ok
+test_sets_disjoint (test_p7b.TestAccess.test_sets_disjoint) ... ok
+test_fires_on_diverge_then_recover (test_p7b.TestGuard.test_fires_on_diverge_then_recover) ... ok
+test_nonfinite_is_infinite_ratio (test_p7b.TestGuard.test_nonfinite_is_infinite_ratio) ... ok
+test_quiet_on_stationary_and_converging (test_p7b.TestGuard.test_quiet_on_stationary_and_converging) ... ok
+test_382_rx1_fires_rx2_not_and_fallback_hash (test_p7b.TestReal382.test_382_rx1_fires_rx2_not_and_fallback_hash) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.504s
+
+OK

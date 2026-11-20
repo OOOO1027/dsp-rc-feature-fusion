@@ -1,0 +1,132 @@
+{
+  "509": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.6576517161547728,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.1904622631065125,
+        "guard_fired": false
+      }
+    }
+  },
+  "513": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.7743133639554507,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.2837657950902166,
+        "guard_fired": false
+      }
+    }
+  },
+  "517": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.6323837965573045,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.2755770914485964,
+        "guard_fired": false
+      }
+    }
+  },
+  "519": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.583418440642271,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.2497348759299804,
+        "guard_fired": false
+      }
+    }
+  },
+  "523": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.5318961841810914,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.2928103720575563,
+        "guard_fired": false
+      }
+    }
+  },
+  "528": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.494939851954748,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.2884445854036244,
+        "guard_fired": false
+      }
+    }
+  },
+  "529": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.4577269484845878,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.3114109528589684,
+        "guard_fired": false
+      }
+    }
+  },
+  "533": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.4850577932368534,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.340926234825212,
+        "guard_fired": false
+      }
+    }
+  },
+  "535": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 1.4793124129851387,
+        "guard_fired": false
+      },
+      "rx2": {
+        "ratio": 1.3740867862032362,
+        "guard_fired": false
+      }
+    }
+  },
+  "382": {
+    "F10k_refit_matches_saved": true,
+    "F40g": {
+      "rx1": {
+        "ratio": 119928268.46988499,
+        "guard_fired": true
+      },
+      "rx2": {
+        "ratio": 1.2160683794340743,
+        "guard_fired": false
+      }
+    }
+  }
+}
