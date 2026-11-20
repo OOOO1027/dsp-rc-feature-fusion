@@ -1,0 +1,345 @@
+{
+  "phase": 6,
+  "status": "frozen",
+  "frozen_utc": "2026-11-19T01:03:07.345363+00:00",
+  "protocol_md_sha256": "c3e50729651acad09aedd93fd04a318735324d70cb36234a69240eb49c636316",
+  "hypotheses": {
+    "H1": "DF+Viterbi beats ridge115+symbol-by-symbol fixed 2-bit lower bound",
+    "H2": "DF adds beyond Viterbi alone",
+    "H3": "reservoir feedback beats direct K-tap feedback"
+  },
+  "exploratory_disclosure": "index509 validation inspected 2026-11-16..18 with Viterbi and 2-pass DF probes; no test segment touched; validation gate is not confirmatory",
+  "development_index": 509,
+  "splits_0based": {
+    "train": [
+      0,
+      10000
+    ],
+    "validation": [
+      10000,
+      20000
+    ],
+    "test": [
+      20000,
+      51200
+    ]
+  },
+  "guard_symbols": 128,
+  "test_indices": [
+    509,
+    513,
+    517,
+    519,
+    523,
+    528,
+    529,
+    533,
+    535,
+    382
+  ],
+  "test_index_conditions": {
+    "509": "30mA/200mV",
+    "513": "30mA/300mV",
+    "517": "30mA/400mV",
+    "519": "30mA/500mV",
+    "523": "30mA/600mV",
+    "528": "30mA/700mV",
+    "529": "30mA/800mV",
+    "533": "30mA/900mV",
+    "535": "30mA/1000mV",
+    "382": "50mA/200mV"
+  },
+  "test_label": "historical test segments unused for this method; same Tx payload; not a new-payload blind test",
+  "frontends": {
+    "509": "rc_baseline/runs/index509_fixed_v1/model_rx{1,2}.npz",
+    "513": "rc_baseline/runs/phase3_feature_fusion/index513/frontend_rx{1,2}.npz",
+    "382": "rc_baseline/runs/phase3_feature_fusion/index382/frontend_rx{1,2}.npz",
+    "517-535": "~/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index*/frontend_rx{1,2}.npz",
+    "rule": "read-only, sha256 recorded before scoring; mismatch => stop"
+  },
+  "first_pass": {
+    "model": "ridge_low",
+    "taps": 115,
+    "ridge": 1e-05,
+    "decision": "nearest PAM6 level per component in {-5,-3,-1,1,3,5}"
+  },
+  "feedback_scaling": "decided I/Q divided by 5; zero outside segment",
+  "crossfit": {
+    "folds": 5,
+    "contiguous": true,
+    "exclude_guard_each_side": 128
+  },
+  "eval_feedback_source": "first-pass ridge fitted on full training segment; never labels",
+  "xy_combination": "fixed_equal_weights_before_decoding",
+  "candidates": [
+    {
+      "name": "dftap_K2_crossfit_past",
+      "family": "DF-tap",
+      "K": 2,
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K2_crossfit_past_future",
+      "family": "DF-tap",
+      "K": 2,
+      "train_feedback": "crossfit",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K2_teacher_past",
+      "family": "DF-tap",
+      "K": 2,
+      "train_feedback": "teacher",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K2_teacher_past_future",
+      "family": "DF-tap",
+      "K": 2,
+      "train_feedback": "teacher",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K4_crossfit_past",
+      "family": "DF-tap",
+      "K": 4,
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K4_crossfit_past_future",
+      "family": "DF-tap",
+      "K": 4,
+      "train_feedback": "crossfit",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K4_teacher_past",
+      "family": "DF-tap",
+      "K": 4,
+      "train_feedback": "teacher",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K4_teacher_past_future",
+      "family": "DF-tap",
+      "K": 4,
+      "train_feedback": "teacher",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K8_crossfit_past",
+      "family": "DF-tap",
+      "K": 8,
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K8_crossfit_past_future",
+      "family": "DF-tap",
+      "K": 8,
+      "train_feedback": "crossfit",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K8_teacher_past",
+      "family": "DF-tap",
+      "K": 8,
+      "train_feedback": "teacher",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K8_teacher_past_future",
+      "family": "DF-tap",
+      "K": 8,
+      "train_feedback": "teacher",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K16_crossfit_past",
+      "family": "DF-tap",
+      "K": 16,
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K16_crossfit_past_future",
+      "family": "DF-tap",
+      "K": 16,
+      "train_feedback": "crossfit",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K16_teacher_past",
+      "family": "DF-tap",
+      "K": 16,
+      "train_feedback": "teacher",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dftap_K16_teacher_past_future",
+      "family": "DF-tap",
+      "K": 16,
+      "train_feedback": "teacher",
+      "span": "past+future",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dfrc40_identity_crossfit",
+      "family": "DF-RC",
+      "nodes": 40,
+      "activation": "identity",
+      "reservoir": {
+        "operator_norm": 0.6,
+        "leak": 0.7
+      },
+      "seeds": [
+        200,
+        201,
+        202
+      ],
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dfrc40_tanh_crossfit",
+      "family": "DF-RC",
+      "nodes": 40,
+      "activation": "tanh",
+      "reservoir": {
+        "spectral_radius": 0.9,
+        "leak": 0.7
+      },
+      "seeds": [
+        200,
+        201,
+        202
+      ],
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "per_channel",
+      "ridge": 1e-05
+    },
+    {
+      "name": "dfxy_K8_crossfit_past",
+      "family": "DF-XY",
+      "K": 8,
+      "train_feedback": "crossfit",
+      "span": "past",
+      "feedback_from": "xy_first_pass",
+      "ridge": 1e-05
+    }
+  ],
+  "references": [
+    "symbol_lms_source_params",
+    "ridge_low",
+    "linear80_low",
+    "dual40_reg"
+  ],
+  "decoders": {
+    "symbol_by_symbol": "original NLTCP; invalid 4/5 kept; fixed 2-bit lower/upper bounds",
+    "viterbi": "per-component 3-state trellis s=floor(q/2), q_t=s+m (m=0..3), euclidean metric, unknown initial state, run on full segment, score on mask; no tunable parameters"
+  },
+  "metrics": [
+    "mse",
+    "ber_lower",
+    "ber_upper",
+    "invalid_rate",
+    "auto_ber",
+    "pam4_pair_error_rate",
+    "viterbi_ber",
+    "first_pass_decision_error_rate",
+    "error_run_lengths",
+    "wall_time"
+  ],
+  "primary_metric": "XY viterbi BER",
+  "bootstrap": {
+    "block_lengths": [
+      256,
+      512
+    ],
+    "resamples": 2000,
+    "seed": 404,
+    "paired": true,
+    "decode_before_resample": true
+  },
+  "selection": {
+    "rule": "lowest XY viterbi BER on 509 validation; DF-RC uses mean over 3 seeds",
+    "tiebreak": [
+      "mean(RX1,RX2) viterbi BER",
+      "smaller feature dim",
+      "smaller K"
+    ]
+  },
+  "validation_gate": {
+    "xy_relative_reduction_vs_ridge_viterbi_min": 0.1,
+    "rx1_and_rx2_both_improve_vs_ridge_viterbi": true,
+    "xy_diff_ci95_below_zero_block_lengths": [
+      256,
+      512
+    ],
+    "on_fail": "stop; negative report; no test evaluation; no added candidates"
+  },
+  "test_criteria": {
+    "H1": {
+      "beats_ridge_sbs_lower_bound_in_at_least": 8,
+      "of": 10,
+      "median_relative_change_max": -0.15,
+      "note": "lower bound counts invalid 4/5 as zero errors: most favorable to the baseline"
+    },
+    "H2": {
+      "beats_ridge_viterbi_in_at_least": 8,
+      "of": 10,
+      "majority_ci95_below_zero_block": 512
+    },
+    "H3": "DF-RC 3-seed mean better than best same-source DF-tap on 509 validation with 256/512 CI below zero"
+  },
+  "engineering": {
+    "code_dir": "rc_baseline/decision_feedback/",
+    "modes": [
+      "prepare",
+      "smoke",
+      "validate",
+      "freeze",
+      "test"
+    ],
+    "out_dir": "rc_baseline/runs/phase6_decision_feedback/",
+    "no_overwrite": true,
+    "threads": "OPENBLAS_NUM_THREADS=1",
+    "deviations_log": "deviations.md"
+  }
+}

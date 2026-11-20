@@ -1,0 +1,402 @@
+{
+  "509": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP509.txt",
+        "sha256": "e0474b4d48bb25aaf69de058ee06745d2c7210b43af39fa914dfb2d639361a1b"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP509.txt",
+        "sha256": "14802f61fd12c4cf3f9eceaf9421b08bf650b9da30ae64ef9dc9041288326b8b"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/index509_fixed_v1/model_rx1.npz",
+        "sha256": "6d93f9283a4d977099332c46d9b1ff11e8557b85ba93034b3bcbf4ec4cc4262e",
+        "frozen_hash": "8aa5f5d7126358d23385d05c60f59cbc6efc0c15dcc7773570d6b8afda0a573e"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/index509_fixed_v1/model_rx2.npz",
+        "sha256": "b84d97a6f4fc90edd79f15b0864f3d673244503a7af8490ef45f1a0a72f1aed8",
+        "frozen_hash": "f3d1a1b245ab0bb9f39d51de6d8080d9a1ce5da04c448008df5c5068015844a1"
+      }
+    }
+  },
+  "513": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP513.txt",
+        "sha256": "3ebd5ebf60af8585948c9a363cb133f8332ab39c0ac9d8b145977c8ae82c8644"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP513.txt",
+        "sha256": "ab3a7f1c4888939284e96c371c9e6eaa3e2f71b65d5585ca953e5405e29dfa1c"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/phase3_feature_fusion/index513/frontend_rx1.npz",
+        "sha256": "8a70d87adbd686e9820421aa131b53613ba75c70322096b49f8a5b3dbfb5c1bc",
+        "frozen_hash": "a546d803c6b10354a1a7a09a6cb9d078268157637e05416975bb0201b3b4f7ca"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/phase3_feature_fusion/index513/frontend_rx2.npz",
+        "sha256": "8f5b74b905f0d22c8dee8aacac48c93f5e2dfdc069c790fee858f33c1d73af1b",
+        "frozen_hash": "de6b30ad37548a0872ee2524447e324b16ec5183c775fe29246b5c0d5e257f38"
+      }
+    }
+  },
+  "517": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP517.txt",
+        "sha256": "88689fed6259bb9b9ab3d319c7f9ba3341598f5f6a56c992f50d9c945d0d34c8"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP517.txt",
+        "sha256": "172bf1e9e1111c2b1607b517284c47765291ec91752f6d6d6ec02a9578e24a74"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index517/frontend_rx1.npz",
+        "sha256": "5ef4e088cb2d0b3dc6cf7b751272d2bc739aee1b83e76a80e86ef25fcbbcba2b",
+        "frozen_hash": "56e1daa841a08be134051c8b2e9aa88fc70b382624ea8b35cc2d104c6d367794"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index517/frontend_rx2.npz",
+        "sha256": "4a3d784bd1b0d6690d14b19646d0817d1edfda5320774f1de51345ad9909753c",
+        "frozen_hash": "91dedd7aeca8d1d0a35e55117172d50574c6717ae76b9278ab96de2250368424"
+      }
+    }
+  },
+  "519": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP519.txt",
+        "sha256": "9c729c747eddbd2446d506aceece03bcacf8d4d685dc138b8da27409dd47a14d"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP519.txt",
+        "sha256": "87da5035d2b55e195feb3472fb6e6c83bf497f35ad26f5f09959fb966279204b"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index519/frontend_rx1.npz",
+        "sha256": "2999eea1a927708feed8054042940c8db17f84fc636b39a4d0bfaff0eaa2ed72",
+        "frozen_hash": "42cf79df308630c7d198e5d70bbd50e69d48c198b3dca890b4c2a0c6f4900598"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index519/frontend_rx2.npz",
+        "sha256": "fc5a8364491328f103c28f8f1ddc5bb3f96f321fbbbae462969e167e5ba35042",
+        "frozen_hash": "31447d8d67bcb8b3c8fce4d24fc3e74f59aebd6d507b8deafe858c74b2060f4a"
+      }
+    }
+  },
+  "523": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP523.txt",
+        "sha256": "7a0d647f9a60834b737d46dbb80769b99f2c802ab20e27e97a2dba13acba8cea"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP523.txt",
+        "sha256": "fc69aa3e4f09818f6e31ae1c81835bce9f749104a15f868cf6452970a5c3eab9"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index523/frontend_rx1.npz",
+        "sha256": "858fee551105e1ca5f97102286a41691935992baed72fca0a30b7d9cc4fb6521",
+        "frozen_hash": "0850a6538a9793511391dbac2fd8339c8ea3a5f44a046b0443c35c24018b3852"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index523/frontend_rx2.npz",
+        "sha256": "30d758c2adad0747e97bfc0cf287614086358280114ca4019bcc96c5596e9639",
+        "frozen_hash": "7846f7d704a01241be0c23fd109c4c0b7e00c3387caddbb883b7bc6393713803"
+      }
+    }
+  },
+  "528": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP528.txt",
+        "sha256": "a5d55b5072495030a381b093c94c59f6d65ae8886afb146a85a499ca15bab9dc"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP528.txt",
+        "sha256": "131d075ec7ca6da90f26d04324293fb502117d6e66c3b693721293e9f3ee16ff"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index528/frontend_rx1.npz",
+        "sha256": "142f3ad529619dd2f3c871bb429dcba74528144ea69118b693c76200e17e4f84",
+        "frozen_hash": "fbbb2c9ea1c47a56f940b11e92997bf82b97269437a5b464fdbe550bbfbfe9a1"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index528/frontend_rx2.npz",
+        "sha256": "17469f62a0ef036f30a000a9b79f84fb3531b3f51f299e74b003d3cd19f634b4",
+        "frozen_hash": "5e00072f30c8125d6dc01ba49dc6dd27b4e2034e046f2e235a5f501c3288d1d3"
+      }
+    }
+  },
+  "529": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP529.txt",
+        "sha256": "0daa29d58a607ad83ce6f9bc7e0fce426d2e3b18a348b9abe0d6dbcbaf90710e"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP529.txt",
+        "sha256": "ebc9db3d3c438c49b1d8cd34468b92e4325c9d678871ee60b2499a4441bbec3c"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index529/frontend_rx1.npz",
+        "sha256": "07f608d155c40ba9902f5145aee5e38c2f19716ffd6615f84226d4d0be819596",
+        "frozen_hash": "e203fae5697d657f446811c6d2432896f563f1d91045dd0c31f10a9639b5acae"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index529/frontend_rx2.npz",
+        "sha256": "02d502eaa91adb1ce59afec91d001a6df23584d76477c9bdd5f8a575e7f7dd1c",
+        "frozen_hash": "f4062b4239ad05ce6bc945caae78ffe3a3e30708a749effbc864de5a016a3715"
+      }
+    }
+  },
+  "533": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP533.txt",
+        "sha256": "cf1647a501b7a698f0fab56d6ef011b895396bbd1a07a5a0c1f097bd856e743b"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP533.txt",
+        "sha256": "8fe1fd360b26f41b52000889a0453af78a6fb586884a55483c2140ad22eadbab"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index533/frontend_rx1.npz",
+        "sha256": "d8f31be8773c4be92dfd30f5140cf53ae8426236d39c2e06f65e8a3085797a59",
+        "frozen_hash": "b63682e32d049c074a49c297b56a1bcd7236b0a247fe7cda068b6f789c4d79cb"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index533/frontend_rx2.npz",
+        "sha256": "f9b15ea64df9c4981be8af70707ae96b35e40fe529cfe762b22b21b23dd6b00d",
+        "frozen_hash": "cebfedb301ade91800fc32d5ef2bb86071d12d5170678e1cb60d1a6a3744b0b0"
+      }
+    }
+  },
+  "535": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP535.txt",
+        "sha256": "ea013214f0f9fede9cf99b974494fa67c81311aa2719518f767f217aae4bad62"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP535.txt",
+        "sha256": "1c95d599c3dfcc91166c8eafb8ad506764a3510971dc033025635826107e6afc"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index535/frontend_rx1.npz",
+        "sha256": "d68d0992ee0f17dbed433f2bdaabf492eef7e04dd884ccad328b4196a10026a5",
+        "frozen_hash": "2985f4a18d7443a816bb738ebfb83f30fc7a8c5301841cc94d3fce9dfe1c0df1"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Documents/ChatGPT/DSP/deliverables/DSP_Vpp九点与跨偏振_20261113/inputs/index535/frontend_rx2.npz",
+        "sha256": "690ee99d11648ca0d446ed9be610de227d87865e95e8548f6342bf5b2ea63145",
+        "frozen_hash": "0579132ba5a97e78818339b8ee36e0df2fe46556885d3fc99876b4b9171c9b43"
+      }
+    }
+  },
+  "382": {
+    "raw": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP382.txt",
+        "sha256": "957bc91d24834a99028d8c8c5f517d5e05abf3d83b2b6df924baec733480a295"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP382.txt",
+        "sha256": "5477053c2fbceefdbdcd292aeae10208108682240b228df4e4de9a74b7969d25"
+      },
+      "i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "sha256": "dbe399c4e3419a6ab2ec6456d6e399a1b89765dc75923f3885ba2efd18cf9870"
+      },
+      "q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "sha256": "fae9d9bf6a695ac6ac2b99cf8359cc805189d7d6b67e14084c2a43ebf8bdc97e"
+      },
+      "pam_i": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "sha256": "2a660e196854a9550b9d81da4c3232ed36118299c86531faf8154fa6a9e3fb08"
+      },
+      "pam_q": {
+        "path": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt",
+        "sha256": "5d18addd7e65783ba2b4130b89063c1f01d67d05577c03b95247f0e361086630"
+      }
+    },
+    "frontends": {
+      "rx1": {
+        "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/phase3_feature_fusion/index382/frontend_rx1.npz",
+        "sha256": "700e597918486b1680beda9da5bd5564230f9a07477d1e9f8942596c4cf754be",
+        "frozen_hash": "5aff6e684dc387f42be41cc0b46e95eb7394cd77b819eb049bd984caf7e5d866"
+      },
+      "rx2": {
+        "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/phase3_feature_fusion/index382/frontend_rx2.npz",
+        "sha256": "d7f28187e9e0b597ee40b94f8155bfdb8c8358a5f2852f7997207d38b362c499",
+        "frozen_hash": "d0d1dc68689b10adaddeff32a90311e0cb7d184c6c6d9d5fb1ffa53e988d163a"
+      }
+    }
+  }
+}
