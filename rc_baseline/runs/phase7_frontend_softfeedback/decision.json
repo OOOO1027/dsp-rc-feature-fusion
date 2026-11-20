@@ -1,0 +1,13 @@
+{
+  "gate": {
+    "a_median_rel_change": -0.3942385031049842,
+    "a_pass": true,
+    "b_wins": 9,
+    "b_pass": true,
+    "c_fresh_median_rel_change": -0.5283018867924528,
+    "c_pass": true,
+    "pass": true
+  },
+  "proceed_to_confirmation": true,
+  "confirmation_evaluated": false
+}

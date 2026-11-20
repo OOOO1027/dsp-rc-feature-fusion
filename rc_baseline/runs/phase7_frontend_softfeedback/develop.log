@@ -1,0 +1,19 @@
+509 done 14s 
+513 done 14s 
+517 done 14s 
+519 done 13s 
+523 done 14s 
+528 done 14s 
+529 done 14s 
+533 done 14s 
+535 done 8s 
+382 done 8s 
+F40k_posterior_mean_poly     median  -39.4%  wins 9/10  fresh-val median  -52.8%
+F40k_posterior_mean_nopoly   median  -38.0%  wins 9/10  fresh-val median  -52.8%
+F40k_hard_poly               median  -35.5%  wins 9/10  fresh-val median  -45.3%
+F40k_hard_nopoly             median  -33.4%  wins 9/10  fresh-val median  -46.2%
+F10k_posterior_mean_nopoly   median   -7.1%  wins 8/10  fresh-val median   -7.6%
+F10k_posterior_mean_poly     median   -6.3%  wins 10/10  fresh-val median   -7.8%
+F10k_hard_poly               median   -2.2%  wins 8/10  fresh-val median   -2.0%
+F10k_hard_nopoly             median   +0.0%  wins 0/10  fresh-val median   +0.0%
+selected F40k_posterior_mean_poly gate {'a_median_rel_change': -0.3942385031049842, 'a_pass': True, 'b_wins': 9, 'b_pass': True, 'c_fresh_median_rel_change': -0.5283018867924528, 'c_pass': True, 'pass': True}

@@ -1,0 +1,336 @@
+{
+  "index": 509,
+  "excluded": null,
+  "cells": {
+    "F10k_hard_nopoly": {
+      "rx1": {
+        "mse": 0.2848163255760684,
+        "ber_lower": 0.01655982905982906,
+        "ber_upper": 0.019898504273504272,
+        "invalid_rate": 0.0033386752136752135,
+        "auto_ber": 0.014378561253561253,
+        "pam4_pair_error_rate_sbs": 0.05368589743589743,
+        "viterbi_ber": 0.013888888888888888,
+        "viterbi_pam4_pair_error_rate": 0.041666666666666664,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.3616063054017587,
+        "ber_lower": 0.022970085470085472,
+        "ber_upper": 0.02470619658119658,
+        "invalid_rate": 0.001736111111111111,
+        "auto_ber": 0.017049501424501425,
+        "pam4_pair_error_rate_sbs": 0.07077991452991453,
+        "viterbi_ber": 0.020900106837606836,
+        "viterbi_pam4_pair_error_rate": 0.06116452991452991,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.20171705935423673,
+        "ber_lower": 0.004941239316239316,
+        "ber_upper": 0.005341880341880342,
+        "invalid_rate": 0.00040064102564102563,
+        "auto_ber": 0.00369480056980057,
+        "pam4_pair_error_rate_sbs": 0.015224358974358974,
+        "viterbi_ber": 0.004340277777777778,
+        "viterbi_pam4_pair_error_rate": 0.013354700854700854,
+        "symbols": 3744
+      }
+    },
+    "F10k_hard_poly": {
+      "rx1": {
+        "mse": 0.2836272722549666,
+        "ber_lower": 0.015691773504273504,
+        "ber_upper": 0.018896901709401708,
+        "invalid_rate": 0.003205128205128205,
+        "auto_ber": 0.013666310541310542,
+        "pam4_pair_error_rate_sbs": 0.052083333333333336,
+        "viterbi_ber": 0.01328792735042735,
+        "viterbi_pam4_pair_error_rate": 0.040331196581196584,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.3591064720861962,
+        "ber_lower": 0.0219017094017094,
+        "ber_upper": 0.02377136752136752,
+        "invalid_rate": 0.0018696581196581197,
+        "auto_ber": 0.016470797720797722,
+        "pam4_pair_error_rate_sbs": 0.06810897435897435,
+        "viterbi_ber": 0.020165598290598292,
+        "viterbi_pam4_pair_error_rate": 0.059027777777777776,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.20041968413804045,
+        "ber_lower": 0.005608974358974359,
+        "ber_upper": 0.006143162393162393,
+        "invalid_rate": 0.0005341880341880342,
+        "auto_ber": 0.004273504273504274,
+        "pam4_pair_error_rate_sbs": 0.018162393162393164,
+        "viterbi_ber": 0.004874465811965812,
+        "viterbi_pam4_pair_error_rate": 0.015224358974358974,
+        "symbols": 3744
+      }
+    },
+    "F10k_posterior_mean_nopoly": {
+      "rx1": {
+        "mse": 0.26579614889346914,
+        "ber_lower": 0.01375534188034188,
+        "ber_upper": 0.016025641025641024,
+        "invalid_rate": 0.0022702991452991455,
+        "auto_ber": 0.011440527065527065,
+        "pam4_pair_error_rate_sbs": 0.044070512820512824,
+        "viterbi_ber": 0.01141826923076923,
+        "viterbi_pam4_pair_error_rate": 0.03392094017094017,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.34104960899188985,
+        "ber_lower": 0.017628205128205128,
+        "ber_upper": 0.018963675213675212,
+        "invalid_rate": 0.0013354700854700855,
+        "auto_ber": 0.013087606837606836,
+        "pam4_pair_error_rate_sbs": 0.0531517094017094,
+        "viterbi_ber": 0.01622596153846154,
+        "viterbi_pam4_pair_error_rate": 0.04620726495726496,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.18723620511749015,
+        "ber_lower": 0.0038060897435897435,
+        "ber_upper": 0.004340277777777778,
+        "invalid_rate": 0.0005341880341880342,
+        "auto_ber": 0.0030715811965811965,
+        "pam4_pair_error_rate_sbs": 0.012553418803418804,
+        "viterbi_ber": 0.003405448717948718,
+        "viterbi_pam4_pair_error_rate": 0.010416666666666666,
+        "symbols": 3744
+      }
+    },
+    "F10k_posterior_mean_poly": {
+      "rx1": {
+        "mse": 0.26409135383054166,
+        "ber_lower": 0.013621794871794872,
+        "ber_upper": 0.015892094017094016,
+        "invalid_rate": 0.0022702991452991455,
+        "auto_ber": 0.011351495726495728,
+        "pam4_pair_error_rate_sbs": 0.0438034188034188,
+        "viterbi_ber": 0.011284722222222222,
+        "viterbi_pam4_pair_error_rate": 0.03365384615384615,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.3390317734805157,
+        "ber_lower": 0.017895299145299144,
+        "ber_upper": 0.019230769230769232,
+        "invalid_rate": 0.0013354700854700855,
+        "auto_ber": 0.013265669515669515,
+        "pam4_pair_error_rate_sbs": 0.05368589743589743,
+        "viterbi_ber": 0.016493055555555556,
+        "viterbi_pam4_pair_error_rate": 0.04674145299145299,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.18594268669433853,
+        "ber_lower": 0.003872863247863248,
+        "ber_upper": 0.004273504273504274,
+        "invalid_rate": 0.00040064102564102563,
+        "auto_ber": 0.0029825498575498577,
+        "pam4_pair_error_rate_sbs": 0.01282051282051282,
+        "viterbi_ber": 0.0035389957264957265,
+        "viterbi_pam4_pair_error_rate": 0.0109508547008547,
+        "symbols": 3744
+      }
+    },
+    "F40g_hard_nopoly": {
+      "rx1": {
+        "mse": 0.29193381399855667,
+        "ber_lower": 0.01809561965811966,
+        "ber_upper": 0.020766559829059828,
+        "invalid_rate": 0.002670940170940171,
+        "auto_ber": 0.01473468660968661,
+        "pam4_pair_error_rate_sbs": 0.05608974358974359,
+        "viterbi_ber": 0.015758547008547008,
+        "viterbi_pam4_pair_error_rate": 0.04513888888888889,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.36695035176961466,
+        "ber_lower": 0.020432692307692308,
+        "ber_upper": 0.021367521367521368,
+        "invalid_rate": 0.0009348290598290599,
+        "auto_ber": 0.014556623931623932,
+        "pam4_pair_error_rate_sbs": 0.060363247863247864,
+        "viterbi_ber": 0.019030448717948716,
+        "viterbi_pam4_pair_error_rate": 0.05422008547008547,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.20069764251757527,
+        "ber_lower": 0.003939636752136752,
+        "ber_upper": 0.004340277777777778,
+        "invalid_rate": 0.00040064102564102563,
+        "auto_ber": 0.003027065527065527,
+        "pam4_pair_error_rate_sbs": 0.012286324786324786,
+        "viterbi_ber": 0.0033386752136752135,
+        "viterbi_pam4_pair_error_rate": 0.009348290598290598,
+        "symbols": 3744
+      }
+    },
+    "F40g_hard_poly": {
+      "rx1": {
+        "mse": 0.28894170319701556,
+        "ber_lower": 0.018963675213675212,
+        "ber_upper": 0.021768162393162392,
+        "invalid_rate": 0.0028044871794871795,
+        "auto_ber": 0.015446937321937321,
+        "pam4_pair_error_rate_sbs": 0.05876068376068376,
+        "viterbi_ber": 0.016159188034188036,
+        "viterbi_pam4_pair_error_rate": 0.04567307692307692,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.3637723352368732,
+        "ber_lower": 0.021634615384615384,
+        "ber_upper": 0.022970085470085472,
+        "invalid_rate": 0.0013354700854700855,
+        "auto_ber": 0.015758547008547008,
+        "pam4_pair_error_rate_sbs": 0.06570512820512821,
+        "viterbi_ber": 0.020098824786324788,
+        "viterbi_pam4_pair_error_rate": 0.05795940170940171,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.19927591707090117,
+        "ber_lower": 0.004740918803418803,
+        "ber_upper": 0.005275106837606838,
+        "invalid_rate": 0.0005341880341880342,
+        "auto_ber": 0.0036948005698005703,
+        "pam4_pair_error_rate_sbs": 0.015224358974358974,
+        "viterbi_ber": 0.0038060897435897435,
+        "viterbi_pam4_pair_error_rate": 0.0109508547008547,
+        "symbols": 3744
+      }
+    },
+    "F40g_posterior_mean_nopoly": {
+      "rx1": {
+        "mse": 0.2716155222357647,
+        "ber_lower": 0.01422275641025641,
+        "ber_upper": 0.016359508547008548,
+        "invalid_rate": 0.002136752136752137,
+        "auto_ber": 0.011618589743589744,
+        "pam4_pair_error_rate_sbs": 0.0438034188034188,
+        "viterbi_ber": 0.011752136752136752,
+        "viterbi_pam4_pair_error_rate": 0.03365384615384615,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.34451417969391124,
+        "ber_lower": 0.017962072649572648,
+        "ber_upper": 0.019030448717948716,
+        "invalid_rate": 0.0010683760683760685,
+        "auto_ber": 0.01304309116809117,
+        "pam4_pair_error_rate_sbs": 0.05235042735042735,
+        "viterbi_ber": 0.016693376068376068,
+        "viterbi_pam4_pair_error_rate": 0.04620726495726496,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.1852207073885756,
+        "ber_lower": 0.0038060897435897435,
+        "ber_upper": 0.004073183760683761,
+        "invalid_rate": 0.0002670940170940171,
+        "auto_ber": 0.0028044871794871795,
+        "pam4_pair_error_rate_sbs": 0.011752136752136752,
+        "viterbi_ber": 0.003138354700854701,
+        "viterbi_pam4_pair_error_rate": 0.008814102564102564,
+        "symbols": 3744
+      }
+    },
+    "F40g_posterior_mean_poly": {
+      "rx1": {
+        "mse": 0.2689431835589858,
+        "ber_lower": 0.01375534188034188,
+        "ber_upper": 0.016025641025641024,
+        "invalid_rate": 0.0022702991452991455,
+        "auto_ber": 0.011440527065527065,
+        "pam4_pair_error_rate_sbs": 0.04326923076923077,
+        "viterbi_ber": 0.011284722222222222,
+        "viterbi_pam4_pair_error_rate": 0.032852564102564104,
+        "symbols": 3744
+      },
+      "rx2": {
+        "mse": 0.34191114574176434,
+        "ber_lower": 0.017694978632478632,
+        "ber_upper": 0.018896901709401708,
+        "invalid_rate": 0.001201923076923077,
+        "auto_ber": 0.012998575498575499,
+        "pam4_pair_error_rate_sbs": 0.05261752136752137,
+        "viterbi_ber": 0.016292735042735044,
+        "viterbi_pam4_pair_error_rate": 0.04487179487179487,
+        "symbols": 3744
+      },
+      "xy": {
+        "mse": 0.18397137072028522,
+        "ber_lower": 0.0032719017094017095,
+        "ber_upper": 0.0035389957264957265,
+        "invalid_rate": 0.0002670940170940171,
+        "auto_ber": 0.0024483618233618236,
+        "pam4_pair_error_rate_sbs": 0.010416666666666666,
+        "viterbi_ber": 0.0026041666666666665,
+        "viterbi_pam4_pair_error_rate": 0.007478632478632479,
+        "symbols": 3744
+      }
+    }
+  },
+  "refs": {
+    "ridge_F10k": {
+      "xy": {
+        "mse": 0.3046438510378539,
+        "ber_lower": 0.008613782051282052,
+        "ber_upper": 0.009548611111111112,
+        "invalid_rate": 0.0009348290598290599,
+        "auto_ber": 0.006677350427350428,
+        "pam4_pair_error_rate_sbs": 0.028846153846153848,
+        "viterbi_ber": 0.007946047008547008,
+        "viterbi_pam4_pair_error_rate": 0.025106837606837608,
+        "symbols": 3744
+      }
+    },
+    "lms_F10k": {
+      "xy": {
+        "mse": 0.47820636645621806,
+        "ber_lower": 0.031650641025641024,
+        "ber_upper": 0.032184829059829057,
+        "invalid_rate": 0.0005341880341880342,
+        "auto_ber": 0.02690972222222222,
+        "pam4_pair_error_rate_sbs": 0.10122863247863248,
+        "viterbi_ber": 0.03138354700854701,
+        "viterbi_pam4_pair_error_rate": 0.09962606837606838,
+        "symbols": 3744
+      }
+    },
+    "ridge_F40g": {
+      "xy": {
+        "mse": 0.2947424913426345,
+        "ber_lower": 0.00734508547008547,
+        "ber_upper": 0.008012820512820512,
+        "invalid_rate": 0.0006677350427350427,
+        "auto_ber": 0.005564458689458689,
+        "pam4_pair_error_rate_sbs": 0.022702991452991452,
+        "viterbi_ber": 0.006810897435897436,
+        "viterbi_pam4_pair_error_rate": 0.019764957264957264,
+        "symbols": 3744
+      }
+    }
+  },
+  "opened_captures": [
+    509
+  ],
+  "frontends": {},
+  "first_pass_decision_error_rate": {
+    "F10k": 0.010683760683760684,
+    "F40g": 0.008547008547008548
+  },
+  "seconds": 3.000569458003156
+}

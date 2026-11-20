@@ -1,0 +1,15 @@
+test_dev_and_confirmation_disjoint (test_p7.TestAccess.test_dev_and_confirmation_disjoint) ... ok
+test_develop_cannot_open_confirmation_capture (test_p7.TestAccess.test_develop_cannot_open_confirmation_capture) ... ok
+test_candidates_match_protocol (test_p7.TestFeatures.test_candidates_match_protocol) ... ok
+test_poly_branch_dimension (test_p7.TestFeatures.test_poly_branch_dimension) ... ok
+test_posterior_mean_shrinks_to_center_when_noisy (test_p7.TestFeatures.test_posterior_mean_shrinks_to_center_when_noisy) ... ok
+test_posterior_mean_tends_to_hard (test_p7.TestFeatures.test_posterior_mean_tends_to_hard) ... ok
+test_509_F10000_refit_reproduces_saved_frontend (test_p7.TestRefit.test_509_F10000_refit_reproduces_saved_frontend) ... /Users/oliver/Desktop/DSP/rc_baseline/phase7/p7.py:79: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/oliver/Desktop/DSP/audit_outputs/2026-10-16/file_index.csv' mode='r' encoding='utf-8'>
+  audit = p6.audit_hashes()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.449s
+
+OK
