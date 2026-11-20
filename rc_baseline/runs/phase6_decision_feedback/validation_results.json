@@ -1,0 +1,1507 @@
+{
+  "utc": "2026-11-19T01:06:09.872389+00:00",
+  "metrics": {
+    "lms": {
+      "rx1": {
+        "mse": 0.6418721105258748,
+        "ber_lower": 0.0630901067323481,
+        "ber_upper": 0.06616892446633826,
+        "invalid_rate": 0.003078817733990148,
+        "auto_ber": 0.045121784345922275,
+        "pam4_pair_error_rate_sbs": 0.19355500821018062,
+        "viterbi_ber": 0.05995997536945813,
+        "viterbi_pam4_pair_error_rate": 0.1794950738916256,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 969,
+          "median": 2.0,
+          "max": 9,
+          "share_len_ge3": 0.1651186790505676
+        }
+      },
+      "rx2": {
+        "mse": 0.5129649870730205,
+        "ber_lower": 0.038126026272577995,
+        "ber_upper": 0.04130747126436782,
+        "invalid_rate": 0.0031814449917898194,
+        "auto_ber": 0.028598795840175148,
+        "pam4_pair_error_rate_sbs": 0.1188423645320197,
+        "viterbi_ber": 0.034688013136289,
+        "viterbi_pam4_pair_error_rate": 0.10344827586206896,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 608,
+          "median": 2.0,
+          "max": 7,
+          "share_len_ge3": 0.09539473684210527
+        }
+      },
+      "xy": {
+        "mse": 0.3961446126850051,
+        "ber_lower": 0.021628694581280788,
+        "ber_upper": 0.022603653530377667,
+        "invalid_rate": 0.0009749589490968801,
+        "auto_ber": 0.01539408866995074,
+        "pam4_pair_error_rate_sbs": 0.06958128078817734,
+        "viterbi_ber": 0.020217569786535303,
+        "viterbi_pam4_pair_error_rate": 0.06342364532019705,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 379,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.0870712401055409
+        }
+      }
+    },
+    "ridge_low": {
+      "rx1": {
+        "mse": 0.4248946860039981,
+        "ber_lower": 0.024373973727422005,
+        "ber_upper": 0.027401477832512317,
+        "invalid_rate": 0.003027504105090312,
+        "auto_ber": 0.019259715380405037,
+        "pam4_pair_error_rate_sbs": 0.07850985221674876,
+        "viterbi_ber": 0.02137212643678161,
+        "viterbi_pam4_pair_error_rate": 0.0636288998357964,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 383,
+          "median": 1.0,
+          "max": 7,
+          "share_len_ge3": 0.09921671018276762
+        }
+      },
+      "rx2": {
+        "mse": 0.4576989629338052,
+        "ber_lower": 0.02868431855500821,
+        "ber_upper": 0.03212233169129721,
+        "invalid_rate": 0.0034380131362889985,
+        "auto_ber": 0.022560892172961138,
+        "pam4_pair_error_rate_sbs": 0.09298029556650246,
+        "viterbi_ber": 0.024887110016420362,
+        "viterbi_pam4_pair_error_rate": 0.07532840722495895,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 464,
+          "median": 1.0,
+          "max": 5,
+          "share_len_ge3": 0.07758620689655173
+        }
+      },
+      "xy": {
+        "mse": 0.29904106016637017,
+        "ber_lower": 0.0090311986863711,
+        "ber_upper": 0.009954844006568144,
+        "invalid_rate": 0.0009236453201970443,
+        "auto_ber": 0.006944444444444444,
+        "pam4_pair_error_rate_sbs": 0.030069786535303778,
+        "viterbi_ber": 0.007876642036124796,
+        "viterbi_pam4_pair_error_rate": 0.02432266009852217,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 149,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.053691275167785234
+        }
+      }
+    },
+    "linear80_low": {
+      "rx1": {
+        "mse": 0.42521091056726956,
+        "ber_lower": 0.024117405582922823,
+        "ber_upper": 0.02699096880131363,
+        "invalid_rate": 0.0028735632183908046,
+        "auto_ber": 0.01893472906403941,
+        "pam4_pair_error_rate_sbs": 0.07748357963875205,
+        "viterbi_ber": 0.021218185550082102,
+        "viterbi_pam4_pair_error_rate": 0.06321839080459771,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 381,
+          "median": 1.0,
+          "max": 7,
+          "share_len_ge3": 0.09711286089238845
+        }
+      },
+      "rx2": {
+        "mse": 0.456970601393893,
+        "ber_lower": 0.028504720853858787,
+        "ber_upper": 0.03209667487684729,
+        "invalid_rate": 0.0035919540229885057,
+        "auto_ber": 0.022595101258894364,
+        "pam4_pair_error_rate_sbs": 0.09236453201970443,
+        "viterbi_ber": 0.024733169129720855,
+        "viterbi_pam4_pair_error_rate": 0.07419950738916256,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 457,
+          "median": 1.0,
+          "max": 5,
+          "share_len_ge3": 0.0787746170678337
+        }
+      },
+      "xy": {
+        "mse": 0.29886075930907074,
+        "ber_lower": 0.009493021346469623,
+        "ber_upper": 0.01036535303776683,
+        "invalid_rate": 0.0008723316912972086,
+        "auto_ber": 0.007201012588943624,
+        "pam4_pair_error_rate_sbs": 0.031198686371100164,
+        "viterbi_ber": 0.008492405582922824,
+        "viterbi_pam4_pair_error_rate": 0.026169950738916255,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 157,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07006369426751592
+        }
+      }
+    },
+    "dual40_reg": {
+      "rx1": {
+        "mse": 0.4272093952563808,
+        "ber_lower": 0.024707512315270935,
+        "ber_upper": 0.027632389162561576,
+        "invalid_rate": 0.0029248768472906403,
+        "auto_ber": 0.019379447181171322,
+        "pam4_pair_error_rate_sbs": 0.07994663382594418,
+        "viterbi_ber": 0.021628694581280788,
+        "viterbi_pam4_pair_error_rate": 0.06496305418719212,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 390,
+          "median": 1.0,
+          "max": 8,
+          "share_len_ge3": 0.1
+        }
+      },
+      "rx2": {
+        "mse": 0.45861131897552326,
+        "ber_lower": 0.02930008210180624,
+        "ber_upper": 0.0325328407224959,
+        "invalid_rate": 0.003232758620689655,
+        "auto_ber": 0.02276614668856048,
+        "pam4_pair_error_rate_sbs": 0.09308292282430214,
+        "viterbi_ber": 0.025579844006568146,
+        "viterbi_pam4_pair_error_rate": 0.07614942528735633,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 464,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.08405172413793104
+        }
+      },
+      "xy": {
+        "mse": 0.2999641767931172,
+        "ber_lower": 0.009852216748768473,
+        "ber_upper": 0.010724548440065682,
+        "invalid_rate": 0.0008723316912972086,
+        "auto_ber": 0.00744047619047619,
+        "pam4_pair_error_rate_sbs": 0.03263546798029557,
+        "viterbi_ber": 0.008748973727422003,
+        "viterbi_pam4_pair_error_rate": 0.027093596059113302,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 163,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.0736196319018405
+        }
+      }
+    },
+    "dftap_K2_crossfit_past": {
+      "rx1": {
+        "mse": 0.3587281386640122,
+        "ber_lower": 0.019576149425287355,
+        "ber_upper": 0.022141830870279145,
+        "invalid_rate": 0.0025656814449917897,
+        "auto_ber": 0.015616447728516693,
+        "pam4_pair_error_rate_sbs": 0.06301313628899836,
+        "viterbi_ber": 0.016933497536945813,
+        "viterbi_pam4_pair_error_rate": 0.05069786535303777,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 294,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.13945578231292516
+        }
+      },
+      "rx2": {
+        "mse": 0.4140004543929006,
+        "ber_lower": 0.02475882594417077,
+        "ber_upper": 0.027529761904761904,
+        "invalid_rate": 0.002770935960591133,
+        "auto_ber": 0.019276819923371647,
+        "pam4_pair_error_rate_sbs": 0.0769704433497537,
+        "viterbi_ber": 0.02173132183908046,
+        "viterbi_pam4_pair_error_rate": 0.06301313628899836,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 352,
+          "median": 2.0,
+          "max": 7,
+          "share_len_ge3": 0.13636363636363635
+        }
+      },
+      "xy": {
+        "mse": 0.25154022006214805,
+        "ber_lower": 0.00646551724137931,
+        "ber_upper": 0.0069786535303776685,
+        "invalid_rate": 0.000513136288998358,
+        "auto_ber": 0.004823481116584564,
+        "pam4_pair_error_rate_sbs": 0.022064860426929393,
+        "viterbi_ber": 0.005695812807881773,
+        "viterbi_pam4_pair_error_rate": 0.018267651888341542,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 112,
+          "median": 1.5,
+          "max": 4,
+          "share_len_ge3": 0.07142857142857142
+        }
+      }
+    },
+    "dftap_K2_crossfit_past_future": {
+      "rx1": {
+        "mse": 0.30243006070816525,
+        "ber_lower": 0.022039203612479474,
+        "ber_upper": 0.02527196223316913,
+        "invalid_rate": 0.003232758620689655,
+        "auto_ber": 0.017908456486042692,
+        "pam4_pair_error_rate_sbs": 0.07071018062397373,
+        "viterbi_ber": 0.018652504105090312,
+        "viterbi_pam4_pair_error_rate": 0.05521346469622332,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 295,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.18305084745762712
+        }
+      },
+      "rx2": {
+        "mse": 0.36963334293272776,
+        "ber_lower": 0.022988505747126436,
+        "ber_upper": 0.02586206896551724,
+        "invalid_rate": 0.0028735632183908046,
+        "auto_ber": 0.018199233716475097,
+        "pam4_pair_error_rate_sbs": 0.07245484400656814,
+        "viterbi_ber": 0.019370894909688012,
+        "viterbi_pam4_pair_error_rate": 0.05726600985221675,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 317,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.15141955835962145
+        }
+      },
+      "xy": {
+        "mse": 0.20974413412181359,
+        "ber_lower": 0.005772783251231527,
+        "ber_upper": 0.006183292282430214,
+        "invalid_rate": 0.00041050903119868636,
+        "auto_ber": 0.004259031198686371,
+        "pam4_pair_error_rate_sbs": 0.018370279146141213,
+        "viterbi_ber": 0.005054392446633826,
+        "viterbi_pam4_pair_error_rate": 0.01539408866995074,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 92,
+          "median": 1.5,
+          "max": 4,
+          "share_len_ge3": 0.10869565217391304
+        }
+      }
+    },
+    "dftap_K2_teacher_past": {
+      "rx1": {
+        "mse": 0.4014674728348408,
+        "ber_lower": 0.028556034482758622,
+        "ber_upper": 0.03312294745484401,
+        "invalid_rate": 0.0045669129720853855,
+        "auto_ber": 0.023587164750957852,
+        "pam4_pair_error_rate_sbs": 0.09154351395730706,
+        "viterbi_ber": 0.024194376026272578,
+        "viterbi_pam4_pair_error_rate": 0.07173645320197045,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 397,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.1385390428211587
+        }
+      },
+      "rx2": {
+        "mse": 0.4450812865142356,
+        "ber_lower": 0.03112171592775041,
+        "ber_upper": 0.0351241789819376,
+        "invalid_rate": 0.0040024630541871924,
+        "auto_ber": 0.024750273672687464,
+        "pam4_pair_error_rate_sbs": 0.097188013136289,
+        "viterbi_ber": 0.026452175697865354,
+        "viterbi_pam4_pair_error_rate": 0.07573891625615764,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 422,
+          "median": 2.0,
+          "max": 7,
+          "share_len_ge3": 0.15402843601895735
+        }
+      },
+      "xy": {
+        "mse": 0.2606350400115753,
+        "ber_lower": 0.010262725779967159,
+        "ber_upper": 0.011340311986863711,
+        "invalid_rate": 0.0010775862068965517,
+        "auto_ber": 0.007919403393541325,
+        "pam4_pair_error_rate_sbs": 0.03427750410509031,
+        "viterbi_ber": 0.008774630541871921,
+        "viterbi_pam4_pair_error_rate": 0.027298850574712645,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 165,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.06666666666666667
+        }
+      }
+    },
+    "dftap_K2_teacher_past_future": {
+      "rx1": {
+        "mse": 0.3501965931793035,
+        "ber_lower": 0.036458333333333336,
+        "ber_upper": 0.04194889162561576,
+        "invalid_rate": 0.0054905582922824304,
+        "auto_ber": 0.029779009304871373,
+        "pam4_pair_error_rate_sbs": 0.11586617405582923,
+        "viterbi_ber": 0.030326354679802957,
+        "viterbi_pam4_pair_error_rate": 0.08805418719211823,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 454,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.22026431718061673
+        }
+      },
+      "rx2": {
+        "mse": 0.41539489874046076,
+        "ber_lower": 0.033995279146141213,
+        "ber_upper": 0.039229269293924465,
+        "invalid_rate": 0.005233990147783251,
+        "auto_ber": 0.027863300492610838,
+        "pam4_pair_error_rate_sbs": 0.10775862068965517,
+        "viterbi_ber": 0.02845340722495895,
+        "viterbi_pam4_pair_error_rate": 0.08312807881773399,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 465,
+          "median": 1.0,
+          "max": 7,
+          "share_len_ge3": 0.16344086021505377
+        }
+      },
+      "xy": {
+        "mse": 0.22019130942240184,
+        "ber_lower": 0.008774630541871921,
+        "ber_upper": 0.009749589490968802,
+        "invalid_rate": 0.0009749589490968801,
+        "auto_ber": 0.006824712643678161,
+        "pam4_pair_error_rate_sbs": 0.028838259441707717,
+        "viterbi_ber": 0.007312192118226601,
+        "viterbi_pam4_pair_error_rate": 0.02247536945812808,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 143,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.0979020979020979
+        }
+      }
+    },
+    "dftap_K4_crossfit_past": {
+      "rx1": {
+        "mse": 0.35426276148157987,
+        "ber_lower": 0.01916564039408867,
+        "ber_upper": 0.021577380952380952,
+        "invalid_rate": 0.0024117405582922825,
+        "auto_ber": 0.015188834154351395,
+        "pam4_pair_error_rate_sbs": 0.062089490968801314,
+        "viterbi_ber": 0.01626642036124795,
+        "viterbi_pam4_pair_error_rate": 0.049158456486042695,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 285,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.11929824561403508
+        }
+      },
+      "rx2": {
+        "mse": 0.4093397296347701,
+        "ber_lower": 0.02442528735632184,
+        "ber_upper": 0.026888341543513956,
+        "invalid_rate": 0.0024630541871921183,
+        "auto_ber": 0.01874657909140668,
+        "pam4_pair_error_rate_sbs": 0.07543103448275862,
+        "viterbi_ber": 0.021320812807881773,
+        "viterbi_pam4_pair_error_rate": 0.06157635467980296,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 350,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.12857142857142856
+        }
+      },
+      "xy": {
+        "mse": 0.2478382084968316,
+        "ber_lower": 0.006542487684729064,
+        "ber_upper": 0.006952996715927751,
+        "invalid_rate": 0.00041050903119868636,
+        "auto_ber": 0.004772167487684729,
+        "pam4_pair_error_rate_sbs": 0.021551724137931036,
+        "viterbi_ber": 0.005798440065681445,
+        "viterbi_pam4_pair_error_rate": 0.018267651888341542,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 111,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.08108108108108109
+        }
+      }
+    },
+    "dftap_K4_crossfit_past_future": {
+      "rx1": {
+        "mse": 0.29650418597648653,
+        "ber_lower": 0.021192528735632182,
+        "ber_upper": 0.024373973727422005,
+        "invalid_rate": 0.0031814449917898194,
+        "auto_ber": 0.017292692939244663,
+        "pam4_pair_error_rate_sbs": 0.06763136288998357,
+        "viterbi_ber": 0.017908456486042692,
+        "viterbi_pam4_pair_error_rate": 0.052647783251231525,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 279,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.1863799283154122
+        }
+      },
+      "rx2": {
+        "mse": 0.3602755492989059,
+        "ber_lower": 0.022270114942528736,
+        "ber_upper": 0.024938423645320198,
+        "invalid_rate": 0.0026683087027914616,
+        "auto_ber": 0.01749794745484401,
+        "pam4_pair_error_rate_sbs": 0.06906814449917899,
+        "viterbi_ber": 0.019114326765188833,
+        "viterbi_pam4_pair_error_rate": 0.05593185550082102,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 302,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.17880794701986755
+        }
+      },
+      "xy": {
+        "mse": 0.20395937795003216,
+        "ber_lower": 0.00561884236453202,
+        "ber_upper": 0.00597803776683087,
+        "invalid_rate": 0.00035919540229885057,
+        "auto_ber": 0.004105090311986864,
+        "pam4_pair_error_rate_sbs": 0.017857142857142856,
+        "viterbi_ber": 0.004951765188834154,
+        "viterbi_pam4_pair_error_rate": 0.015086206896551725,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 91,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.12087912087912088
+        }
+      }
+    },
+    "dftap_K4_teacher_past": {
+      "rx1": {
+        "mse": 0.43453805945398977,
+        "ber_lower": 0.03191707717569787,
+        "ber_upper": 0.037407635467980295,
+        "invalid_rate": 0.0054905582922824304,
+        "auto_ber": 0.026700191570881226,
+        "pam4_pair_error_rate_sbs": 0.10211412151067323,
+        "viterbi_ber": 0.026785714285714284,
+        "viterbi_pam4_pair_error_rate": 0.07881773399014778,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 423,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.1702127659574468
+        }
+      },
+      "rx2": {
+        "mse": 0.46106286522331336,
+        "ber_lower": 0.033482142857142856,
+        "ber_upper": 0.03794642857142857,
+        "invalid_rate": 0.004464285714285714,
+        "auto_ber": 0.026768609742747675,
+        "pam4_pair_error_rate_sbs": 0.10406403940886699,
+        "viterbi_ber": 0.02832512315270936,
+        "viterbi_pam4_pair_error_rate": 0.08076765188834155,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 448,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.14732142857142858
+        }
+      },
+      "xy": {
+        "mse": 0.27089129528994954,
+        "ber_lower": 0.012315270935960592,
+        "ber_upper": 0.013854679802955665,
+        "invalid_rate": 0.001539408866995074,
+        "auto_ber": 0.009749589490968802,
+        "pam4_pair_error_rate_sbs": 0.04125615763546798,
+        "viterbi_ber": 0.010442323481116584,
+        "viterbi_pam4_pair_error_rate": 0.03201970443349754,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 195,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07179487179487179
+        }
+      }
+    },
+    "dftap_K4_teacher_past_future": {
+      "rx1": {
+        "mse": 0.381940872286826,
+        "ber_lower": 0.03920361247947455,
+        "ber_upper": 0.045617816091954026,
+        "invalid_rate": 0.0064142036124794745,
+        "auto_ber": 0.0325328407224959,
+        "pam4_pair_error_rate_sbs": 0.12469211822660098,
+        "viterbi_ber": 0.03273809523809524,
+        "viterbi_pam4_pair_error_rate": 0.09472495894909688,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 472,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.2309322033898305
+        }
+      },
+      "rx2": {
+        "mse": 0.4374670136605543,
+        "ber_lower": 0.03504720853858785,
+        "ber_upper": 0.04141009852216749,
+        "invalid_rate": 0.006362889983579639,
+        "auto_ber": 0.02965927750410509,
+        "pam4_pair_error_rate_sbs": 0.11206896551724138,
+        "viterbi_ber": 0.028607348111658458,
+        "viterbi_pam4_pair_error_rate": 0.08405172413793104,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 456,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.19078947368421054
+        }
+      },
+      "xy": {
+        "mse": 0.23199717164280656,
+        "ber_lower": 0.01000615763546798,
+        "ber_upper": 0.011494252873563218,
+        "invalid_rate": 0.001488095238095238,
+        "auto_ber": 0.008158866995073892,
+        "pam4_pair_error_rate_sbs": 0.03355911330049261,
+        "viterbi_ber": 0.008364121510673235,
+        "viterbi_pam4_pair_error_rate": 0.025451559934318555,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 155,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.11612903225806452
+        }
+      }
+    },
+    "dftap_K8_crossfit_past": {
+      "rx1": {
+        "mse": 0.35166201749325526,
+        "ber_lower": 0.018780788177339903,
+        "ber_upper": 0.021141215106732347,
+        "invalid_rate": 0.002360426929392447,
+        "auto_ber": 0.01488095238095238,
+        "pam4_pair_error_rate_sbs": 0.06055008210180624,
+        "viterbi_ber": 0.016189449917898193,
+        "viterbi_pam4_pair_error_rate": 0.048440065681444995,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 276,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.13043478260869565
+        }
+      },
+      "rx2": {
+        "mse": 0.405808921147093,
+        "ber_lower": 0.023886494252873564,
+        "ber_upper": 0.02650348932676519,
+        "invalid_rate": 0.0026169950738916255,
+        "auto_ber": 0.018541324575807337,
+        "pam4_pair_error_rate_sbs": 0.07419950738916256,
+        "viterbi_ber": 0.020679392446633825,
+        "viterbi_pam4_pair_error_rate": 0.05993431855500821,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 345,
+          "median": 2.0,
+          "max": 7,
+          "share_len_ge3": 0.11304347826086956
+        }
+      },
+      "xy": {
+        "mse": 0.2451098112085455,
+        "ber_lower": 0.006337233169129721,
+        "ber_upper": 0.006747742200328408,
+        "invalid_rate": 0.00041050903119868636,
+        "auto_ber": 0.004635331143951834,
+        "pam4_pair_error_rate_sbs": 0.020833333333333332,
+        "viterbi_ber": 0.005593185550082102,
+        "viterbi_pam4_pair_error_rate": 0.017549261083743842,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 106,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07547169811320754
+        }
+      }
+    },
+    "dftap_K8_crossfit_past_future": {
+      "rx1": {
+        "mse": 0.2937488400248466,
+        "ber_lower": 0.020858990147783252,
+        "ber_upper": 0.0239378078817734,
+        "invalid_rate": 0.003078817733990148,
+        "auto_ber": 0.01696770662287904,
+        "pam4_pair_error_rate_sbs": 0.0668103448275862,
+        "viterbi_ber": 0.017497947454844006,
+        "viterbi_pam4_pair_error_rate": 0.05151888341543514,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 274,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.19343065693430658
+        }
+      },
+      "rx2": {
+        "mse": 0.3555664948600952,
+        "ber_lower": 0.021808292282430215,
+        "ber_upper": 0.024476600985221676,
+        "invalid_rate": 0.0026683087027914616,
+        "auto_ber": 0.01719006568144499,
+        "pam4_pair_error_rate_sbs": 0.06814449917898194,
+        "viterbi_ber": 0.01880644499178982,
+        "viterbi_pam4_pair_error_rate": 0.05552134646962233,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 308,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.1525974025974026
+        }
+      },
+      "xy": {
+        "mse": 0.2008507357882012,
+        "ber_lower": 0.005439244663382595,
+        "ber_upper": 0.005747126436781609,
+        "invalid_rate": 0.0003078817733990148,
+        "auto_ber": 0.0039340448823207445,
+        "pam4_pair_error_rate_sbs": 0.01744663382594417,
+        "viterbi_ber": 0.0047465106732348114,
+        "viterbi_pam4_pair_error_rate": 0.014778325123152709,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 88,
+          "median": 1.5,
+          "max": 4,
+          "share_len_ge3": 0.11363636363636363
+        }
+      }
+    },
+    "dftap_K8_teacher_past": {
+      "rx1": {
+        "mse": 0.43632733187681594,
+        "ber_lower": 0.031942733990147784,
+        "ber_upper": 0.03733066502463054,
+        "invalid_rate": 0.005387931034482759,
+        "auto_ber": 0.026614668856048164,
+        "pam4_pair_error_rate_sbs": 0.10160098522167488,
+        "viterbi_ber": 0.027042282430213466,
+        "viterbi_pam4_pair_error_rate": 0.07922824302134647,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 424,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.1721698113207547
+        }
+      },
+      "rx2": {
+        "mse": 0.46427135118085555,
+        "ber_lower": 0.03443144499178982,
+        "ber_upper": 0.03925492610837438,
+        "invalid_rate": 0.004823481116584565,
+        "auto_ber": 0.027743568691844554,
+        "pam4_pair_error_rate_sbs": 0.10652709359605911,
+        "viterbi_ber": 0.029120484400656815,
+        "viterbi_pam4_pair_error_rate": 0.08251231527093596,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 459,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.1437908496732026
+        }
+      },
+      "xy": {
+        "mse": 0.2713540426189231,
+        "ber_lower": 0.011930418719211822,
+        "ber_upper": 0.013213259441707717,
+        "invalid_rate": 0.0012828407224958949,
+        "auto_ber": 0.009236453201970442,
+        "pam4_pair_error_rate_sbs": 0.039511494252873564,
+        "viterbi_ber": 0.010031814449917898,
+        "viterbi_pam4_pair_error_rate": 0.030582922824302135,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 186,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.0913978494623656
+        }
+      }
+    },
+    "dftap_K8_teacher_past_future": {
+      "rx1": {
+        "mse": 0.39596603577691813,
+        "ber_lower": 0.03992200328407225,
+        "ber_upper": 0.046182266009852216,
+        "invalid_rate": 0.006260262725779967,
+        "auto_ber": 0.03284072249589491,
+        "pam4_pair_error_rate_sbs": 0.1261288998357964,
+        "viterbi_ber": 0.0332512315270936,
+        "viterbi_pam4_pair_error_rate": 0.09636699507389163,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 468,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.24572649572649571
+        }
+      },
+      "rx2": {
+        "mse": 0.43627099063567387,
+        "ber_lower": 0.035355090311986866,
+        "ber_upper": 0.04151272577996716,
+        "invalid_rate": 0.006157635467980296,
+        "auto_ber": 0.02965927750410509,
+        "pam4_pair_error_rate_sbs": 0.11135057471264367,
+        "viterbi_ber": 0.028889573070607553,
+        "viterbi_pam4_pair_error_rate": 0.08384646962233169,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 445,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.19775280898876405
+        }
+      },
+      "xy": {
+        "mse": 0.23488325168161273,
+        "ber_lower": 0.01000615763546798,
+        "ber_upper": 0.011391625615763547,
+        "invalid_rate": 0.0013854679802955665,
+        "auto_ber": 0.00805623973727422,
+        "pam4_pair_error_rate_sbs": 0.03335385878489327,
+        "viterbi_ber": 0.00841543513957307,
+        "viterbi_pam4_pair_error_rate": 0.02586206896551724,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 158,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.10759493670886076
+        }
+      }
+    },
+    "dftap_K16_crossfit_past": {
+      "rx1": {
+        "mse": 0.3520387325677012,
+        "ber_lower": 0.019139983579638753,
+        "ber_upper": 0.021551724137931036,
+        "invalid_rate": 0.0024117405582922825,
+        "auto_ber": 0.015171729611384785,
+        "pam4_pair_error_rate_sbs": 0.061473727422003285,
+        "viterbi_ber": 0.016522988505747127,
+        "viterbi_pam4_pair_error_rate": 0.04926108374384237,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 283,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.13074204946996468
+        }
+      },
+      "rx2": {
+        "mse": 0.405260363672163,
+        "ber_lower": 0.02368123973727422,
+        "ber_upper": 0.026400862068965518,
+        "invalid_rate": 0.0027196223316912974,
+        "auto_ber": 0.01850711548987411,
+        "pam4_pair_error_rate_sbs": 0.07358374384236453,
+        "viterbi_ber": 0.020551108374384237,
+        "viterbi_pam4_pair_error_rate": 0.05931855500821018,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 341,
+          "median": 2.0,
+          "max": 7,
+          "share_len_ge3": 0.11143695014662756
+        }
+      },
+      "xy": {
+        "mse": 0.24492662524872214,
+        "ber_lower": 0.006491174055829228,
+        "ber_upper": 0.006901683087027915,
+        "invalid_rate": 0.00041050903119868636,
+        "auto_ber": 0.004737958401751506,
+        "pam4_pair_error_rate_sbs": 0.021243842364532018,
+        "viterbi_ber": 0.005695812807881773,
+        "viterbi_pam4_pair_error_rate": 0.017754515599343185,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 106,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07547169811320754
+        }
+      }
+    },
+    "dftap_K16_crossfit_past_future": {
+      "rx1": {
+        "mse": 0.2936391555311087,
+        "ber_lower": 0.020525451559934318,
+        "ber_upper": 0.023758210180623972,
+        "invalid_rate": 0.003232758620689655,
+        "auto_ber": 0.016899288451012587,
+        "pam4_pair_error_rate_sbs": 0.06639983579638752,
+        "viterbi_ber": 0.017164408866995075,
+        "viterbi_pam4_pair_error_rate": 0.05080049261083744,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 273,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.19047619047619047
+        }
+      },
+      "rx2": {
+        "mse": 0.35553318905812914,
+        "ber_lower": 0.02173132183908046,
+        "ber_upper": 0.024450944170771757,
+        "invalid_rate": 0.0027196223316912974,
+        "auto_ber": 0.01719006568144499,
+        "pam4_pair_error_rate_sbs": 0.06742610837438423,
+        "viterbi_ber": 0.018601190476190476,
+        "viterbi_pam4_pair_error_rate": 0.05449507389162562,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 304,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.1513157894736842
+        }
+      },
+      "xy": {
+        "mse": 0.2005665868065764,
+        "ber_lower": 0.005387931034482759,
+        "ber_upper": 0.005644499178981938,
+        "invalid_rate": 0.000256568144499179,
+        "auto_ber": 0.003848522167487685,
+        "pam4_pair_error_rate_sbs": 0.017036124794745484,
+        "viterbi_ber": 0.004695197044334976,
+        "viterbi_pam4_pair_error_rate": 0.014573070607553366,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 86,
+          "median": 1.5,
+          "max": 4,
+          "share_len_ge3": 0.12790697674418605
+        }
+      }
+    },
+    "dftap_K16_teacher_past": {
+      "rx1": {
+        "mse": 0.43804365402270573,
+        "ber_lower": 0.032276272577996715,
+        "ber_upper": 0.03766420361247948,
+        "invalid_rate": 0.005387931034482759,
+        "auto_ber": 0.026854132457580733,
+        "pam4_pair_error_rate_sbs": 0.10324302134646962,
+        "viterbi_ber": 0.02732450738916256,
+        "viterbi_pam4_pair_error_rate": 0.08045977011494253,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 433,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.17090069284064666
+        }
+      },
+      "rx2": {
+        "mse": 0.46517321740795703,
+        "ber_lower": 0.03435447454844007,
+        "ber_upper": 0.039126642036124794,
+        "invalid_rate": 0.004772167487684729,
+        "auto_ber": 0.027640941434044882,
+        "pam4_pair_error_rate_sbs": 0.10714285714285714,
+        "viterbi_ber": 0.028915229885057472,
+        "viterbi_pam4_pair_error_rate": 0.08282019704433498,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 461,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.14967462039045554
+        }
+      },
+      "xy": {
+        "mse": 0.27197367113594817,
+        "ber_lower": 0.012417898193760263,
+        "ber_upper": 0.013700738916256158,
+        "invalid_rate": 0.0012828407224958949,
+        "auto_ber": 0.00956143951833607,
+        "pam4_pair_error_rate_sbs": 0.04084564860426929,
+        "viterbi_ber": 0.010570607553366173,
+        "viterbi_pam4_pair_error_rate": 0.03212233169129721,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 197,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.08121827411167512
+        }
+      }
+    },
+    "dftap_K16_teacher_past_future": {
+      "rx1": {
+        "mse": 0.39594375942758425,
+        "ber_lower": 0.04012725779967159,
+        "ber_upper": 0.04638752052545156,
+        "invalid_rate": 0.006260262725779967,
+        "auto_ber": 0.0329775588396278,
+        "pam4_pair_error_rate_sbs": 0.12582101806239737,
+        "viterbi_ber": 0.03335385878489327,
+        "viterbi_pam4_pair_error_rate": 0.0960591133004926,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 469,
+          "median": 2.0,
+          "max": 8,
+          "share_len_ge3": 0.24733475479744135
+        }
+      },
+      "rx2": {
+        "mse": 0.4383318612457016,
+        "ber_lower": 0.0351241789819376,
+        "ber_upper": 0.041333128078817734,
+        "invalid_rate": 0.006208949096880132,
+        "auto_ber": 0.029556650246305417,
+        "pam4_pair_error_rate_sbs": 0.11186371100164204,
+        "viterbi_ber": 0.028889573070607553,
+        "viterbi_pam4_pair_error_rate": 0.08466748768472906,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 452,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.19690265486725664
+        }
+      },
+      "xy": {
+        "mse": 0.23520021495430615,
+        "ber_lower": 0.010237068965517241,
+        "ber_upper": 0.0114685960591133,
+        "invalid_rate": 0.0012315270935960591,
+        "auto_ber": 0.00805623973727422,
+        "pam4_pair_error_rate_sbs": 0.03345648604269294,
+        "viterbi_ber": 0.008646346469622332,
+        "viterbi_pam4_pair_error_rate": 0.026272577996715927,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 159,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.11320754716981132
+        }
+      }
+    },
+    "dfrc40_identity_crossfit_s200": {
+      "rx1": {
+        "mse": 0.3547920989026408,
+        "ber_lower": 0.01903735632183908,
+        "ber_upper": 0.02139778325123153,
+        "invalid_rate": 0.002360426929392447,
+        "auto_ber": 0.0150519978106185,
+        "pam4_pair_error_rate_sbs": 0.061371100164203614,
+        "viterbi_ber": 0.016215106732348113,
+        "viterbi_pam4_pair_error_rate": 0.04874794745484401,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 282,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.1276595744680851
+        }
+      },
+      "rx2": {
+        "mse": 0.4105344784541827,
+        "ber_lower": 0.024066091954022987,
+        "ber_upper": 0.026683087027914613,
+        "invalid_rate": 0.0026169950738916255,
+        "auto_ber": 0.01866105637657362,
+        "pam4_pair_error_rate_sbs": 0.07502052545155993,
+        "viterbi_ber": 0.021038587848932675,
+        "viterbi_pam4_pair_error_rate": 0.0610632183908046,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 349,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.12607449856733524
+        }
+      },
+      "xy": {
+        "mse": 0.24848592781152826,
+        "ber_lower": 0.006439860426929392,
+        "ber_upper": 0.006901683087027915,
+        "invalid_rate": 0.00046182266009852215,
+        "auto_ber": 0.004755062944718117,
+        "pam4_pair_error_rate_sbs": 0.021551724137931036,
+        "viterbi_ber": 0.005695812807881773,
+        "viterbi_pam4_pair_error_rate": 0.0180623973727422,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 110,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07272727272727272
+        }
+      }
+    },
+    "dfrc40_identity_crossfit_s201": {
+      "rx1": {
+        "mse": 0.3546768979066064,
+        "ber_lower": 0.01893472906403941,
+        "ber_upper": 0.021295155993431854,
+        "invalid_rate": 0.002360426929392447,
+        "auto_ber": 0.014983579638752052,
+        "pam4_pair_error_rate_sbs": 0.06116584564860427,
+        "viterbi_ber": 0.01608682266009852,
+        "viterbi_pam4_pair_error_rate": 0.04854269293924467,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 282,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.12411347517730496
+        }
+      },
+      "rx2": {
+        "mse": 0.4103891319546386,
+        "ber_lower": 0.02439963054187192,
+        "ber_upper": 0.027067939244663382,
+        "invalid_rate": 0.0026683087027914616,
+        "auto_ber": 0.01893472906403941,
+        "pam4_pair_error_rate_sbs": 0.07604679802955665,
+        "viterbi_ber": 0.021320812807881773,
+        "viterbi_pam4_pair_error_rate": 0.0617816091954023,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 351,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.1282051282051282
+        }
+      },
+      "xy": {
+        "mse": 0.24843004589397402,
+        "ber_lower": 0.0064142036124794745,
+        "ber_upper": 0.006876026272577997,
+        "invalid_rate": 0.00046182266009852215,
+        "auto_ber": 0.004737958401751505,
+        "pam4_pair_error_rate_sbs": 0.021346469622331693,
+        "viterbi_ber": 0.005695812807881773,
+        "viterbi_pam4_pair_error_rate": 0.0180623973727422,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 111,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07207207207207207
+        }
+      }
+    },
+    "dfrc40_identity_crossfit_s202": {
+      "rx1": {
+        "mse": 0.35464955680576177,
+        "ber_lower": 0.01903735632183908,
+        "ber_upper": 0.021346469622331693,
+        "invalid_rate": 0.002309113300492611,
+        "auto_ber": 0.015000684181718665,
+        "pam4_pair_error_rate_sbs": 0.06157635467980296,
+        "viterbi_ber": 0.016215106732348113,
+        "viterbi_pam4_pair_error_rate": 0.049055829228243024,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 284,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.1267605633802817
+        }
+      },
+      "rx2": {
+        "mse": 0.41050662226738277,
+        "ber_lower": 0.024117405582922823,
+        "ber_upper": 0.026785714285714284,
+        "invalid_rate": 0.0026683087027914616,
+        "auto_ber": 0.018746579091406677,
+        "pam4_pair_error_rate_sbs": 0.07522577996715928,
+        "viterbi_ber": 0.021038587848932675,
+        "viterbi_pam4_pair_error_rate": 0.0610632183908046,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 349,
+          "median": 2.0,
+          "max": 5,
+          "share_len_ge3": 0.12607449856733524
+        }
+      },
+      "xy": {
+        "mse": 0.24844056264160053,
+        "ber_lower": 0.0064142036124794745,
+        "ber_upper": 0.006876026272577997,
+        "invalid_rate": 0.00046182266009852215,
+        "auto_ber": 0.004737958401751506,
+        "pam4_pair_error_rate_sbs": 0.021449096880131364,
+        "viterbi_ber": 0.0056701559934318555,
+        "viterbi_pam4_pair_error_rate": 0.017959770114942528,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 110,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.06363636363636363
+        }
+      }
+    },
+    "dfrc40_tanh_crossfit_s200": {
+      "rx1": {
+        "mse": 0.36979615369405383,
+        "ber_lower": 0.019832717569786534,
+        "ber_upper": 0.022398399014778324,
+        "invalid_rate": 0.0025656814449917897,
+        "auto_ber": 0.0157703886152162,
+        "pam4_pair_error_rate_sbs": 0.0639367816091954,
+        "viterbi_ber": 0.017061781609195404,
+        "viterbi_pam4_pair_error_rate": 0.05090311986863711,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 302,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.11589403973509933
+        }
+      },
+      "rx2": {
+        "mse": 0.4208785691087713,
+        "ber_lower": 0.02578509852216749,
+        "ber_upper": 0.028556034482758622,
+        "invalid_rate": 0.002770935960591133,
+        "auto_ber": 0.019961001642036125,
+        "pam4_pair_error_rate_sbs": 0.08045977011494253,
+        "viterbi_ber": 0.02244971264367816,
+        "viterbi_pam4_pair_error_rate": 0.06527093596059114,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 377,
+          "median": 2.0,
+          "max": 9,
+          "share_len_ge3": 0.11671087533156499
+        }
+      },
+      "xy": {
+        "mse": 0.2615452883928153,
+        "ber_lower": 0.006901683087027915,
+        "ber_upper": 0.007466133004926109,
+        "invalid_rate": 0.0005644499178981937,
+        "auto_ber": 0.005165571975916804,
+        "pam4_pair_error_rate_sbs": 0.022885878489326765,
+        "viterbi_ber": 0.00610632183908046,
+        "viterbi_pam4_pair_error_rate": 0.018986042692939246,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 114,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.08771929824561403
+        }
+      }
+    },
+    "dfrc40_tanh_crossfit_s201": {
+      "rx1": {
+        "mse": 0.36415075800170954,
+        "ber_lower": 0.020191912972085387,
+        "ber_upper": 0.022603653530377667,
+        "invalid_rate": 0.0024117405582922825,
+        "auto_ber": 0.01585591133004926,
+        "pam4_pair_error_rate_sbs": 0.06455254515599343,
+        "viterbi_ber": 0.01744663382594417,
+        "viterbi_pam4_pair_error_rate": 0.051826765188834154,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 298,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.1342281879194631
+        }
+      },
+      "rx2": {
+        "mse": 0.4179670456520514,
+        "ber_lower": 0.025605500821018062,
+        "ber_upper": 0.02832512315270936,
+        "invalid_rate": 0.0027196223316912974,
+        "auto_ber": 0.019789956212370004,
+        "pam4_pair_error_rate_sbs": 0.07902298850574713,
+        "viterbi_ber": 0.022321428571428572,
+        "viterbi_pam4_pair_error_rate": 0.06455254515599343,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 367,
+          "median": 2.0,
+          "max": 6,
+          "share_len_ge3": 0.12806539509536785
+        }
+      },
+      "xy": {
+        "mse": 0.25767925840633576,
+        "ber_lower": 0.006516830870279146,
+        "ber_upper": 0.007132594417077176,
+        "invalid_rate": 0.0006157635467980296,
+        "auto_ber": 0.00496031746031746,
+        "pam4_pair_error_rate_sbs": 0.021654351395730707,
+        "viterbi_ber": 0.005798440065681445,
+        "viterbi_pam4_pair_error_rate": 0.01816502463054187,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 108,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07407407407407407
+        }
+      }
+    },
+    "dfrc40_tanh_crossfit_s202": {
+      "rx1": {
+        "mse": 0.3678421679541293,
+        "ber_lower": 0.02029454022988506,
+        "ber_upper": 0.022706280788177338,
+        "invalid_rate": 0.0024117405582922825,
+        "auto_ber": 0.01594143404488232,
+        "pam4_pair_error_rate_sbs": 0.06527093596059114,
+        "viterbi_ber": 0.017600574712643677,
+        "viterbi_pam4_pair_error_rate": 0.05285303776683087,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 309,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.12297734627831715
+        }
+      },
+      "rx2": {
+        "mse": 0.4213648204175566,
+        "ber_lower": 0.026092980295566504,
+        "ber_upper": 0.0288126026272578,
+        "invalid_rate": 0.0027196223316912974,
+        "auto_ber": 0.020114942528735632,
+        "pam4_pair_error_rate_sbs": 0.08117816091954023,
+        "viterbi_ber": 0.023039819376026272,
+        "viterbi_pam4_pair_error_rate": 0.06722085385878489,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 384,
+          "median": 2.0,
+          "max": 9,
+          "share_len_ge3": 0.11979166666666667
+        }
+      },
+      "xy": {
+        "mse": 0.26077329724120085,
+        "ber_lower": 0.006388546798029557,
+        "ber_upper": 0.006901683087027915,
+        "invalid_rate": 0.000513136288998358,
+        "auto_ber": 0.004772167487684729,
+        "pam4_pair_error_rate_sbs": 0.021141215106732347,
+        "viterbi_ber": 0.005721469622331691,
+        "viterbi_pam4_pair_error_rate": 0.017857142857142856,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 107,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.07476635514018691
+        }
+      }
+    },
+    "dfxy_K8_crossfit_past": {
+      "rx1": {
+        "mse": 0.30059896345920656,
+        "ber_lower": 0.012135673234811167,
+        "ber_upper": 0.013315886699507389,
+        "invalid_rate": 0.0011802134646962234,
+        "auto_ber": 0.009270662287903669,
+        "pam4_pair_error_rate_sbs": 0.039716748768472906,
+        "viterbi_ber": 0.010057471264367816,
+        "viterbi_pam4_pair_error_rate": 0.031096059113300493,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 193,
+          "median": 1.0,
+          "max": 4,
+          "share_len_ge3": 0.07253886010362694
+        }
+      },
+      "rx2": {
+        "mse": 0.3544043740522959,
+        "ber_lower": 0.01626642036124795,
+        "ber_upper": 0.018267651888341542,
+        "invalid_rate": 0.0020012315270935962,
+        "auto_ber": 0.01284551176792556,
+        "pam4_pair_error_rate_sbs": 0.05285303776683087,
+        "viterbi_ber": 0.01367508210180624,
+        "viterbi_pam4_pair_error_rate": 0.041050903119868636,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 262,
+          "median": 1.0,
+          "max": 5,
+          "share_len_ge3": 0.07633587786259542
+        }
+      },
+      "xy": {
+        "mse": 0.22148527167473606,
+        "ber_lower": 0.007337848932676519,
+        "ber_upper": 0.00795361247947455,
+        "invalid_rate": 0.0006157635467980296,
+        "auto_ber": 0.005507662835249042,
+        "pam4_pair_error_rate_sbs": 0.02329638752052545,
+        "viterbi_ber": 0.006003694581280788,
+        "viterbi_pam4_pair_error_rate": 0.0180623973727422,
+        "symbols": 9744,
+        "viterbi_error_runs": {
+          "count": 110,
+          "median": 2.0,
+          "max": 4,
+          "share_len_ge3": 0.06363636363636363
+        }
+      }
+    }
+  },
+  "diagnostics": {
+    "first_pass_decision_error_rate": {
+      "rx1": 0.029813218390804596,
+      "rx2": 0.035252463054187194,
+      "xy": 0.01087848932676519
+    },
+    "fit_seconds": {
+      "lms": 1.683394657447934e-05,
+      "ridge_low": 0.024825666972901672,
+      "linear80_low": 0.16760733298724517,
+      "dual40_reg": 0.2697461670031771,
+      "dftap_K2_crossfit_past": 0.009464459028095007,
+      "dftap_K2_crossfit_past_future": 0.009937375027220696,
+      "dftap_K2_teacher_past": 0.009038667019922286,
+      "dftap_K2_teacher_past_future": 0.009545708016958088,
+      "dftap_K4_crossfit_past": 0.009606166975572705,
+      "dftap_K4_crossfit_past_future": 0.011210541997570544,
+      "dftap_K4_teacher_past": 0.009529333969112486,
+      "dftap_K4_teacher_past_future": 0.01097779197152704,
+      "dftap_K8_crossfit_past": 0.011025457992218435,
+      "dftap_K8_crossfit_past_future": 0.014593167055863887,
+      "dftap_K8_teacher_past": 0.011107750004157424,
+      "dftap_K8_teacher_past_future": 0.013586707995273173,
+      "dftap_K16_crossfit_past": 0.013466416974551976,
+      "dftap_K16_crossfit_past_future": 0.018978999985847622,
+      "dftap_K16_teacher_past": 0.013513833982869983,
+      "dftap_K16_teacher_past_future": 0.01904212502995506,
+      "dfrc40_identity_crossfit_s200": 0.11981900001410395,
+      "dfrc40_identity_crossfit_s201": 0.11926783301169053,
+      "dfrc40_identity_crossfit_s202": 0.12114075000863522,
+      "dfrc40_tanh_crossfit_s200": 0.13267708296189085,
+      "dfrc40_tanh_crossfit_s201": 0.13228708400856704,
+      "dfrc40_tanh_crossfit_s202": 0.13348237500758842,
+      "dfxy_K8_crossfit_past": 0.011344250000547618
+    },
+    "predict_seconds": {}
+  },
+  "label_tokens_beyond_20000": 0,
+  "inputs": {
+    "509": {
+      "raw": {
+        "rx1": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx1_PBS_NLTCP509.txt",
+        "rx2": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/rxdata/rx2_PBS_NLTCP509.txt",
+        "i": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v1.txt",
+        "q": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/v2.txt",
+        "pam_i": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_1.txt",
+        "pam_q": "/Users/oliver/Desktop/DSP/NN数据20250320/NN数据20250320/decimal_PAM4_2.txt"
+      },
+      "frontends": {
+        "rx1": {
+          "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/index509_fixed_v1/model_rx1.npz",
+          "sha256": "6d93f9283a4d977099332c46d9b1ff11e8557b85ba93034b3bcbf4ec4cc4262e",
+          "frozen_hash": "8aa5f5d7126358d23385d05c60f59cbc6efc0c15dcc7773570d6b8afda0a573e",
+          "alignment": {
+            "lag": 0,
+            "polarity": 1
+          }
+        },
+        "rx2": {
+          "path": "/Users/oliver/Desktop/DSP/rc_baseline/runs/index509_fixed_v1/model_rx2.npz",
+          "sha256": "b84d97a6f4fc90edd79f15b0864f3d673244503a7af8490ef45f1a0a72f1aed8",
+          "frozen_hash": "f3d1a1b245ab0bb9f39d51de6d8080d9a1ce5da04c448008df5c5068015844a1",
+          "alignment": {
+            "lag": 0,
+            "polarity": -1
+          }
+        }
+      }
+    }
+  },
+  "seconds": 9.198369874968193
+}

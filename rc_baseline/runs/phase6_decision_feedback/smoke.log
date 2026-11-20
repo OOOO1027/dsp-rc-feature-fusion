@@ -1,0 +1,6 @@
+lms                                XY MSE 0.3704 lower 0.01542 viterbi 0.01516
+ridge_low                          XY MSE 0.3046 lower 0.00881 viterbi 0.00815
+dftap_K8_crossfit_past             XY MSE 0.2479 lower 0.00654 viterbi 0.00641
+dfrc40_identity_crossfit_s200      XY MSE 0.2505 lower 0.00648 viterbi 0.00634
+dfrc40_identity_crossfit_s201      XY MSE 0.2504 lower 0.00634 viterbi 0.00621
+dfrc40_identity_crossfit_s202      XY MSE 0.2504 lower 0.00648 viterbi 0.00634

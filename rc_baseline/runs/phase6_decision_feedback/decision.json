@@ -1,0 +1,110 @@
+{
+  "utc": "2026-11-19T01:06:09.876191+00:00",
+  "gate": {
+    "a_xy_relative_reduction": 0.4039087947882737,
+    "a_pass": true,
+    "b_pass": true,
+    "c_bootstrap": {
+      "256": {
+        "mean_delta": [
+          -0.0031814449917898194
+        ],
+        "CI95": [
+          [
+            -0.004413613505747126,
+            -0.0021295155993431856
+          ]
+        ],
+        "block_length": 256,
+        "replicates": 2000
+      },
+      "512": {
+        "mean_delta": [
+          -0.0031814449917898194
+        ],
+        "CI95": [
+          [
+            -0.004310344827586207,
+            -0.002309113300492611
+          ]
+        ],
+        "block_length": 512,
+        "replicates": 2000
+      }
+    },
+    "c_pass": true,
+    "pass": true
+  },
+  "H3_validation": {
+    "reference_tap": "dftap_K8_crossfit_past",
+    "dfrc40_identity_crossfit": {
+      "xy_viterbi_ber_3seed_mean": 0.005687260536398467,
+      "reference_xy_viterbi_ber": 0.005593185550082102,
+      "bootstrap": {
+        "256": {
+          "mean_delta": [
+            9.407498631636561e-05
+          ],
+          "CI95": [
+            [
+              -0.00029932950191570874,
+              0.00045327038861521615
+            ]
+          ],
+          "block_length": 256,
+          "replicates": 2000
+        },
+        "512": {
+          "mean_delta": [
+            9.407498631636561e-05
+          ],
+          "CI95": [
+            [
+              -0.00029077723043240285,
+              0.0004447181171319102
+            ]
+          ],
+          "block_length": 512,
+          "replicates": 2000
+        }
+      },
+      "supported": false
+    },
+    "dfrc40_tanh_crossfit": {
+      "xy_viterbi_ber_3seed_mean": 0.005875410509031199,
+      "reference_xy_viterbi_ber": 0.005593185550082102,
+      "bootstrap": {
+        "256": {
+          "mean_delta": [
+            0.0002822249589490967
+          ],
+          "CI95": [
+            [
+              -0.0003335385878489326,
+              0.0008552271483305965
+            ]
+          ],
+          "block_length": 256,
+          "replicates": 2000
+        },
+        "512": {
+          "mean_delta": [
+            0.0002822249589490967
+          ],
+          "CI95": [
+            [
+              -0.0003078817733990147,
+              0.0009065407772304323
+            ]
+          ],
+          "block_length": 512,
+          "replicates": 2000
+        }
+      },
+      "supported": false
+    },
+    "supported_any": false
+  },
+  "proceed_to_test": true,
+  "test_evaluated": false
+}
